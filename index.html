@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <meta name="theme-color" content="#0b1020">
+  <title>V44 Grid Monitor</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="shell">
+    <header class="topbar">
+      <div>
+        <div class="eyebrow">V44 TRADING SYSTEM</div>
+        <h1>Grid Monitor</h1>
+      </div>
+      <span class="badge demo">DEMO</span>
+    </header>
+
+    <section class="freshness card compact">
+      <div><span class="muted">Última atualização</span><strong id="updatedAt">—</strong></div>
+      <div id="health" class="health">Carregando…</div>
+    </section>
+    <section class="account-grid">
+      <article class="metric card">
+        <span class="muted">Equity DEMO</span>
+        <strong id="equity">—</strong>
+        <small>USDT</small>
+      </article>
+      <article class="metric card">
+        <span class="muted">PnL realizado Grid</span>
+        <strong id="realized">—</strong>
+        <small>USDT</small>
+      </article>
+      <article class="metric card">
+        <span class="muted">PnL flutuante</span>
+        <strong id="unrealized">—</strong>
+        <small>USDT</small>
+      </article>
+      <article class="metric card">
+        <span class="muted">Exposição Spot</span>
+        <strong id="exposure">—</strong>
+        <small>USDT</small>
+      </article>
+    </section>
+
+    <section class="grids">
+      <article class="grid-card card" id="ethCard">
+        <div class="grid-head">
+          <div><span class="coin">ETH</span><h2>ETH/USDT</h2></div>
+          <span class="status" id="ethStatus">—</span>
+        </div>
+        <div class="price-row">
+          <div><span class="muted">Preço atual</span><strong id="ethPrice">—</strong></div>
+          <div><span class="muted">Alvo mais próximo</span><strong id="ethTarget">—</strong></div>
+        </div>
+        <div class="progress-wrap">
+          <div class="progress"><span id="ethProgress"></span></div>
+          <div class="progress-label"><span id="ethProgressText">—</span><span id="ethDistance">—</span></div>
+        </div>
+        <div class="details" id="ethDetails"></div>
+      </article>
+
+      <article class="grid-card card" id="btcCard">
+        <div class="grid-head">
+          <div><span class="coin">BTC</span><h2>BTC/USDT</h2></div>
+          <span class="status" id="btcStatus">—</span>
+        </div>
+        <div class="price-row">
+          <div><span class="muted">Preço atual</span><strong id="btcPrice">—</strong></div>
+          <div><span class="muted">Alvo mais próximo</span><strong id="btcTarget">—</strong></div>
+        </div>
+        <div class="progress-wrap">
+          <div class="progress"><span id="btcProgress"></span></div>
+          <div class="progress-label"><span id="btcProgressText">—</span><span id="btcDistance">—</span></div>
+        </div>
+        <div class="details" id="btcDetails"></div>
+      </article>
+    </section>
+
+    <section class="card history-card">
+      <div class="section-head">
+        <div><span class="eyebrow">CICLOS CONCLUÍDOS</span><h2>Histórico recente</h2></div>
+        <span class="muted" id="historyCount">0 ciclos</span>
+      </div>
+      <div class="table-wrap">
+        <table>
+          <thead><tr><th>Par</th><th>Entrada</th><th>Saída</th><th>PnL</th><th>Hora</th></tr></thead>
+          <tbody id="historyBody"><tr><td colspan="5" class="empty">Nenhum ciclo fechado ainda.</td></tr></tbody>
+        </table>
+      </div>
+    </section>
+
+    <section class="note card">
+      <strong>Monitor somente leitura</strong>
+      <p>Esta página exibe dados sanitizados do ambiente DEMO. Não contém chaves, segredos nem comandos de compra/venda.</p>
+    </section>
+
+    <div id="errorBox" class="error-box" hidden></div>
+    <footer>V44 Grid Monitor · dados publicados pela VPS · GitHub Pages</footer>
+  </main>
+  <script src="app.js"></script>
+</body>
+</html>
