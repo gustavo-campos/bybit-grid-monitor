@@ -28,7 +28,7 @@
         "adx_pass": false,
         "trend_pass": true
       },
-      "source_ts": "2026-09-25T23:24:04.374Z",
+      "source_ts": "2026-09-25T23:25:04.610Z",
       "status": "WAITING_REGIME",
       "symbol": "BTCUSDT",
       "unrealized_pnl_usdt": 0
@@ -61,7 +61,7 @@
         "adx_pass": true,
         "trend_pass": true
       },
-      "source_ts": "2026-09-25T23:24:03.993Z",
+      "source_ts": "2026-09-25T23:25:04.593Z",
       "status": "OPEN",
       "symbol": "ETHUSDT",
       "unrealized_pnl_usdt": 0.03193655
@@ -150,13 +150,14 @@
     ],
     "strategies": [
       {
+        "badges": [],
         "cron_enabled": true,
         "execution": "venue",
         "health": "healthy",
         "id": "V44_ETH_VAULT_GRID",
         "label": "ETH Vault Grid",
         "last_event": "NO_NEW_BAR",
-        "last_update": "2026-09-25T23:24:03.993Z",
+        "last_update": "2026-09-25T23:25:04.593Z",
         "market": "spot",
         "market_label": "SPOT",
         "mode": "demo",
@@ -173,13 +174,14 @@
         "symbols": []
       },
       {
+        "badges": [],
         "cron_enabled": true,
         "execution": "venue",
         "health": "healthy",
         "id": "V44_BTC_VAULT_GRID",
         "label": "BTC Vault Grid",
         "last_event": "NO_NEW_BAR",
-        "last_update": "2026-09-25T23:24:04.374Z",
+        "last_update": "2026-09-25T23:25:04.610Z",
         "market": "spot",
         "market_label": "SPOT",
         "mode": "demo",
@@ -196,6 +198,7 @@
         "symbols": []
       },
       {
+        "badges": [],
         "cron_enabled": true,
         "execution": "venue",
         "health": "healthy",
@@ -219,6 +222,7 @@
         "symbols": []
       },
       {
+        "badges": [],
         "cron_enabled": true,
         "execution": "venue",
         "health": "healthy",
@@ -242,6 +246,7 @@
         "symbols": []
       },
       {
+        "badges": [],
         "cron_enabled": false,
         "execution": "venue",
         "health": "disabled",
@@ -265,6 +270,10 @@
         "symbols": []
       },
       {
+        "badges": [
+          "FAST FAILURE",
+          "UNCAPPED"
+        ],
         "cron_enabled": true,
         "execution": "venue",
         "health": "healthy",
@@ -292,6 +301,7 @@
         ]
       },
       {
+        "badges": [],
         "cron_enabled": true,
         "execution": "venue",
         "health": "stale",
@@ -315,6 +325,7 @@
         "symbols": []
       },
       {
+        "badges": [],
         "cron_enabled": true,
         "execution": "venue",
         "health": "healthy",
@@ -338,6 +349,7 @@
         "symbols": []
       },
       {
+        "badges": [],
         "cron_enabled": false,
         "execution": "venue",
         "health": "disabled",
@@ -361,13 +373,14 @@
         "symbols": []
       },
       {
+        "badges": [],
         "cron_enabled": true,
         "execution": "venue",
         "health": "healthy",
         "id": "V44_SESSION_MOMENTUM_SOL_CONSERVATIVE",
         "label": "Session Momentum SOL",
         "last_event": "SESSION_STATE",
-        "last_update": "2026-09-25T23:24:09.420Z",
+        "last_update": "2026-09-25T23:25:09.450Z",
         "market": "futures",
         "market_label": "FUTURES",
         "mode": "demo",
@@ -384,13 +397,14 @@
         "symbols": []
       },
       {
+        "badges": [],
         "cron_enabled": true,
         "execution": "venue",
         "health": "healthy",
         "id": "V44_CONNORS_RSI2_SOL_SHORT_CONSERVATIVE",
         "label": "Connors RSI2 SOL Short",
         "last_event": "CONNORS_STATE",
-        "last_update": "2026-09-25T23:24:10.814Z",
+        "last_update": "2026-09-25T23:25:11.204Z",
         "market": "futures",
         "market_label": "FUTURES",
         "mode": "demo",
@@ -407,6 +421,7 @@
         "symbols": []
       },
       {
+        "badges": [],
         "cron_enabled": true,
         "execution": "venue",
         "health": "healthy",
@@ -430,6 +445,7 @@
         "symbols": []
       },
       {
+        "badges": [],
         "cron_enabled": true,
         "execution": "paper",
         "health": "healthy",
@@ -453,13 +469,14 @@
         "symbols": []
       },
       {
+        "badges": [],
         "cron_enabled": true,
         "execution": "shadow",
         "health": "healthy",
         "id": "V44_REALTIME_SHADOW",
         "label": "Realtime Shadow Advisor",
         "last_event": "SNAPSHOT",
-        "last_update": "2026-09-25T23:24:51.027707+00:00",
+        "last_update": "2026-09-25T23:25:09.475650+00:00",
         "market": "futures",
         "market_label": "FUTURES",
         "mode": "demo",
@@ -476,6 +493,7 @@
         "symbols": []
       },
       {
+        "badges": [],
         "cron_enabled": true,
         "execution": "venue",
         "health": "stale",
@@ -513,5 +531,5 @@
     },
     "trades_today": []
   },
-  "updated_at": "2026-09-25T23:25:03.980000Z"
+  "updated_at": "2026-09-25T23:25:11.481000Z"
 }

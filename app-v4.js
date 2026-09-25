@@ -29,7 +29,8 @@ function environmentData(data,env){
 function strategyRow(s){
   const st=s.stats||{}, quarantined=!s.cron_enabled||/quarentena/i.test(s.label||'');
   const symbolChips=(s.symbols||[]).map(x=>`<span class="strategy-chip">${esc(String(x).replace('USDT',''))}</span>`).join('');
-  return `<div class="strategy-row"><div class="strategy-main"><div class="strategy-name">${esc(s.label)}</div><div class="strategy-meta"><span class="health-dot ${esc(s.health)}"></span><span class="strategy-chip">${esc((s.execution||'').toUpperCase())}</span>${symbolChips}${quarantined?'<span class="strategy-chip quarantine">QUARENTENA</span>':''}</div></div><div class="strategy-stat"><span>Ops</span><strong>${st.operations_today??0}</strong></div><div class="strategy-stat"><span>W / L</span><strong>${st.wins_today??0} / ${st.losses_today??0}</strong></div><div class="strategy-stat"><span>PnL</span><strong class="${cls(st.net_pnl_usdt)}">${money(st.net_pnl_usdt)}</strong></div></div>`
+  const badgeChips=(s.badges||[]).map(x=>`<span class="strategy-chip">${esc(x)}</span>`).join('');
+  return `<div class="strategy-row"><div class="strategy-main"><div class="strategy-name">${esc(s.label)}</div><div class="strategy-meta"><span class="health-dot ${esc(s.health)}"></span><span class="strategy-chip">${esc((s.execution||'').toUpperCase())}</span>${symbolChips}${badgeChips}${quarantined?'<span class="strategy-chip quarantine">QUARENTENA</span>':''}</div></div><div class="strategy-stat"><span>Ops</span><strong>${st.operations_today??0}</strong></div><div class="strategy-stat"><span>W / L</span><strong>${st.wins_today??0} / ${st.losses_today??0}</strong></div><div class="strategy-stat"><span>PnL</span><strong class="${cls(st.net_pnl_usdt)}">${money(st.net_pnl_usdt)}</strong></div></div>`
 }
 function renderMarket(kind,group,strategies){
   const prefix=kind==='spot'?'spot':'futures';
