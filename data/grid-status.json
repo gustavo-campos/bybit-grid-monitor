@@ -28,7 +28,7 @@
         "adx_pass": false,
         "trend_pass": true
       },
-      "source_ts": "2026-09-25T20:23:04.584Z",
+      "source_ts": "2026-09-25T20:24:04.941Z",
       "status": "WAITING_REGIME",
       "symbol": "BTCUSDT",
       "unrealized_pnl_usdt": 0
@@ -61,7 +61,7 @@
         "adx_pass": true,
         "trend_pass": true
       },
-      "source_ts": "2026-09-25T20:23:04.527Z",
+      "source_ts": "2026-09-25T20:24:05.100Z",
       "status": "OPEN",
       "symbol": "ETHUSDT",
       "unrealized_pnl_usdt": 0.01991692
@@ -122,7 +122,7 @@
     "groups": {
       "demo": {
         "futures": {
-          "active_strategies": 11,
+          "active_strategies": 10,
           "gross_loss_usdt": 0.69387629,
           "gross_profit_usdt": 0.43774883,
           "healthy_strategies": 7,
@@ -197,7 +197,7 @@
         "id": "V44_ETH_VAULT_GRID",
         "label": "ETH Vault Grid",
         "last_event": "NO_NEW_BAR",
-        "last_update": "2026-09-25T20:23:04.527Z",
+        "last_update": "2026-09-25T20:24:05.100Z",
         "market": "spot",
         "market_label": "SPOT",
         "mode": "demo",
@@ -219,7 +219,7 @@
         "id": "V44_BTC_VAULT_GRID",
         "label": "BTC Vault Grid",
         "last_event": "NO_NEW_BAR",
-        "last_update": "2026-09-25T20:23:04.584Z",
+        "last_update": "2026-09-25T20:24:04.941Z",
         "market": "spot",
         "market_label": "SPOT",
         "mode": "demo",
@@ -241,7 +241,7 @@
         "id": "spot_perp_arb",
         "label": "Spot ↔ Perp Arbitrage",
         "last_event": "CYCLE_END",
-        "last_update": "2026-09-25T20:23:28.759140+00:00",
+        "last_update": "2026-09-25T20:24:28.704971+00:00",
         "market": "spot",
         "market_label": "SPOT↔PERP",
         "mode": "demo",
@@ -279,9 +279,9 @@
         }
       },
       {
-        "cron_enabled": true,
+        "cron_enabled": false,
         "execution": "venue",
-        "health": "delayed",
+        "health": "disabled",
         "id": "V44_LIQ_EXPANSION_5_10",
         "label": "Liquidation Expansion",
         "last_event": "SIGNAL_REJECT",
@@ -351,7 +351,7 @@
         "id": "V44_CHART_PATTERN_ZONE_FLIP_V1",
         "label": "Chart Pattern Zone Flip",
         "last_event": "PATTERN_STATE",
-        "last_update": "2026-09-25T20:23:10.598Z",
+        "last_update": "2026-09-25T20:24:10.848Z",
         "market": "futures",
         "market_label": "FUTURES",
         "mode": "demo",
@@ -373,7 +373,7 @@
         "id": "V44_SESSION_MOMENTUM_SOL_CONSERVATIVE",
         "label": "Session Momentum SOL",
         "last_event": "SESSION_STATE",
-        "last_update": "2026-09-25T20:23:08.984Z",
+        "last_update": "2026-09-25T20:24:09.119Z",
         "market": "futures",
         "market_label": "FUTURES",
         "mode": "demo",
@@ -395,7 +395,7 @@
         "id": "V44_CONNORS_RSI2_SOL_SHORT_CONSERVATIVE",
         "label": "Connors RSI2 SOL Short",
         "last_event": "CONNORS_STATE",
-        "last_update": "2026-09-25T20:23:10.588Z",
+        "last_update": "2026-09-25T20:24:11.081Z",
         "market": "futures",
         "market_label": "FUTURES",
         "mode": "demo",
@@ -439,7 +439,7 @@
         "id": "V44_SESSION_MOMENTUM",
         "label": "Session Momentum (paper)",
         "last_event": "ALREADY_PROCESSED",
-        "last_update": "2026-09-25T20:24:04.328Z",
+        "last_update": "2026-09-25T20:25:05.043Z",
         "market": "futures",
         "market_label": "FUTURES",
         "mode": "demo",
@@ -461,7 +461,7 @@
         "id": "V44_REALTIME_SHADOW",
         "label": "Realtime Shadow Advisor",
         "last_event": "SNAPSHOT",
-        "last_update": "2026-09-25T20:23:48.824678+00:00",
+        "last_update": "2026-09-25T20:25:05.132960+00:00",
         "market": "futures",
         "market_label": "FUTURES",
         "mode": "demo",
@@ -500,7 +500,7 @@
       }
     ],
     "summary_today": {
-      "active_strategies": 14,
+      "active_strategies": 13,
       "gross_loss_usdt": 0.69387629,
       "gross_profit_usdt": 0.43774883,
       "healthy_strategies": 10,
@@ -580,5 +580,5 @@
       }
     ]
   },
-  "updated_at": "2026-09-25T20:24:04.552000Z"
+  "updated_at": "2026-09-25T20:25:05.401000Z"
 }
