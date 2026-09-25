@@ -1,110 +1,12 @@
-<!doctype html>
-<html lang="pt-BR">
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
-  <meta name="theme-color" content="#08111f">
-  <title>V44 Trading Monitor</title>
-  <link rel="stylesheet" href="style-v2.css?v=20260925-1">
-</head>
-<body>
-  <main class="shell">
-    <header class="topbar">
-      <div>
-        <div class="eyebrow">V44 TRADING SYSTEM</div>
-        <h1>Trading Monitor</h1>
-        <p class="subtitle">Execução, performance e risco em uma única tela</p>
-      </div>
-      <span class="badge demo">DEMO</span>
-    </header>
-
-    <section class="freshness card compact">
-      <div><span class="muted">Última atualização</span><strong id="updatedAt">—</strong></div>
-      <div id="health" class="health">Carregando…</div>
-    </section>
-
-    <section class="summary-grid">
-      <article class="metric card"><span class="muted">Equity DEMO</span><strong id="equity">—</strong><small>USDT</small></article>
-      <article class="metric card"><span class="muted">PnL hoje</span><strong id="pnlToday">—</strong><small>USDT realizado</small></article>
-      <article class="metric card"><span class="muted">Operações hoje</span><strong id="opsToday">—</strong><small id="wlToday">—</small></article>
-      <article class="metric card"><span class="muted">Win rate</span><strong id="winRate">—</strong><small>fechamentos</small></article>
-      <article class="metric card"><span class="muted">Lucro bruto</span><strong id="grossProfit">—</strong><small>USDT</small></article>
-      <article class="metric card"><span class="muted">Perdas</span><strong id="grossLoss">—</strong><small>USDT</small></article>
-      <article class="metric card"><span class="muted">Posições abertas</span><strong id="openCount">—</strong><small id="openMarketHint">—</small></article>
-      <article class="metric card"><span class="muted">Estratégias agendadas</span><strong id="strategyCount">—</strong><small id="healthyCount">—</small></article>
-    </section>
-
-    <section class="charts-grid">
-      <article class="card chart-card wide">
-        <div class="section-head"><div><span class="eyebrow">HOJE</span><h2>PnL acumulado</h2></div><span class="muted" id="curveHint">—</span></div>
-        <canvas id="pnlCurve" height="190" aria-label="Gráfico de PnL acumulado"></canvas>
-      </article>
-      <article class="card chart-card">
-        <div class="section-head"><div><span class="eyebrow">RESULTADOS</span><h2>Wins × Losses</h2></div></div>
-        <canvas id="winLossChart" height="190" aria-label="Gráfico de vitórias e perdas"></canvas>
-      </article>
-      <article class="card chart-card">
-        <div class="section-head"><div><span class="eyebrow">ESTRATÉGIAS</span><h2>PnL por estratégia</h2></div></div>
-        <canvas id="strategyPnlChart" height="190" aria-label="Gráfico de PnL por estratégia"></canvas>
-      </article>
-    </section>
-
-    <section class="section-block">
-      <div class="section-title"><div><span class="eyebrow">AMBIENTES</span><h2>Execução por mercado</h2></div><span class="muted">DEMO separado de LIVE</span></div>
-      <div class="env-grid">
-        <article class="env-card card demo-env">
-          <div class="env-head"><div><span class="badge demo">DEMO</span><h3>Spot</h3></div><strong id="demoSpotPnl">—</strong></div>
-          <div class="mini-stats" id="demoSpotStats"></div>
-          <div class="strategy-list" id="demoSpotStrategies"></div>
-        </article>
-        <article class="env-card card demo-env">
-          <div class="env-head"><div><span class="badge demo">DEMO</span><h3>Futures</h3></div><strong id="demoFuturesPnl">—</strong></div>
-          <div class="mini-stats" id="demoFuturesStats"></div>
-          <div class="strategy-list" id="demoFuturesStrategies"></div>
-        </article>
-        <article class="env-card card live-env">
-          <div class="env-head"><div><span class="badge live">LIVE</span><h3>Spot</h3></div><strong>DESATIVADO</strong></div>
-          <div class="empty-state">Nenhuma estratégia LIVE Spot autorizada.</div>
-        </article>
-        <article class="env-card card live-env">
-          <div class="env-head"><div><span class="badge live">LIVE</span><h3>Futures</h3></div><strong>DESATIVADO</strong></div>
-          <div class="empty-state">Nenhuma estratégia LIVE Futures autorizada.</div>
-        </article>
-      </div>
-    </section>
-
-    <section class="section-block">
-      <div class="section-title"><div><span class="eyebrow">AGORA</span><h2>Posições abertas</h2></div><span class="muted" id="openPositionsCount">0 posições</span></div>
-      <div class="open-list" id="openPositions"><div class="empty-state card">Nenhuma posição aberta.</div></div>
-    </section>
-
-    <section class="section-block">
-      <div class="section-title"><div><span class="eyebrow">SPOT GRID</span><h2>Detalhe dos Grids</h2></div><span class="muted">alvos e regime</span></div>
-      <div class="grids">
-        <article class="grid-card card" id="ethCard">
-          <div class="grid-head"><div><span class="coin">ETH</span><h3>ETH/USDT</h3></div><span class="status" id="ethStatus">—</span></div>
-          <div class="price-row"><div><span class="muted">Preço atual</span><strong id="ethPrice">—</strong></div><div><span class="muted">Alvo mais próximo</span><strong id="ethTarget">—</strong></div></div>
-          <div class="progress-wrap"><div class="progress"><span id="ethProgress"></span></div><div class="progress-label"><span id="ethProgressText">—</span><span id="ethDistance">—</span></div></div>
-          <div class="details" id="ethDetails"></div>
-        </article>
-        <article class="grid-card card" id="btcCard">
-          <div class="grid-head"><div><span class="coin">BTC</span><h3>BTC/USDT</h3></div><span class="status" id="btcStatus">—</span></div>
-          <div class="price-row"><div><span class="muted">Preço atual</span><strong id="btcPrice">—</strong></div><div><span class="muted">Alvo mais próximo</span><strong id="btcTarget">—</strong></div></div>
-          <div class="progress-wrap"><div class="progress"><span id="btcProgress"></span></div><div class="progress-label"><span id="btcProgressText">—</span><span id="btcDistance">—</span></div></div>
-          <div class="details" id="btcDetails"></div>
-        </article>
-      </div>
-    </section>
-
-    <section class="card history-card">
-      <div class="section-head"><div><span class="eyebrow">HOJE</span><h2>Operações fechadas</h2></div><span class="muted" id="historyCount">0 operações</span></div>
-      <div class="table-wrap"><table><thead><tr><th>Hora</th><th>Mercado</th><th>Estratégia</th><th>Par</th><th>Entrada</th><th>Saída</th><th>PnL</th></tr></thead><tbody id="historyBody"></tbody></table></div>
-    </section>
-
-    <section class="note card"><strong>Monitor somente leitura</strong><p>Dados sanitizados do ambiente DEMO. O painel não contém chaves, segredos nem comandos de negociação. LIVE permanece desativado.</p></section>
-    <div id="errorBox" class="error-box" hidden></div>
-    <footer>V44 Trading Monitor · dados publicados pela VPS · GitHub Pages</footer>
-  </main>
-  <script src="app-v2.js?v=20260925-1"></script>
-</body>
-</html>
+<!doctype html><html lang="pt-BR"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><meta name="theme-color" content="#07111f"><title>Trading Monitor</title><link rel="stylesheet" href="style-v3.css?v=20260925-1"></head><body><main class="app-shell">
+<header class="app-header"><div class="brand-block"><div class="brand-mark">TM</div><div><h1>Trading Monitor</h1><p>Estratégias, risco e performance em tempo real</p></div></div><div class="header-actions"><div class="env-switch" role="tablist" aria-label="Ambiente"><button class="env-tab active" data-env="demo" role="tab">DEMO</button><button class="env-tab" data-env="live" role="tab">LIVE</button></div><div class="readonly-pill">Somente leitura</div></div></header>
+<section class="context-bar"><div class="context-main"><span class="env-indicator demo" id="envIndicator"></span><div><span class="context-label">Ambiente selecionado</span><strong id="environmentName">DEMO</strong></div></div><div class="context-meta"><div><span>Última atualização</span><strong id="updatedAt">—</strong></div><div id="health" class="health">Carregando…</div></div></section><section id="environmentNotice" class="environment-notice" hidden></section>
+<section class="kpi-grid" id="kpiGrid"><article class="kpi-card primary"><div class="kpi-label">Equity</div><strong id="equity">—</strong><span>USDT</span></article><article class="kpi-card"><div class="kpi-label">PnL realizado hoje</div><strong id="pnlToday">—</strong><span>USDT</span></article><article class="kpi-card"><div class="kpi-label">Operações hoje</div><strong id="opsToday">—</strong><span id="wlToday">—</span></article><article class="kpi-card"><div class="kpi-label">Win rate</div><strong id="winRate">—</strong><span>operações fechadas</span></article><article class="kpi-card"><div class="kpi-label">Lucro bruto</div><strong id="grossProfit">—</strong><span>USDT</span></article><article class="kpi-card"><div class="kpi-label">Perdas</div><strong id="grossLoss">—</strong><span>USDT</span></article><article class="kpi-card"><div class="kpi-label">Posições abertas</div><strong id="openCount">—</strong><span id="openMarketHint">—</span></article><article class="kpi-card"><div class="kpi-label">Estratégias ativas</div><strong id="strategyCount">—</strong><span id="healthyCount">—</span></article></section>
+<section class="dashboard-grid charts-section"><article class="panel pnl-panel"><div class="panel-head"><div><span class="section-kicker">PERFORMANCE</span><h2>PnL acumulado do dia</h2></div><strong id="curveHint">—</strong></div><canvas id="pnlCurve" height="210"></canvas></article><article class="panel compact-chart"><div class="panel-head"><div><span class="section-kicker">RESULTADOS</span><h2>Wins × Losses</h2></div></div><canvas id="winLossChart" height="210"></canvas></article><article class="panel compact-chart"><div class="panel-head"><div><span class="section-kicker">ESTRATÉGIAS</span><h2>PnL por estratégia</h2></div></div><canvas id="strategyPnlChart" height="210"></canvas></article></section>
+<section class="section-wrap"><div class="section-title"><div><span class="section-kicker">MERCADOS</span><h2>Visão operacional</h2></div><span class="section-note" id="marketSectionNote">Ambiente DEMO</span></div><div class="market-grid"><article class="panel market-panel"><div class="market-head"><div><span class="market-icon spot">S</span><div><h3>Spot</h3><p>Execução e inventário</p></div></div><strong id="spotPnl">—</strong></div><div class="mini-stats" id="spotStats"></div><div class="strategy-list" id="spotStrategies"></div></article><article class="panel market-panel"><div class="market-head"><div><span class="market-icon futures">F</span><div><h3>Futures</h3><p>Direcional e derivativos</p></div></div><strong id="futuresPnl">—</strong></div><div class="mini-stats" id="futuresStats"></div><div class="strategy-list" id="futuresStrategies"></div></article></div></section>
+<section class="section-wrap"><div class="section-title"><div><span class="section-kicker">EXPOSIÇÃO</span><h2>Posições abertas</h2></div><span class="section-note" id="openPositionsCount">0 posições</span></div><div class="open-list" id="openPositions"></div></section>
+<section class="section-wrap" id="gridSection"><div class="section-title"><div><span class="section-kicker">SPOT GRID</span><h2>Grids em execução</h2></div><span class="section-note">alvos, inventário e regime</span></div><div class="grids"><article class="panel grid-card" id="ethCard"><div class="grid-head"><div><span class="asset-symbol">ETH</span><div><h3>ETH/USDT</h3><p>Vault Grid</p></div></div><span class="status" id="ethStatus">—</span></div><div class="price-row"><div><span>Preço atual</span><strong id="ethPrice">—</strong></div><div><span>Alvo mais próximo</span><strong id="ethTarget">—</strong></div></div><div class="progress-wrap"><div class="progress"><span id="ethProgress"></span></div><div class="progress-label"><span id="ethProgressText">—</span><span id="ethDistance">—</span></div></div><div class="details" id="ethDetails"></div></article>
+<article class="panel grid-card" id="btcCard"><div class="grid-head"><div><span class="asset-symbol">BTC</span><div><h3>BTC/USDT</h3><p>Vault Grid</p></div></div><span class="status" id="btcStatus">—</span></div><div class="price-row"><div><span>Preço atual</span><strong id="btcPrice">—</strong></div><div><span>Alvo mais próximo</span><strong id="btcTarget">—</strong></div></div><div class="progress-wrap"><div class="progress"><span id="btcProgress"></span></div><div class="progress-label"><span id="btcProgressText">—</span><span id="btcDistance">—</span></div></div><div class="details" id="btcDetails"></div></article></div></section>
+<section class="section-wrap"><div class="section-title"><div><span class="section-kicker">ATIVIDADE</span><h2>Operações fechadas hoje</h2></div><span class="section-note" id="historyCount">0 operações</span></div><article class="panel table-panel"><div class="table-wrap"><table><thead><tr><th>Hora</th><th>Mercado</th><th>Estratégia</th><th>Par</th><th>Entrada</th><th>Saída</th><th>Resultado</th><th>PnL</th></tr></thead><tbody id="historyBody"></tbody></table></div></article></section>
+<section class="security-note"><span class="security-icon">✓</span><div><strong>Monitor somente leitura</strong><p>Dados sanitizados. Nenhuma credencial ou comando de negociação é exposto nesta página.</p></div></section><div id="errorBox" class="error-box" hidden></div><footer>Trading Monitor · dados publicados pela VPS · GitHub Pages</footer>
+</main><script src="app-v3.js?v=20260925-1"></script></body></html>
