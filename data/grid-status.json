@@ -1,11 +1,11 @@
 {
   "account": {
-    "available_usdt": 98.02050864,
-    "equity_usdt": 101.06997153,
+    "available_usdt": 98.0371678,
+    "equity_usdt": 101.09058021,
     "gross_loss_today_usdt": 0.0,
     "gross_profit_today_usdt": 0.0,
     "pnl_today_usdt": 0.0,
-    "unrealized_pnl_usdt": 0.1612613
+    "unrealized_pnl_usdt": 0.1808613
   },
   "day": "2026-09-27",
   "grids": {
@@ -92,12 +92,12 @@
           "active_strategies": 11,
           "gross_loss_usdt": 0.0,
           "gross_profit_usdt": 0.0,
-          "healthy_strategies": 7,
+          "healthy_strategies": 8,
           "losses_today": 0,
           "net_pnl_usdt": 0.0,
           "open_positions": 1,
           "operations_today": 0,
-          "unrealized_pnl_usdt": 0.133,
+          "unrealized_pnl_usdt": 0.1526,
           "wins_today": 0
         },
         "spot": {
@@ -170,7 +170,7 @@
       },
       {
         "entry": 10.774,
-        "mark": 10.869,
+        "mark": 10.883,
         "market": "futures",
         "mode": "demo",
         "opened_at": "2026-09-26T18:45:05.407000Z",
@@ -179,7 +179,7 @@
         "strategy": "V44_WUNDER_MEAN_REVERSION",
         "symbol": "AVAXUSDT",
         "target": null,
-        "unrealized_pnl_usdt": 0.133
+        "unrealized_pnl_usdt": 0.1526
       }
     ],
     "strategies": [
@@ -239,7 +239,7 @@
         "id": "spot_perp_arb",
         "label": "Spot ↔ Perp Arbitrage",
         "last_event": "CYCLE_END",
-        "last_update": "2026-09-26T23:37:28.663298+00:00",
+        "last_update": "2026-09-26T23:38:28.486995+00:00",
         "market": "spot",
         "market_label": "SPOT↔PERP",
         "mode": "demo",
@@ -362,11 +362,11 @@
         "badges": [],
         "cron_enabled": true,
         "execution": "venue",
-        "health": "stale",
+        "health": "healthy",
         "id": "V44_WUNDER_MEAN_REVERSION",
         "label": "Wunder Mean Reversion",
-        "last_event": "POSITION_OPEN",
-        "last_update": "2026-09-26T18:45:06.290Z",
+        "last_event": "TRAIL_ARMED",
+        "last_update": "2026-09-26T23:38:58.783Z",
         "market": "futures",
         "market_label": "FUTURES",
         "mode": "demo",
@@ -377,7 +377,7 @@
           "net_pnl_usdt": 0.0,
           "open_positions": 1,
           "operations_today": 0,
-          "unrealized_pnl_usdt": 0.133,
+          "unrealized_pnl_usdt": 0.1526,
           "wins_today": 0
         },
         "symbols": []
@@ -443,7 +443,7 @@
         "id": "V44_SESSION_MOMENTUM_SOL_CONSERVATIVE",
         "label": "Session Momentum SOL",
         "last_event": "SESSION_STATE",
-        "last_update": "2026-09-26T23:37:12.893Z",
+        "last_update": "2026-09-26T23:38:12.894Z",
         "market": "futures",
         "market_label": "FUTURES",
         "mode": "demo",
@@ -467,7 +467,7 @@
         "id": "V44_CONNORS_RSI2_SOL_SHORT_CONSERVATIVE",
         "label": "Connors RSI2 SOL Short",
         "last_event": "CONNORS_STATE",
-        "last_update": "2026-09-26T23:37:13.094Z",
+        "last_update": "2026-09-26T23:38:13.065Z",
         "market": "futures",
         "market_label": "FUTURES",
         "mode": "demo",
@@ -515,7 +515,7 @@
         "id": "V44_SESSION_MOMENTUM",
         "label": "Session Momentum (paper)",
         "last_event": "ALREADY_PROCESSED",
-        "last_update": "2026-09-26T23:38:02.917Z",
+        "last_update": "2026-09-26T23:39:02.758Z",
         "market": "futures",
         "market_label": "FUTURES",
         "mode": "demo",
@@ -539,7 +539,7 @@
         "id": "V44_REALTIME_SHADOW",
         "label": "Realtime Shadow Advisor",
         "last_event": "SNAPSHOT",
-        "last_update": "2026-09-26T23:37:58.094388+00:00",
+        "last_update": "2026-09-26T23:38:52.713393+00:00",
         "market": "futures",
         "market_label": "FUTURES",
         "mode": "demo",
@@ -584,15 +584,15 @@
       "active_strategies": 12,
       "gross_loss_usdt": 0.0,
       "gross_profit_usdt": 0.0,
-      "healthy_strategies": 8,
+      "healthy_strategies": 9,
       "losses_today": 0,
       "net_pnl_usdt": 0.0,
       "open_positions": 3,
       "operations_today": 0,
-      "unrealized_pnl_usdt": 0.1612613,
+      "unrealized_pnl_usdt": 0.1808613,
       "wins_today": 0
     },
     "trades_today": []
   },
-  "updated_at": "2026-09-26T23:38:03.052000Z"
+  "updated_at": "2026-09-26T23:39:02.787000Z"
 }
