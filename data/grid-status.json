@@ -1,11 +1,11 @@
 {
   "account": {
-    "available_usdt": 52.670164,
-    "equity_usdt": 99.22212856,
-    "gross_loss_today_usdt": 0.0,
+    "available_usdt": 80.68697739,
+    "equity_usdt": 99.20465165,
+    "gross_loss_today_usdt": 0.10743329,
     "gross_profit_today_usdt": 0.18915805,
-    "pnl_today_usdt": 0.18915805,
-    "unrealized_pnl_usdt": -0.11015572
+    "pnl_today_usdt": 0.08172476,
+    "unrealized_pnl_usdt": -0.07443572
   },
   "day": "2026-09-26",
   "grids": {
@@ -28,7 +28,7 @@
         "adx_pass": false,
         "trend_pass": true
       },
-      "source_ts": "2026-09-26T13:18:04.470Z",
+      "source_ts": "2026-09-26T13:19:04.239Z",
       "status": "WAITING_REGIME",
       "symbol": "BTCUSDT",
       "unrealized_pnl_usdt": 0
@@ -69,7 +69,7 @@
         "adx_pass": true,
         "trend_pass": true
       },
-      "source_ts": "2026-09-26T13:18:04.560Z",
+      "source_ts": "2026-09-26T13:19:04.402Z",
       "status": "OPEN",
       "symbol": "ETHUSDT",
       "unrealized_pnl_usdt": -0.01623572
@@ -84,16 +84,25 @@
           "operations": 1,
           "pnl_usdt": 0.18915805,
           "strategy": "Wunder Mean Reversion"
+        },
+        {
+          "operations": 1,
+          "pnl_usdt": -0.10743329,
+          "strategy": "Futures não atribuído"
         }
       ],
       "pnl_curve": [
         {
           "pnl_usdt": 0.18915805,
           "time": "12:32"
+        },
+        {
+          "pnl_usdt": 0.08172476,
+          "time": "14:19"
         }
       ],
       "wins_losses": {
-        "losses": 0,
+        "losses": 1,
         "wins": 1
       }
     },
@@ -101,14 +110,14 @@
       "demo": {
         "futures": {
           "active_strategies": 10,
-          "gross_loss_usdt": 0.0,
+          "gross_loss_usdt": 0.10743329,
           "gross_profit_usdt": 0.18915805,
           "healthy_strategies": 8,
-          "losses_today": 0,
-          "net_pnl_usdt": 0.18915805,
-          "open_positions": 2,
-          "operations_today": 1,
-          "unrealized_pnl_usdt": -0.09392,
+          "losses_today": 1,
+          "net_pnl_usdt": 0.08172476,
+          "open_positions": 1,
+          "operations_today": 2,
+          "unrealized_pnl_usdt": -0.0582,
           "wins_today": 1
         },
         "spot": {
@@ -180,21 +189,8 @@
         "unrealized_pnl_usdt": -0.02662153
       },
       {
-        "entry": 83931.8,
-        "mark": 83952.72,
-        "market": "futures",
-        "mode": "demo",
-        "opened_at": "2026-09-26T13:11:24.213000Z",
-        "side": "Sell",
-        "size": 0.001,
-        "strategy": "UNATTRIBUTED_FUTURES",
-        "symbol": "BTCUSDT",
-        "target": null,
-        "unrealized_pnl_usdt": -0.02092
-      },
-      {
         "entry": 2688.72,
-        "mark": 2685.07,
+        "mark": 2685.81,
         "market": "futures",
         "mode": "demo",
         "opened_at": "2026-09-26T13:05:54.258000Z",
@@ -203,7 +199,7 @@
         "strategy": "UNATTRIBUTED_FUTURES",
         "symbol": "ETHUSDT",
         "target": null,
-        "unrealized_pnl_usdt": -0.073
+        "unrealized_pnl_usdt": -0.0582
       }
     ],
     "strategies": [
@@ -215,7 +211,7 @@
         "id": "V44_ETH_VAULT_GRID",
         "label": "ETH Vault Grid",
         "last_event": "NO_NEW_BAR",
-        "last_update": "2026-09-26T13:18:04.560Z",
+        "last_update": "2026-09-26T13:19:04.402Z",
         "market": "spot",
         "market_label": "SPOT",
         "mode": "demo",
@@ -239,7 +235,7 @@
         "id": "V44_BTC_VAULT_GRID",
         "label": "BTC Vault Grid",
         "last_event": "NO_NEW_BAR",
-        "last_update": "2026-09-26T13:18:04.470Z",
+        "last_update": "2026-09-26T13:19:04.239Z",
         "market": "spot",
         "market_label": "SPOT",
         "mode": "demo",
@@ -263,7 +259,7 @@
         "id": "spot_perp_arb",
         "label": "Spot ↔ Perp Arbitrage",
         "last_event": "CYCLE_END",
-        "last_update": "2026-09-26T13:18:28.650938+00:00",
+        "last_update": "2026-09-26T13:19:28.615339+00:00",
         "market": "spot",
         "market_label": "SPOT↔PERP",
         "mode": "demo",
@@ -287,7 +283,7 @@
         "id": "V44_LIQ_FLOW_STRICT_V2",
         "label": "Liquidation Flow Strict",
         "last_event": "UNTRACKED_CLUSTER_POSITION",
-        "last_update": "2026-09-26T13:19:00.716Z",
+        "last_update": "2026-09-26T13:19:45.699Z",
         "market": "futures",
         "market_label": "FUTURES",
         "mode": "demo",
@@ -338,7 +334,7 @@
         "id": "V44_MULTI_SPEED_TREND",
         "label": "Multi-Speed Trend Portfolio",
         "last_event": "UNTRACKED_POSITION",
-        "last_update": "2026-09-26T13:18:35.534Z",
+        "last_update": "2026-09-26T13:19:35.526Z",
         "market": "futures",
         "market_label": "FUTURES",
         "mode": "demo",
@@ -438,7 +434,7 @@
         "id": "V44_SESSION_MOMENTUM_SOL_CONSERVATIVE",
         "label": "Session Momentum SOL",
         "last_event": "SESSION_STATE",
-        "last_update": "2026-09-26T13:18:11.416Z",
+        "last_update": "2026-09-26T13:19:11.398Z",
         "market": "futures",
         "market_label": "FUTURES",
         "mode": "demo",
@@ -462,7 +458,7 @@
         "id": "V44_CONNORS_RSI2_SOL_SHORT_CONSERVATIVE",
         "label": "Connors RSI2 SOL Short",
         "last_event": "CONNORS_STATE",
-        "last_update": "2026-09-26T13:18:11.816Z",
+        "last_update": "2026-09-26T13:19:11.833Z",
         "market": "futures",
         "market_label": "FUTURES",
         "mode": "demo",
@@ -510,7 +506,7 @@
         "id": "V44_SESSION_MOMENTUM",
         "label": "Session Momentum (paper)",
         "last_event": "ALREADY_PROCESSED",
-        "last_update": "2026-09-26T13:19:03.805Z",
+        "last_update": "2026-09-26T13:20:04.332Z",
         "market": "futures",
         "market_label": "FUTURES",
         "mode": "demo",
@@ -534,7 +530,7 @@
         "id": "V44_REALTIME_SHADOW",
         "label": "Realtime Shadow Advisor",
         "last_event": "SNAPSHOT",
-        "last_update": "2026-09-26T13:18:57.272192+00:00",
+        "last_update": "2026-09-26T13:19:52.094289+00:00",
         "market": "futures",
         "market_label": "FUTURES",
         "mode": "demo",
@@ -586,30 +582,41 @@
         "market_label": "FUTURES",
         "mode": "demo",
         "stats": {
-          "gross_loss_usdt": 0.0,
+          "gross_loss_usdt": 0.10743329,
           "gross_profit_usdt": 0.0,
-          "losses_today": 0,
-          "net_pnl_usdt": 0.0,
-          "open_positions": 2,
-          "operations_today": 0,
-          "unrealized_pnl_usdt": -0.09392,
+          "losses_today": 1,
+          "net_pnl_usdt": -0.10743329,
+          "open_positions": 1,
+          "operations_today": 1,
+          "unrealized_pnl_usdt": -0.0582,
           "wins_today": 0
         }
       }
     ],
     "summary_today": {
       "active_strategies": 13,
-      "gross_loss_usdt": 0.0,
+      "gross_loss_usdt": 0.10743329,
       "gross_profit_usdt": 0.18915805,
       "healthy_strategies": 11,
-      "losses_today": 0,
-      "net_pnl_usdt": 0.18915805,
-      "open_positions": 4,
-      "operations_today": 1,
-      "unrealized_pnl_usdt": -0.11015572,
+      "losses_today": 1,
+      "net_pnl_usdt": 0.08172476,
+      "open_positions": 3,
+      "operations_today": 2,
+      "unrealized_pnl_usdt": -0.07443572,
       "wins_today": 1
     },
     "trades_today": [
+      {
+        "closed_at": "2026-09-26T13:19:46.186000Z",
+        "entry": 83931.8,
+        "exit": 83946.9,
+        "market": "futures",
+        "mode": "demo",
+        "pnl_usdt": -0.10743329,
+        "side": "Buy",
+        "strategy": "UNATTRIBUTED_FUTURES",
+        "symbol": "BTCUSDT"
+      },
       {
         "closed_at": "2026-09-26T11:32:33.215000Z",
         "entry": 10.697,
@@ -623,5 +630,5 @@
       }
     ]
   },
-  "updated_at": "2026-09-26T13:19:04.032000Z"
+  "updated_at": "2026-09-26T13:20:04.740000Z"
 }
