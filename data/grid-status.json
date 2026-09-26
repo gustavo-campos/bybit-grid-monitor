@@ -1,11 +1,11 @@
 {
   "account": {
-    "available_usdt": 96.24234623,
-    "equity_usdt": 99.22861725,
+    "available_usdt": 96.24740199,
+    "equity_usdt": 99.23497188,
     "gross_loss_today_usdt": 0.0,
     "gross_profit_today_usdt": 0.0,
     "pnl_today_usdt": 0.0,
-    "unrealized_pnl_usdt": 0.02170328
+    "unrealized_pnl_usdt": 0.02820328
   },
   "day": "2026-09-26",
   "grids": {
@@ -28,7 +28,7 @@
         "adx_pass": false,
         "trend_pass": true
       },
-      "source_ts": "2026-09-26T07:30:05.022Z",
+      "source_ts": "2026-09-26T07:31:04.349Z",
       "status": "WAITING_REGIME",
       "symbol": "BTCUSDT",
       "unrealized_pnl_usdt": 0
@@ -61,7 +61,7 @@
         "adx_pass": true,
         "trend_pass": true
       },
-      "source_ts": "2026-09-26T07:30:05.066Z",
+      "source_ts": "2026-09-26T07:31:04.398Z",
       "status": "OPEN",
       "symbol": "ETHUSDT",
       "unrealized_pnl_usdt": 0.01910328
@@ -89,7 +89,7 @@
           "net_pnl_usdt": 0.0,
           "open_positions": 1,
           "operations_today": 0,
-          "unrealized_pnl_usdt": 0.0026,
+          "unrealized_pnl_usdt": 0.0091,
           "wins_today": 0
         },
         "spot": {
@@ -149,7 +149,7 @@
       },
       {
         "entry": 10.697,
-        "mark": 10.699,
+        "mark": 10.704,
         "market": "futures",
         "mode": "demo",
         "opened_at": "2026-09-26T03:15:13.569000Z",
@@ -158,7 +158,7 @@
         "strategy": "V44_WUNDER_MEAN_REVERSION",
         "symbol": "AVAXUSDT",
         "target": null,
-        "unrealized_pnl_usdt": 0.0026
+        "unrealized_pnl_usdt": 0.0091
       }
     ],
     "strategies": [
@@ -169,8 +169,8 @@
         "health": "healthy",
         "id": "V44_ETH_VAULT_GRID",
         "label": "ETH Vault Grid",
-        "last_event": "SIGNAL_SCAN",
-        "last_update": "2026-09-26T07:30:05.066Z",
+        "last_event": "NO_NEW_BAR",
+        "last_update": "2026-09-26T07:31:04.398Z",
         "market": "spot",
         "market_label": "SPOT",
         "mode": "demo",
@@ -193,8 +193,8 @@
         "health": "healthy",
         "id": "V44_BTC_VAULT_GRID",
         "label": "BTC Vault Grid",
-        "last_event": "SIGNAL_SCAN",
-        "last_update": "2026-09-26T07:30:05.022Z",
+        "last_event": "NO_NEW_BAR",
+        "last_update": "2026-09-26T07:31:04.349Z",
         "market": "spot",
         "market_label": "SPOT",
         "mode": "demo",
@@ -218,7 +218,7 @@
         "id": "spot_perp_arb",
         "label": "Spot ↔ Perp Arbitrage",
         "last_event": "CYCLE_END",
-        "last_update": "2026-09-26T07:30:28.286833+00:00",
+        "last_update": "2026-09-26T07:31:28.213781+00:00",
         "market": "spot",
         "market_label": "SPOT↔PERP",
         "mode": "demo",
@@ -341,7 +341,7 @@
         "badges": [],
         "cron_enabled": true,
         "execution": "venue",
-        "health": "delayed",
+        "health": "stale",
         "id": "V44_WUNDER_MEAN_REVERSION",
         "label": "Wunder Mean Reversion",
         "last_event": "RUNNER_STARTED",
@@ -356,7 +356,7 @@
           "net_pnl_usdt": 0.0,
           "open_positions": 1,
           "operations_today": 0,
-          "unrealized_pnl_usdt": 0.0026,
+          "unrealized_pnl_usdt": 0.0091,
           "wins_today": 0
         },
         "symbols": []
@@ -393,7 +393,7 @@
         "id": "V44_SESSION_MOMENTUM_SOL_CONSERVATIVE",
         "label": "Session Momentum SOL",
         "last_event": "SESSION_STATE",
-        "last_update": "2026-09-26T07:30:10.554Z",
+        "last_update": "2026-09-26T07:31:10.574Z",
         "market": "futures",
         "market_label": "FUTURES",
         "mode": "demo",
@@ -417,7 +417,7 @@
         "id": "V44_CONNORS_RSI2_SOL_SHORT_CONSERVATIVE",
         "label": "Connors RSI2 SOL Short",
         "last_event": "CONNORS_STATE",
-        "last_update": "2026-09-26T07:30:11.327Z",
+        "last_update": "2026-09-26T07:31:11.445Z",
         "market": "futures",
         "market_label": "FUTURES",
         "mode": "demo",
@@ -441,7 +441,7 @@
         "id": "V44_CONNORS_RSI2_BTC_LONG",
         "label": "Connors RSI2 BTC Long",
         "last_event": "CONNORS_STATE",
-        "last_update": "2026-09-26T07:26:11.709Z",
+        "last_update": "2026-09-26T07:31:11.716Z",
         "market": "futures",
         "market_label": "FUTURES",
         "mode": "demo",
@@ -465,7 +465,7 @@
         "id": "V44_SESSION_MOMENTUM",
         "label": "Session Momentum (paper)",
         "last_event": "WAITING_SESSION",
-        "last_update": "2026-09-26T07:31:03.683Z",
+        "last_update": "2026-09-26T07:32:03.307Z",
         "market": "futures",
         "market_label": "FUTURES",
         "mode": "demo",
@@ -489,7 +489,7 @@
         "id": "V44_REALTIME_SHADOW",
         "label": "Realtime Shadow Advisor",
         "last_event": "SNAPSHOT",
-        "last_update": "2026-09-26T07:30:50.436793+00:00",
+        "last_update": "2026-09-26T07:31:45.631244+00:00",
         "market": "futures",
         "market_label": "FUTURES",
         "mode": "demo",
@@ -539,10 +539,10 @@
       "net_pnl_usdt": 0.0,
       "open_positions": 2,
       "operations_today": 0,
-      "unrealized_pnl_usdt": 0.02170328,
+      "unrealized_pnl_usdt": 0.02820328,
       "wins_today": 0
     },
     "trades_today": []
   },
-  "updated_at": "2026-09-26T07:31:04.102000Z"
+  "updated_at": "2026-09-26T07:32:03.490000Z"
 }
