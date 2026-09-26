@@ -1,11 +1,11 @@
 {
   "account": {
-    "available_usdt": 97.88216147,
-    "equity_usdt": 100.89668429,
+    "available_usdt": 97.87622897,
+    "equity_usdt": 100.88909639,
     "gross_loss_today_usdt": 0.49592172,
     "gross_profit_today_usdt": 0.18915805,
     "pnl_today_usdt": -0.30676367,
-    "unrealized_pnl_usdt": -0.0137387
+    "unrealized_pnl_usdt": -0.0221387
   },
   "day": "2026-09-26",
   "grids": {
@@ -133,7 +133,7 @@
           "net_pnl_usdt": -0.30676367,
           "open_positions": 1,
           "operations_today": 6,
-          "unrealized_pnl_usdt": -0.042,
+          "unrealized_pnl_usdt": -0.0504,
           "wins_today": 1
         },
         "spot": {
@@ -206,7 +206,7 @@
       },
       {
         "entry": 10.774,
-        "mark": 10.744,
+        "mark": 10.738,
         "market": "futures",
         "mode": "demo",
         "opened_at": "2026-09-26T18:45:05.407000Z",
@@ -215,7 +215,7 @@
         "strategy": "V44_WUNDER_MEAN_REVERSION",
         "symbol": "AVAXUSDT",
         "target": null,
-        "unrealized_pnl_usdt": -0.042
+        "unrealized_pnl_usdt": -0.0504
       }
     ],
     "strategies": [
@@ -275,7 +275,7 @@
         "id": "spot_perp_arb",
         "label": "Spot ↔ Perp Arbitrage",
         "last_event": "CYCLE_END",
-        "last_update": "2026-09-26T22:00:28.680792+00:00",
+        "last_update": "2026-09-26T22:01:28.560899+00:00",
         "market": "spot",
         "market_label": "SPOT↔PERP",
         "mode": "demo",
@@ -413,7 +413,7 @@
           "net_pnl_usdt": 0.16152385,
           "open_positions": 1,
           "operations_today": 3,
-          "unrealized_pnl_usdt": -0.042,
+          "unrealized_pnl_usdt": -0.0504,
           "wins_today": 1
         },
         "symbols": []
@@ -428,7 +428,7 @@
         "id": "V44_MICRO_CYCLE",
         "label": "Micro Cycle (pausado)",
         "last_event": "FLOW_CONFIRMATION",
-        "last_update": "2026-09-26T21:59:50.461Z",
+        "last_update": "2026-09-26T22:01:50.690Z",
         "market": "futures",
         "market_label": "FUTURES",
         "mode": "demo",
@@ -479,7 +479,7 @@
         "id": "V44_SESSION_MOMENTUM_SOL_CONSERVATIVE",
         "label": "Session Momentum SOL",
         "last_event": "SESSION_STATE",
-        "last_update": "2026-09-26T22:00:12.695Z",
+        "last_update": "2026-09-26T22:01:12.728Z",
         "market": "futures",
         "market_label": "FUTURES",
         "mode": "demo",
@@ -503,7 +503,7 @@
         "id": "V44_CONNORS_RSI2_SOL_SHORT_CONSERVATIVE",
         "label": "Connors RSI2 SOL Short",
         "last_event": "CONNORS_STATE",
-        "last_update": "2026-09-26T22:00:13.936Z",
+        "last_update": "2026-09-26T22:01:13.945Z",
         "market": "futures",
         "market_label": "FUTURES",
         "mode": "demo",
@@ -527,7 +527,7 @@
         "id": "V44_CONNORS_RSI2_BTC_LONG",
         "label": "Connors RSI2 BTC Long",
         "last_event": "CONNORS_STATE",
-        "last_update": "2026-09-26T21:56:12.081Z",
+        "last_update": "2026-09-26T22:01:13.283Z",
         "market": "futures",
         "market_label": "FUTURES",
         "mode": "demo",
@@ -551,7 +551,7 @@
         "id": "V44_SESSION_MOMENTUM",
         "label": "Session Momentum (paper)",
         "last_event": "ALREADY_PROCESSED",
-        "last_update": "2026-09-26T22:01:03.988Z",
+        "last_update": "2026-09-26T22:02:04.525Z",
         "market": "futures",
         "market_label": "FUTURES",
         "mode": "demo",
@@ -575,7 +575,7 @@
         "id": "V44_REALTIME_SHADOW",
         "label": "Realtime Shadow Advisor",
         "last_event": "SNAPSHOT",
-        "last_update": "2026-09-26T22:00:53.462859+00:00",
+        "last_update": "2026-09-26T22:01:59.425443+00:00",
         "market": "futures",
         "market_label": "FUTURES",
         "mode": "demo",
@@ -625,7 +625,7 @@
       "net_pnl_usdt": -0.30676367,
       "open_positions": 3,
       "operations_today": 6,
-      "unrealized_pnl_usdt": -0.0137387,
+      "unrealized_pnl_usdt": -0.0221387,
       "wins_today": 1
     },
     "trades_today": [
@@ -697,5 +697,5 @@
       }
     ]
   },
-  "updated_at": "2026-09-26T22:01:04.058000Z"
+  "updated_at": "2026-09-26T22:02:04.615000Z"
 }
