@@ -28,7 +28,7 @@
         "adx_pass": false,
         "trend_pass": true
       },
-      "source_ts": "2026-09-26T15:00:05.687Z",
+      "source_ts": "2026-09-26T15:01:04.266Z",
       "status": "WAITING_REGIME",
       "symbol": "BTCUSDT",
       "unrealized_pnl_usdt": 0
@@ -69,7 +69,7 @@
         "adx_pass": true,
         "trend_pass": true
       },
-      "source_ts": "2026-09-26T15:00:05.793Z",
+      "source_ts": "2026-09-26T15:01:04.041Z",
       "status": "OPEN",
       "symbol": "ETHUSDT",
       "unrealized_pnl_usdt": -0.00314183
@@ -205,8 +205,8 @@
         "health": "healthy",
         "id": "V44_ETH_VAULT_GRID",
         "label": "ETH Vault Grid",
-        "last_event": "SIGNAL_SCAN",
-        "last_update": "2026-09-26T15:00:05.793Z",
+        "last_event": "NO_NEW_BAR",
+        "last_update": "2026-09-26T15:01:04.041Z",
         "market": "spot",
         "market_label": "SPOT",
         "mode": "demo",
@@ -229,8 +229,8 @@
         "health": "healthy",
         "id": "V44_BTC_VAULT_GRID",
         "label": "BTC Vault Grid",
-        "last_event": "SIGNAL_SCAN",
-        "last_update": "2026-09-26T15:00:05.687Z",
+        "last_event": "NO_NEW_BAR",
+        "last_update": "2026-09-26T15:01:04.266Z",
         "market": "spot",
         "market_label": "SPOT",
         "mode": "demo",
@@ -254,7 +254,7 @@
         "id": "spot_perp_arb",
         "label": "Spot ↔ Perp Arbitrage",
         "last_event": "CYCLE_END",
-        "last_update": "2026-09-26T15:00:28.771795+00:00",
+        "last_update": "2026-09-26T15:01:27.738851+00:00",
         "market": "spot",
         "market_label": "SPOT↔PERP",
         "mode": "demo",
@@ -458,7 +458,7 @@
         "id": "V44_SESSION_MOMENTUM_SOL_CONSERVATIVE",
         "label": "Session Momentum SOL",
         "last_event": "SESSION_STATE",
-        "last_update": "2026-09-26T15:00:11.656Z",
+        "last_update": "2026-09-26T15:01:11.654Z",
         "market": "futures",
         "market_label": "FUTURES",
         "mode": "demo",
@@ -482,7 +482,7 @@
         "id": "V44_CONNORS_RSI2_SOL_SHORT_CONSERVATIVE",
         "label": "Connors RSI2 SOL Short",
         "last_event": "CONNORS_STATE",
-        "last_update": "2026-09-26T15:00:12.084Z",
+        "last_update": "2026-09-26T15:01:12.245Z",
         "market": "futures",
         "market_label": "FUTURES",
         "mode": "demo",
@@ -506,7 +506,7 @@
         "id": "V44_CONNORS_RSI2_BTC_LONG",
         "label": "Connors RSI2 BTC Long",
         "last_event": "CONNORS_STATE",
-        "last_update": "2026-09-26T14:56:12.057Z",
+        "last_update": "2026-09-26T15:01:11.865Z",
         "market": "futures",
         "market_label": "FUTURES",
         "mode": "demo",
@@ -530,7 +530,7 @@
         "id": "V44_SESSION_MOMENTUM",
         "label": "Session Momentum (paper)",
         "last_event": "ALREADY_PROCESSED",
-        "last_update": "2026-09-26T15:01:03.180Z",
+        "last_update": "2026-09-26T15:02:02.623Z",
         "market": "futures",
         "market_label": "FUTURES",
         "mode": "demo",
@@ -554,7 +554,7 @@
         "id": "V44_REALTIME_SHADOW",
         "label": "Realtime Shadow Advisor",
         "last_event": "SNAPSHOT",
-        "last_update": "2026-09-26T15:00:49.012056+00:00",
+        "last_update": "2026-09-26T15:01:44.655919+00:00",
         "market": "futures",
         "market_label": "FUTURES",
         "mode": "demo",
@@ -654,5 +654,5 @@
       }
     ]
   },
-  "updated_at": "2026-09-26T15:01:03.377000Z"
+  "updated_at": "2026-09-26T15:02:02.903000Z"
 }
