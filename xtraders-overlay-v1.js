@@ -2,14 +2,23 @@
   const TARGET_ID = 'futuresStrategies';
   const FALLBACK_ID = 'xtraders-pc2m-context-v2-fallback';
 
-  const esc = v => String(v ?? '').replace(/[&<>'"]/g, c => ({
-    '&': '&amp;', '<': '&lt;', '>': '&gt;', "'": '&#39;', '"': '&quot;'
-  }[c]));
+  function installStyle() {
+    if (document.getElementById('xtraders-overlay-style')) return;
+    const style = document.createElement('style');
+    style.id = 'xtraders-overlay-style';
+    style.textContent = `
+      .xtraders-research-row{border-color:rgba(138,164,255,.18);background:linear-gradient(135deg,rgba(77,99,190,.12),rgba(4,8,14,.22))}
+      .health-dot.xtr-research{background:#8aa4ff;color:#8aa4ff}
+      .strategy-chip.xtr-monitor{color:#c9d5ff;border-color:rgba(138,164,255,.28);background:rgba(77,99,190,.18)}
+      .strategy-chip.xtr-context{color:#c4b5fd;border-color:rgba(167,139,250,.25);background:rgba(76,29,149,.16)}
+      .strategy-chip.xtr-oos{color:#fde68a;border-color:rgba(251,191,36,.22);background:rgba(92,68,12,.20)}
+    `;
+    document.head.appendChild(style);
+  }
 
-  function realXtradersPresent() {
-    const data = window.lastData;
-    const strategies = data?.system?.strategies || [];
-    return strategies.some(s => /xtraders|pc2m/i.test(`${s.id || ''} ${s.label || ''}`));
+  function snapshotHasRealXtraders() {
+    const labels = Array.from(document.querySelectorAll(`#${TARGET_ID} .strategy-name`));
+    return labels.some(el => /xtraders|pc2m/i.test(el.textContent || '') && el.closest('.strategy-row')?.id !== FALLBACK_ID);
   }
 
   function fallbackRow() {
@@ -34,38 +43,33 @@
       <div class="strategy-stat"><span>Ops</span><strong>—</strong></div>
       <div class="strategy-stat"><span>W / L</span><strong>—</strong></div>
       <div class="strategy-stat"><span>PnL</span><strong>—</strong></div>`;
-    row.title = 'Fallback de catálogo: a estratégia XTRADERS está em pesquisa/DEMO, mas o publisher operacional ainda não a inclui no snapshot. Nenhum PnL ou health é inferido.';
+    row.title = 'Fallback visual: XTRADERS está em pesquisa/DEMO, mas o publisher operacional ainda não envia esta estratégia no snapshot. Nenhum PnL, operação ou health é inferido.';
     return row;
   }
 
   function ensureVisible() {
     const box = document.getElementById(TARGET_ID);
     if (!box) return;
-
     const current = document.getElementById(FALLBACK_ID);
-    if (realXtradersPresent()) {
+
+    if (snapshotHasRealXtraders()) {
       if (current) current.remove();
       return;
     }
-
     if (!current) box.appendChild(fallbackRow());
   }
 
   function installObserver() {
+    installStyle();
     const box = document.getElementById(TARGET_ID);
     if (!box) return;
-    const observer = new MutationObserver(() => {
-      queueMicrotask(ensureVisible);
-    });
-    observer.observe(box, { childList: true });
+    const observer = new MutationObserver(() => queueMicrotask(ensureVisible));
+    observer.observe(box, {childList:true});
     ensureVisible();
   }
 
-  if (document.readyState === 'loading') {
-    document.addEventListener('DOMContentLoaded', installObserver, { once: true });
-  } else {
-    installObserver();
-  }
+  if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', installObserver, {once:true});
+  else installObserver();
 
   setInterval(ensureVisible, 5000);
 })();
