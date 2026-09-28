@@ -219,7 +219,7 @@
         "id": "spot_perp_arb",
         "label": "Spot ↔ Perp Arbitrage",
         "last_event": "CYCLE_END",
-        "last_update": "2026-09-28T18:15:32.339013+00:00",
+        "last_update": "2026-09-28T18:16:28.405700+00:00",
         "market": "spot",
         "market_label": "SPOT↔PERP",
         "mode": "demo",
@@ -423,7 +423,7 @@
         "id": "V44_SESSION_MOMENTUM_SOL_CONSERVATIVE",
         "label": "Session Momentum SOL",
         "last_event": "SESSION_STATE",
-        "last_update": "2026-09-28T18:15:18.977Z",
+        "last_update": "2026-09-28T18:16:18.934Z",
         "market": "futures",
         "market_label": "FUTURES",
         "mode": "demo",
@@ -447,7 +447,7 @@
         "id": "V44_CONNORS_RSI2_SOL_SHORT_CONSERVATIVE",
         "label": "Connors RSI2 SOL Short",
         "last_event": "CONNORS_STATE",
-        "last_update": "2026-09-28T18:15:23.246Z",
+        "last_update": "2026-09-28T18:16:18.475Z",
         "market": "futures",
         "market_label": "FUTURES",
         "mode": "demo",
@@ -471,7 +471,7 @@
         "id": "V44_CONNORS_RSI2_BTC_LONG",
         "label": "Connors RSI2 BTC Long",
         "last_event": "CONNORS_STATE",
-        "last_update": "2026-09-28T18:11:17.058Z",
+        "last_update": "2026-09-28T18:16:14.563Z",
         "market": "futures",
         "market_label": "FUTURES",
         "mode": "demo",
@@ -495,7 +495,7 @@
         "id": "V44_SESSION_MOMENTUM",
         "label": "Session Momentum (paper)",
         "last_event": "ALREADY_PROCESSED",
-        "last_update": "2026-09-28T18:16:06.293Z",
+        "last_update": "2026-09-28T18:17:06.756Z",
         "market": "futures",
         "market_label": "FUTURES",
         "mode": "demo",
@@ -519,7 +519,7 @@
         "id": "V44_REALTIME_SHADOW",
         "label": "Realtime Shadow Advisor",
         "last_event": "SNAPSHOT",
-        "last_update": "2026-09-28T18:15:53.997620+00:00",
+        "last_update": "2026-09-28T18:16:50.220680+00:00",
         "market": "futures",
         "market_label": "FUTURES",
         "mode": "demo",
@@ -573,7 +573,7 @@
         "id": "XTRADERS_PC2M_DEMO",
         "label": "XTRADERS PC2m — DEMO",
         "last_event": "RUNNER_OK",
-        "last_update": "2026-09-28T18:16:02Z",
+        "last_update": "2026-09-28T18:16:18Z",
         "market": "futures",
         "market_label": "FUTURES",
         "mode": "demo",
@@ -605,8 +605,8 @@
               "exit_code": 0,
               "live_orders_enabled": false,
               "mode": "DEMO",
-              "status": "SKIPPED_LOCK_BUSY",
-              "ts": "2026-09-28T18:16:01Z"
+              "status": "RUNNING",
+              "ts": "2026-09-28T18:17:01Z"
             },
             "last_error": "reference feed empty",
             "last_error_ts": "2026-09-28T10:33:31.136991+00:00",
@@ -627,8 +627,8 @@
               "exit_code": 0,
               "live_orders_enabled": false,
               "mode": "DEMO",
-              "status": "OK",
-              "ts": "2026-09-28T18:16:04Z"
+              "status": "RUNNING",
+              "ts": "2026-09-28T18:17:01Z"
             },
             "last_error": "Can only use .dt accessor with datetimelike values",
             "last_error_ts": "2026-09-28T17:49:49.327647+00:00",
@@ -649,8 +649,8 @@
               "exit_code": 0,
               "live_orders_enabled": false,
               "mode": "DEMO",
-              "status": "OK",
-              "ts": "2026-09-28T18:16:03Z"
+              "status": "RUNNING",
+              "ts": "2026-09-28T18:17:01Z"
             },
             "last_error": "Can only use .dt accessor with datetimelike values",
             "last_error_ts": "2026-09-28T17:49:49.025034+00:00",
@@ -671,8 +671,8 @@
               "exit_code": 0,
               "live_orders_enabled": false,
               "mode": "DEMO",
-              "status": "SKIPPED_LOCK_BUSY",
-              "ts": "2026-09-28T18:16:01Z"
+              "status": "RUNNING",
+              "ts": "2026-09-28T18:17:01Z"
             },
             "last_error": "Can only use .dt accessor with datetimelike values",
             "last_error_ts": "2026-09-28T17:50:06.685502+00:00",
@@ -693,8 +693,8 @@
               "exit_code": 0,
               "live_orders_enabled": false,
               "mode": "DEMO",
-              "status": "OK",
-              "ts": "2026-09-28T18:16:06Z"
+              "status": "RUNNING",
+              "ts": "2026-09-28T18:17:01Z"
             },
             "last_error": "reference feed empty",
             "last_error_ts": "2026-09-28T07:42:17.889745+00:00",
@@ -715,8 +715,8 @@
               "exit_code": 0,
               "live_orders_enabled": false,
               "mode": "DEMO",
-              "status": "SKIPPED_LOCK_BUSY",
-              "ts": "2026-09-28T18:16:02Z"
+              "status": "RUNNING",
+              "ts": "2026-09-28T18:17:01Z"
             },
             "last_error": null,
             "last_error_ts": null,
@@ -737,8 +737,8 @@
               "exit_code": 0,
               "live_orders_enabled": false,
               "mode": "DEMO",
-              "status": "OK",
-              "ts": "2026-09-28T18:16:05Z"
+              "status": "RUNNING",
+              "ts": "2026-09-28T18:17:01Z"
             },
             "last_error": "Can only use .dt accessor with datetimelike values",
             "last_error_ts": "2026-09-28T17:49:50.484911+00:00",
@@ -759,16 +759,16 @@
               "exit_code": 0,
               "live_orders_enabled": false,
               "mode": "DEMO",
-              "status": "SKIPPED_LOCK_BUSY",
-              "ts": "2026-09-28T18:16:02Z"
+              "status": "RUNNING",
+              "ts": "2026-09-28T18:17:01Z"
             },
             "last_error": "Can only use .dt accessor with datetimelike values",
             "last_error_ts": "2026-09-28T17:50:05.760374+00:00",
             "last_order_id": null,
             "last_order_ts": null,
-            "latest_event": "PC2M_SIGNAL_STALE",
-            "latest_event_ts": "2026-09-28T17:52:20.861283+00:00",
-            "missed_before_arm_today": 0,
+            "latest_event": "PC2M_MISSED_BEFORE_ARM",
+            "latest_event_ts": "2026-09-28T18:16:17.842692+00:00",
+            "missed_before_arm_today": 1,
             "orders_submitted_today": 0,
             "owned_position": null,
             "pending": null,
@@ -781,8 +781,8 @@
               "exit_code": 0,
               "live_orders_enabled": false,
               "mode": "DEMO",
-              "status": "SKIPPED_LOCK_BUSY",
-              "ts": "2026-09-28T18:16:01Z"
+              "status": "RUNNING",
+              "ts": "2026-09-28T18:17:01Z"
             },
             "last_error": null,
             "last_error_ts": null,
@@ -870,5 +870,5 @@
       }
     ]
   },
-  "updated_at": "2026-09-28T18:16:06.480000Z"
+  "updated_at": "2026-09-28T18:17:07.315000Z"
 }
