@@ -47,6 +47,12 @@
           <span class="strategy-chip">XAU</span>
           <span class="strategy-chip">CL</span>
           <span class="strategy-chip">QQQ</span>
+          <span class="strategy-chip">SPY</span>
+          <span class="strategy-chip">IWM</span>
+          <span class="strategy-chip">XAG</span>
+          <span class="strategy-chip">EURUSD</span>
+          <span class="strategy-chip">GBPUSD</span>
+          <span class="strategy-chip">USDJPY</span>
           <span class="strategy-chip xtr-context">CONTEXT V2</span>
           <span class="strategy-chip xtr-runner">RUNNER: NÃO PUBLICADO</span>
         </div>
