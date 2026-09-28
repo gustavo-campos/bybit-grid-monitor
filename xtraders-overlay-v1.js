@@ -2,6 +2,14 @@
   const TARGET_ID = 'futuresStrategies';
   const FALLBACK_ID = 'xtraders-pc2m-context-v2-fallback';
 
+  function loadGridStateOverlay() {
+    if (document.querySelector('script[data-grid-state-overlay]')) return;
+    const script = document.createElement('script');
+    script.src = 'grid-state-overlay-v1.js?v=20260928-1';
+    script.dataset.gridStateOverlay = 'true';
+    document.head.appendChild(script);
+  }
+
   function installStyle() {
     if (document.getElementById('xtraders-overlay-style')) return;
     const style = document.createElement('style');
@@ -51,7 +59,6 @@
     const box = document.getElementById(TARGET_ID);
     if (!box) return;
     const current = document.getElementById(FALLBACK_ID);
-
     if (snapshotHasRealXtraders()) {
       if (current) current.remove();
       return;
@@ -61,6 +68,7 @@
 
   function installObserver() {
     installStyle();
+    loadGridStateOverlay();
     const box = document.getElementById(TARGET_ID);
     if (!box) return;
     const observer = new MutationObserver(() => queueMicrotask(ensureVisible));
@@ -70,6 +78,5 @@
 
   if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', installObserver, {once:true});
   else installObserver();
-
   setInterval(ensureVisible, 5000);
 })();
