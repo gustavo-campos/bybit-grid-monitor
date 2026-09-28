@@ -215,7 +215,7 @@
         "id": "spot_perp_arb",
         "label": "Spot ↔ Perp Arbitrage",
         "last_event": "CYCLE_END",
-        "last_update": "2026-09-28T13:42:28.542971+00:00",
+        "last_update": "2026-09-28T13:43:28.543274+00:00",
         "market": "spot",
         "market_label": "SPOT↔PERP",
         "mode": "demo",
@@ -419,7 +419,7 @@
         "id": "V44_SESSION_MOMENTUM_SOL_CONSERVATIVE",
         "label": "Session Momentum SOL",
         "last_event": "SESSION_STATE",
-        "last_update": "2026-09-28T13:42:18.058Z",
+        "last_update": "2026-09-28T13:43:18.072Z",
         "market": "futures",
         "market_label": "FUTURES",
         "mode": "demo",
@@ -443,7 +443,7 @@
         "id": "V44_CONNORS_RSI2_SOL_SHORT_CONSERVATIVE",
         "label": "Connors RSI2 SOL Short",
         "last_event": "CONNORS_STATE",
-        "last_update": "2026-09-28T13:42:18.225Z",
+        "last_update": "2026-09-28T13:43:18.829Z",
         "market": "futures",
         "market_label": "FUTURES",
         "mode": "demo",
@@ -491,7 +491,7 @@
         "id": "V44_SESSION_MOMENTUM",
         "label": "Session Momentum (paper)",
         "last_event": "ALREADY_PROCESSED",
-        "last_update": "2026-09-28T13:43:04.119Z",
+        "last_update": "2026-09-28T13:44:04.411Z",
         "market": "futures",
         "market_label": "FUTURES",
         "mode": "demo",
@@ -515,7 +515,7 @@
         "id": "V44_REALTIME_SHADOW",
         "label": "Realtime Shadow Advisor",
         "last_event": "SNAPSHOT",
-        "last_update": "2026-09-28T13:42:52.409521+00:00",
+        "last_update": "2026-09-28T13:43:47.812208+00:00",
         "market": "futures",
         "market_label": "FUTURES",
         "mode": "demo",
@@ -568,7 +568,7 @@
         "id": "XTRADERS_PC2M_DEMO",
         "label": "XTRADERS PC2m — DEMO",
         "last_event": "RUNNER_OK",
-        "last_update": "2026-09-28T13:42:19Z",
+        "last_update": "2026-09-28T13:43:25Z",
         "market": "futures",
         "market_label": "FUTURES",
         "mode": "demo",
@@ -595,7 +595,7 @@
               "live_orders_enabled": false,
               "mode": "DEMO",
               "status": "RUNNING",
-              "ts": "2026-09-28T13:43:01Z"
+              "ts": "2026-09-28T13:44:02Z"
             },
             "last_error": "reference feed empty",
             "last_error_ts": "2026-09-28T10:33:31.136991+00:00",
@@ -617,7 +617,7 @@
               "live_orders_enabled": false,
               "mode": "DEMO",
               "status": "RUNNING",
-              "ts": "2026-09-28T13:43:01Z"
+              "ts": "2026-09-28T13:44:02Z"
             },
             "last_error": "reference feed empty",
             "last_error_ts": "2026-09-28T07:42:17.889745+00:00",
@@ -639,40 +639,17 @@
               "live_orders_enabled": false,
               "mode": "DEMO",
               "status": "RUNNING",
-              "ts": "2026-09-28T13:43:01Z"
+              "ts": "2026-09-28T13:44:02Z"
             },
             "last_error": null,
             "last_error_ts": null,
             "last_order_id": "18bdc258-fbcf-40fd-a0a7-551bb6e4d94c",
             "last_order_ts": "2026-09-28T13:17:27.714684+00:00",
-            "latest_event": "XTRADERS_DEMO_POSITION_TELEMETRY",
-            "latest_event_ts": "2026-09-28T13:42:05.035167+00:00",
+            "latest_event": "PC2M_SIGNAL_STALE",
+            "latest_event_ts": "2026-09-28T13:43:24.929254+00:00",
             "missed_before_arm_today": 0,
             "orders_submitted_today": 1,
-            "owned_position": {
-              "entry": 4154.16,
-              "high_since": 4155.92,
-              "last_snapshot": {
-                "current_r": 0.20382166,
-                "giveback_r": 2.78343949,
-                "initial_risk_distance": 3.14,
-                "mae_r": 0.56050955,
-                "mfe_r": 2.98726115,
-                "partial_action": "NONE_UNTIL_RULE_CONFIRMED",
-                "pyramid_action": "NONE_UNTIL_RULE_CONFIRMED",
-                "remount_action": "NONE_UNTIL_RULE_CONFIRMED",
-                "stop_move_action": "NONE_UNTIL_RULE_CONFIRMED"
-              },
-              "low_since": 4144.78,
-              "milestones_seen": [
-                1.0,
-                1.5,
-                2.0
-              ],
-              "side": "Sell",
-              "size": "0.014",
-              "stop": 4157.3
-            },
+            "owned_position": null,
             "pending": null,
             "runner_errors_today": 0,
             "skipped_fidelity_today": 0
@@ -739,5 +716,5 @@
       }
     ]
   },
-  "updated_at": "2026-09-28T13:43:04.155000Z"
+  "updated_at": "2026-09-28T13:44:04.705000Z"
 }
