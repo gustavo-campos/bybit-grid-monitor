@@ -16,10 +16,12 @@
     style.id = 'xtraders-overlay-style';
     style.textContent = `
       .xtraders-research-row{border-color:rgba(138,164,255,.18);background:linear-gradient(135deg,rgba(77,99,190,.12),rgba(4,8,14,.22))}
-      .health-dot.xtr-research{background:#8aa4ff;color:#8aa4ff}
-      .strategy-chip.xtr-monitor{color:#c9d5ff;border-color:rgba(138,164,255,.28);background:rgba(77,99,190,.18)}
+      .health-dot.xtr-unknown{background:#fbbf24;color:#fbbf24}
+      .strategy-chip.xtr-demo{color:#86efac;border-color:rgba(34,197,94,.30);background:rgba(22,101,52,.18)}
+      .strategy-chip.xtr-orders{color:#93c5fd;border-color:rgba(59,130,246,.30);background:rgba(30,64,175,.18)}
+      .strategy-chip.xtr-liveoff{color:#fca5a5;border-color:rgba(239,68,68,.28);background:rgba(127,29,29,.18)}
+      .strategy-chip.xtr-runner{color:#fde68a;border-color:rgba(251,191,36,.28);background:rgba(92,68,12,.20)}
       .strategy-chip.xtr-context{color:#c4b5fd;border-color:rgba(167,139,250,.25);background:rgba(76,29,149,.16)}
-      .strategy-chip.xtr-oos{color:#fde68a;border-color:rgba(251,191,36,.22);background:rgba(92,68,12,.20)}
     `;
     document.head.appendChild(style);
   }
@@ -36,22 +38,23 @@
     row.dataset.catalogOnly = 'true';
     row.innerHTML = `
       <div class="strategy-main">
-        <div class="strategy-name">XTRADERS PC2m — Context V2</div>
+        <div class="strategy-name">XTRADERS PC2m — DEMO</div>
         <div class="strategy-meta">
-          <span class="health-dot xtr-research" title="Pesquisa / monitor DEMO"></span>
-          <span class="strategy-chip xtr-monitor">MONITOR</span>
+          <span class="health-dot xtr-unknown" title="Status do runner ainda não é publicado pelo monitor"></span>
+          <span class="strategy-chip xtr-demo">DEMO CONFIGURADO</span>
+          <span class="strategy-chip xtr-orders">ORDENS DEMO HABILITADAS</span>
+          <span class="strategy-chip xtr-liveoff">LIVE BLOQUEADO</span>
           <span class="strategy-chip">XAU</span>
           <span class="strategy-chip">CL</span>
           <span class="strategy-chip">QQQ</span>
           <span class="strategy-chip xtr-context">CONTEXT V2</span>
-          <span class="strategy-chip xtr-oos">OOS COLETANDO</span>
-          <span class="strategy-chip">MGMT TELEMETRY</span>
+          <span class="strategy-chip xtr-runner">RUNNER: NÃO PUBLICADO</span>
         </div>
       </div>
-      <div class="strategy-stat"><span>Ops</span><strong>—</strong></div>
+      <div class="strategy-stat"><span>Ops reais</span><strong>—</strong></div>
       <div class="strategy-stat"><span>W / L</span><strong>—</strong></div>
-      <div class="strategy-stat"><span>PnL</span><strong>—</strong></div>`;
-    row.title = 'Fallback visual: XTRADERS está em pesquisa/DEMO, mas o publisher operacional ainda não envia esta estratégia no snapshot. Nenhum PnL, operação ou health é inferido.';
+      <div class="strategy-stat"><span>PnL real</span><strong>—</strong></div>`;
+    row.title = 'Estado conhecido: XTRADERS está configurado para Bybit DEMO, com envio de ordens DEMO habilitado e LIVE bloqueado. O publisher ainda não informa se o runner está ativo agora, nem publica operações, W/L ou PnL desta estratégia. Os campos ficam em branco para não inferir dados.';
     return row;
   }
 
