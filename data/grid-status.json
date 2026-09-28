@@ -112,7 +112,7 @@
           "active_strategies": 12,
           "gross_loss_usdt": 0.38963392,
           "gross_profit_usdt": 0.28688932,
-          "healthy_strategies": 10,
+          "healthy_strategies": 9,
           "losses_today": 3,
           "net_pnl_usdt": -0.1027446,
           "open_positions": 0,
@@ -219,7 +219,7 @@
         "id": "spot_perp_arb",
         "label": "Spot ↔ Perp Arbitrage",
         "last_event": "CYCLE_END",
-        "last_update": "2026-09-28T17:19:28.668123+00:00",
+        "last_update": "2026-09-28T17:20:29.859867+00:00",
         "market": "spot",
         "market_label": "SPOT↔PERP",
         "mode": "demo",
@@ -290,7 +290,7 @@
         ],
         "cron_enabled": true,
         "execution": "venue",
-        "health": "healthy",
+        "health": "delayed",
         "id": "V44_MULTI_SPEED_TREND",
         "label": "Multi-Speed Trend Portfolio",
         "last_event": "SIGNAL_SCAN",
@@ -423,7 +423,7 @@
         "id": "V44_SESSION_MOMENTUM_SOL_CONSERVATIVE",
         "label": "Session Momentum SOL",
         "last_event": "SESSION_STATE",
-        "last_update": "2026-09-28T17:19:18.764Z",
+        "last_update": "2026-09-28T17:20:18.760Z",
         "market": "futures",
         "market_label": "FUTURES",
         "mode": "demo",
@@ -447,7 +447,7 @@
         "id": "V44_CONNORS_RSI2_SOL_SHORT_CONSERVATIVE",
         "label": "Connors RSI2 SOL Short",
         "last_event": "CONNORS_STATE",
-        "last_update": "2026-09-28T17:19:19.349Z",
+        "last_update": "2026-09-28T17:20:19.928Z",
         "market": "futures",
         "market_label": "FUTURES",
         "mode": "demo",
@@ -495,7 +495,7 @@
         "id": "V44_SESSION_MOMENTUM",
         "label": "Session Momentum (paper)",
         "last_event": "ALREADY_PROCESSED",
-        "last_update": "2026-09-28T17:20:05.867Z",
+        "last_update": "2026-09-28T17:21:03.663Z",
         "market": "futures",
         "market_label": "FUTURES",
         "mode": "demo",
@@ -519,7 +519,7 @@
         "id": "V44_REALTIME_SHADOW",
         "label": "Realtime Shadow Advisor",
         "last_event": "SNAPSHOT",
-        "last_update": "2026-09-28T17:20:01.291969+00:00",
+        "last_update": "2026-09-28T17:20:57.937200+00:00",
         "market": "futures",
         "market_label": "FUTURES",
         "mode": "demo",
@@ -572,7 +572,7 @@
         "id": "XTRADERS_PC2M_DEMO",
         "label": "XTRADERS PC2m — DEMO",
         "last_event": "RUNNER_OK",
-        "last_update": "2026-09-28T17:19:26Z",
+        "last_update": "2026-09-28T17:20:37Z",
         "market": "futures",
         "market_label": "FUTURES",
         "mode": "demo",
@@ -599,7 +599,7 @@
               "live_orders_enabled": false,
               "mode": "DEMO",
               "status": "RUNNING",
-              "ts": "2026-09-28T17:20:02Z"
+              "ts": "2026-09-28T17:21:01Z"
             },
             "last_error": "reference feed empty",
             "last_error_ts": "2026-09-28T10:33:31.136991+00:00",
@@ -621,7 +621,7 @@
               "live_orders_enabled": false,
               "mode": "DEMO",
               "status": "RUNNING",
-              "ts": "2026-09-28T17:20:02Z"
+              "ts": "2026-09-28T17:21:01Z"
             },
             "last_error": "reference feed empty",
             "last_error_ts": "2026-09-28T07:42:17.889745+00:00",
@@ -643,7 +643,7 @@
               "live_orders_enabled": false,
               "mode": "DEMO",
               "status": "RUNNING",
-              "ts": "2026-09-28T17:20:02Z"
+              "ts": "2026-09-28T17:21:01Z"
             },
             "last_error": null,
             "last_error_ts": null,
@@ -665,7 +665,7 @@
       "active_strategies": 13,
       "gross_loss_usdt": 0.38963392,
       "gross_profit_usdt": 0.28688932,
-      "healthy_strategies": 11,
+      "healthy_strategies": 10,
       "losses_today": 3,
       "net_pnl_usdt": -0.1027446,
       "open_positions": 0,
@@ -731,5 +731,5 @@
       }
     ]
   },
-  "updated_at": "2026-09-28T17:20:05.867000Z"
+  "updated_at": "2026-09-28T17:21:04.106000Z"
 }
