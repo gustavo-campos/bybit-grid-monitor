@@ -1,11 +1,11 @@
 {
   "account": {
-    "available_usdt": 111.43785976,
-    "equity_usdt": 114.76099248,
+    "available_usdt": 111.46284278,
+    "equity_usdt": 114.78044296,
     "gross_loss_today_usdt": 0.21656042,
     "gross_profit_today_usdt": 0.07587711,
     "pnl_today_usdt": -0.14068331,
-    "unrealized_pnl_usdt": -0.00616
+    "unrealized_pnl_usdt": -0.00341
   },
   "day": "2026-09-29",
   "grids": {
@@ -99,12 +99,12 @@
           "active_strategies": 12,
           "gross_loss_usdt": 0.21656042,
           "gross_profit_usdt": 0.07587711,
-          "healthy_strategies": 9,
+          "healthy_strategies": 10,
           "losses_today": 2,
           "net_pnl_usdt": -0.14068331,
           "open_positions": 1,
           "operations_today": 3,
-          "unrealized_pnl_usdt": -0.00616,
+          "unrealized_pnl_usdt": -0.00341,
           "wins_today": 1
         },
         "spot": {
@@ -151,7 +151,7 @@
     "open_positions": [
       {
         "entry": 90.39,
-        "mark": 90.446,
+        "mark": 90.421,
         "market": "futures",
         "mode": "demo",
         "opened_at": "2026-09-29T15:52:05.266000Z",
@@ -160,7 +160,7 @@
         "strategy": "XTRADERS_PC2M_DEMO",
         "symbol": "CLUSDT",
         "target": null,
-        "unrealized_pnl_usdt": -0.00616
+        "unrealized_pnl_usdt": -0.00341
       }
     ],
     "strategies": [
@@ -220,7 +220,7 @@
         "id": "spot_perp_arb",
         "label": "Spot ↔ Perp Arbitrage",
         "last_event": "CYCLE_END",
-        "last_update": "2026-09-29T15:51:30.509144+00:00",
+        "last_update": "2026-09-29T15:52:32.098356+00:00",
         "market": "spot",
         "market_label": "SPOT↔PERP",
         "mode": "demo",
@@ -291,11 +291,11 @@
         ],
         "cron_enabled": true,
         "execution": "venue",
-        "health": "delayed",
+        "health": "healthy",
         "id": "V44_MULTI_SPEED_TREND",
         "label": "Multi-Speed Trend Portfolio",
-        "last_event": "SIGNAL_SCAN",
-        "last_update": "2026-09-29T15:00:27.356Z",
+        "last_event": "UNTRACKED_POSITION",
+        "last_update": "2026-09-29T15:52:59.887Z",
         "market": "futures",
         "market_label": "FUTURES",
         "mode": "demo",
@@ -373,7 +373,7 @@
         "id": "V44_MICRO_CYCLE",
         "label": "Micro Cycle (pausado)",
         "last_event": "FLOW_CONFIRMATION",
-        "last_update": "2026-09-29T15:52:04.204Z",
+        "last_update": "2026-09-29T15:53:04.624Z",
         "market": "futures",
         "market_label": "FUTURES",
         "mode": "demo",
@@ -424,7 +424,7 @@
         "id": "V44_SESSION_MOMENTUM_SOL_CONSERVATIVE",
         "label": "Session Momentum SOL",
         "last_event": "SESSION_STATE",
-        "last_update": "2026-09-29T15:51:23.396Z",
+        "last_update": "2026-09-29T15:52:23.406Z",
         "market": "futures",
         "market_label": "FUTURES",
         "mode": "demo",
@@ -448,7 +448,7 @@
         "id": "V44_CONNORS_RSI2_SOL_SHORT_CONSERVATIVE",
         "label": "Connors RSI2 SOL Short",
         "last_event": "CONNORS_STATE",
-        "last_update": "2026-09-29T15:51:25.778Z",
+        "last_update": "2026-09-29T15:52:27.617Z",
         "market": "futures",
         "market_label": "FUTURES",
         "mode": "demo",
@@ -496,7 +496,7 @@
         "id": "V44_SESSION_MOMENTUM",
         "label": "Session Momentum (paper)",
         "last_event": "ALREADY_PROCESSED",
-        "last_update": "2026-09-29T15:52:07.566Z",
+        "last_update": "2026-09-29T15:53:08.270Z",
         "market": "futures",
         "market_label": "FUTURES",
         "mode": "demo",
@@ -520,7 +520,7 @@
         "id": "V44_REALTIME_SHADOW",
         "label": "Realtime Shadow Advisor",
         "last_event": "SNAPSHOT",
-        "last_update": "2026-09-29T15:52:02.961030+00:00",
+        "last_update": "2026-09-29T15:53:07.883894+00:00",
         "market": "futures",
         "market_label": "FUTURES",
         "mode": "demo",
@@ -585,7 +585,7 @@
           "net_pnl_usdt": -0.21656042,
           "open_positions": 1,
           "operations_today": 2,
-          "unrealized_pnl_usdt": -0.00616,
+          "unrealized_pnl_usdt": -0.00341,
           "wins_today": 0
         },
         "symbols": [
@@ -606,8 +606,8 @@
               "exit_code": 0,
               "live_orders_enabled": false,
               "mode": "DEMO",
-              "status": "OK",
-              "ts": "2026-09-29T15:52:05Z"
+              "status": "RUNNING",
+              "ts": "2026-09-29T15:53:02Z"
             },
             "last_error": "reference feed empty",
             "last_error_ts": "2026-09-28T10:33:31.136991+00:00",
@@ -638,8 +638,8 @@
               "exit_code": 0,
               "live_orders_enabled": false,
               "mode": "DEMO",
-              "status": "RUNNING",
-              "ts": "2026-09-29T15:52:01Z"
+              "status": "SKIPPED_LOCK_BUSY",
+              "ts": "2026-09-29T15:53:02Z"
             },
             "last_error": "Can only use .dt accessor with datetimelike values",
             "last_error_ts": "2026-09-28T17:49:49.327647+00:00",
@@ -660,8 +660,8 @@
               "exit_code": 0,
               "live_orders_enabled": false,
               "mode": "DEMO",
-              "status": "RUNNING",
-              "ts": "2026-09-29T15:52:01Z"
+              "status": "SKIPPED_LOCK_BUSY",
+              "ts": "2026-09-29T15:53:02Z"
             },
             "last_error": "Can only use .dt accessor with datetimelike values",
             "last_error_ts": "2026-09-28T17:49:49.025034+00:00",
@@ -682,8 +682,8 @@
               "exit_code": 0,
               "live_orders_enabled": false,
               "mode": "DEMO",
-              "status": "RUNNING",
-              "ts": "2026-09-29T15:52:01Z"
+              "status": "SKIPPED_LOCK_BUSY",
+              "ts": "2026-09-29T15:53:02Z"
             },
             "last_error": "Can only use .dt accessor with datetimelike values",
             "last_error_ts": "2026-09-28T17:50:06.685502+00:00",
@@ -704,8 +704,8 @@
               "exit_code": 0,
               "live_orders_enabled": false,
               "mode": "DEMO",
-              "status": "RUNNING",
-              "ts": "2026-09-29T15:52:01Z"
+              "status": "SKIPPED_LOCK_BUSY",
+              "ts": "2026-09-29T15:53:02Z"
             },
             "last_error": "reference feed empty",
             "last_error_ts": "2026-09-28T07:42:17.889745+00:00",
@@ -726,8 +726,8 @@
               "exit_code": 0,
               "live_orders_enabled": false,
               "mode": "DEMO",
-              "status": "RUNNING",
-              "ts": "2026-09-29T15:52:01Z"
+              "status": "SKIPPED_LOCK_BUSY",
+              "ts": "2026-09-29T15:53:02Z"
             },
             "last_error": null,
             "last_error_ts": null,
@@ -748,8 +748,8 @@
               "exit_code": 0,
               "live_orders_enabled": false,
               "mode": "DEMO",
-              "status": "RUNNING",
-              "ts": "2026-09-29T15:52:01Z"
+              "status": "SKIPPED_LOCK_BUSY",
+              "ts": "2026-09-29T15:53:02Z"
             },
             "last_error": "Can only use .dt accessor with datetimelike values",
             "last_error_ts": "2026-09-28T17:49:50.484911+00:00",
@@ -770,8 +770,8 @@
               "exit_code": 0,
               "live_orders_enabled": false,
               "mode": "DEMO",
-              "status": "RUNNING",
-              "ts": "2026-09-29T15:52:01Z"
+              "status": "SKIPPED_LOCK_BUSY",
+              "ts": "2026-09-29T15:53:02Z"
             },
             "last_error": "Can only use .dt accessor with datetimelike values",
             "last_error_ts": "2026-09-28T17:50:05.760374+00:00",
@@ -792,8 +792,8 @@
               "exit_code": 0,
               "live_orders_enabled": false,
               "mode": "DEMO",
-              "status": "RUNNING",
-              "ts": "2026-09-29T15:52:01Z"
+              "status": "SKIPPED_LOCK_BUSY",
+              "ts": "2026-09-29T15:53:02Z"
             },
             "last_error": null,
             "last_error_ts": null,
@@ -815,12 +815,12 @@
       "active_strategies": 13,
       "gross_loss_usdt": 0.21656042,
       "gross_profit_usdt": 0.07587711,
-      "healthy_strategies": 10,
+      "healthy_strategies": 11,
       "losses_today": 2,
       "net_pnl_usdt": -0.14068331,
       "open_positions": 1,
       "operations_today": 3,
-      "unrealized_pnl_usdt": -0.00616,
+      "unrealized_pnl_usdt": -0.00341,
       "wins_today": 1
     },
     "trades_today": [
@@ -859,5 +859,5 @@
       }
     ]
   },
-  "updated_at": "2026-09-29T15:52:07.890000Z"
+  "updated_at": "2026-09-29T15:53:08.693000Z"
 }
