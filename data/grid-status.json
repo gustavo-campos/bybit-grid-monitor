@@ -193,7 +193,7 @@
         "id": "spot_perp_arb",
         "label": "Spot ↔ Perp Arbitrage",
         "last_event": "CYCLE_END",
-        "last_update": "2026-09-29T11:42:31.088663+00:00",
+        "last_update": "2026-09-29T11:43:32.135860+00:00",
         "market": "spot",
         "market_label": "SPOT↔PERP",
         "mode": "demo",
@@ -397,7 +397,7 @@
         "id": "V44_SESSION_MOMENTUM_SOL_CONSERVATIVE",
         "label": "Session Momentum SOL",
         "last_event": "SESSION_STATE",
-        "last_update": "2026-09-29T11:42:22.482Z",
+        "last_update": "2026-09-29T11:43:22.479Z",
         "market": "futures",
         "market_label": "FUTURES",
         "mode": "demo",
@@ -421,7 +421,7 @@
         "id": "V44_CONNORS_RSI2_SOL_SHORT_CONSERVATIVE",
         "label": "Connors RSI2 SOL Short",
         "last_event": "CONNORS_STATE",
-        "last_update": "2026-09-29T11:42:25.209Z",
+        "last_update": "2026-09-29T11:43:25.980Z",
         "market": "futures",
         "market_label": "FUTURES",
         "mode": "demo",
@@ -469,7 +469,7 @@
         "id": "V44_SESSION_MOMENTUM",
         "label": "Session Momentum (paper)",
         "last_event": "WAITING_SESSION",
-        "last_update": "2026-09-29T11:43:06.629Z",
+        "last_update": "2026-09-29T11:44:06.573Z",
         "market": "futures",
         "market_label": "FUTURES",
         "mode": "demo",
@@ -493,7 +493,7 @@
         "id": "V44_REALTIME_SHADOW",
         "label": "Realtime Shadow Advisor",
         "last_event": "SNAPSHOT",
-        "last_update": "2026-09-29T11:42:50.864634+00:00",
+        "last_update": "2026-09-29T11:43:52.856243+00:00",
         "market": "futures",
         "market_label": "FUTURES",
         "mode": "demo",
@@ -547,7 +547,7 @@
         "id": "XTRADERS_PC2M_DEMO",
         "label": "XTRADERS PC2m — DEMO",
         "last_event": "RUNNER_OK",
-        "last_update": "2026-09-29T11:42:47Z",
+        "last_update": "2026-09-29T11:44:02Z",
         "market": "futures",
         "market_label": "FUTURES",
         "mode": "demo",
@@ -579,169 +579,18 @@
               "exit_code": 0,
               "live_orders_enabled": false,
               "mode": "DEMO",
-              "status": "RUNNING",
-              "ts": "2026-09-29T11:43:01Z"
+              "status": "SKIPPED_LOCK_BUSY",
+              "ts": "2026-09-29T11:44:01Z"
             },
             "last_error": "reference feed empty",
             "last_error_ts": "2026-09-28T10:33:31.136991+00:00",
             "last_order_id": "cbfb12a1-0f0c-4ba9-b90e-6804ecc68793",
             "last_order_ts": "2026-09-28T18:28:16.438401+00:00",
-            "latest_event": "XTRADERS_DEMO_POSITION_TELEMETRY",
-            "latest_event_ts": "2026-09-29T11:42:26.628911+00:00",
+            "latest_event": "XTRADERS_DEMO_POSITION_CLOSED",
+            "latest_event_ts": "2026-09-29T11:43:08.468564+00:00",
             "missed_before_arm_today": 0,
             "orders_submitted_today": 0,
-            "owned_position": {
-              "contextual_profit_protection": {
-                "candidate_stop": 91.86,
-                "execute": false,
-                "locked_r": 0.42056075,
-                "reason": "candidate_does_not_safely_tighten"
-              },
-              "current_stop": 91.86,
-              "demo_context": {
-                "break_acceptance": {
-                  "acceptance_m5_closes_required": 2,
-                  "accepted": true,
-                  "age_h1_bars": 2,
-                  "break_bar_time": "2026-09-29T08:00:00+00:00",
-                  "break_confirmed_at": "2026-09-29T09:00:00+00:00",
-                  "broken_level": 92.97,
-                  "failed_reclaim": false,
-                  "policy": "DEMO_ENGINEERING_BREAK_ACCEPTANCE_V1",
-                  "side": -1,
-                  "state": "BREAK_ACCEPTED"
-                },
-                "break_accepted": true,
-                "failed_reclaim": false,
-                "live_authorized": false,
-                "macro_bias": "ALIGNED",
-                "macro_level_map_60m": {
-                  "aligned_ema200": true,
-                  "aligned_ema50": true,
-                  "asof_bar": "2026-09-29T10:00:00+00:00",
-                  "close": 91.81,
-                  "ema20": 93.38114199,
-                  "ema200": 93.67230907,
-                  "ema50": 93.46295283,
-                  "ema500": null,
-                  "ema9": 93.01246716,
-                  "macro_bias": "ALIGNED",
-                  "macro_fib": {
-                    "anchor_a_price": 93.71,
-                    "anchor_a_time": "2026-09-28T22:00:00+00:00",
-                    "anchor_b_price": 92.97,
-                    "anchor_b_time": "2026-09-29T00:00:00+00:00",
-                    "execution_authorized": false,
-                    "leg": 0.74,
-                    "policy": "DEMO_MACRO_FIB_MAP_TELEMETRY_ONLY_V1",
-                    "projection_levels": {
-                      "0.618": 92.51268,
-                      "1.0": 92.23,
-                      "1.618": 91.77268
-                    },
-                    "retracement_levels": {
-                      "0.382": 93.25268,
-                      "0.5": 93.34,
-                      "0.618": 93.42732,
-                      "0.764": 93.53536
-                    },
-                    "state": "READY"
-                  },
-                  "policy": "DEMO_ENGINEERING_MACRO_LEVEL_MAP_V2",
-                  "recent_confirmed_pivot_highs": [
-                    [
-                      "2026-09-28T11:00:00+00:00",
-                      96.46
-                    ],
-                    [
-                      "2026-09-28T15:00:00+00:00",
-                      95.65
-                    ],
-                    [
-                      "2026-09-28T22:00:00+00:00",
-                      93.71
-                    ],
-                    [
-                      "2026-09-29T05:00:00+00:00",
-                      94.71
-                    ]
-                  ],
-                  "recent_confirmed_pivot_lows": [
-                    [
-                      "2026-09-28T01:00:00+00:00",
-                      92.62
-                    ],
-                    [
-                      "2026-09-28T06:00:00+00:00",
-                      93.37
-                    ],
-                    [
-                      "2026-09-28T17:00:00+00:00",
-                      91.19
-                    ],
-                    [
-                      "2026-09-29T00:00:00+00:00",
-                      92.97
-                    ]
-                  ],
-                  "resistance": [
-                    "2026-09-29T05:00:00+00:00",
-                    94.71
-                  ],
-                  "side": -1,
-                  "state": "READY",
-                  "support": [
-                    "2026-09-29T00:00:00+00:00",
-                    92.97
-                  ],
-                  "timeframe": "60m"
-                },
-                "policy": "DEMO_MULTI_TIMEFRAME_CONTEXT_V1",
-                "thesis_intact": true,
-                "trend_ride_5m": {
-                  "active": true,
-                  "higher_high": false,
-                  "higher_low": false,
-                  "lower_high": true,
-                  "lower_low": true,
-                  "m5_close": 91.6,
-                  "m5_ema20": 91.91487009,
-                  "m5_ema50": 92.40822197,
-                  "m5_ema9": 91.70583226,
-                  "ma_order": true,
-                  "ma_slopes": true,
-                  "policy": "DEMO_ENGINEERING_TREND_RIDE_5M_V1",
-                  "protective_swing_price": 91.85,
-                  "protective_swing_time": "2026-09-29T11:15:00+00:00",
-                  "side": -1,
-                  "state": "TREND_RIDE_ACTIVE",
-                  "swing_structure": true
-                },
-                "trend_ride_active": true
-              },
-              "entry": 92.31,
-              "entry_time": "2026-09-29T10:01:07.772995+00:00",
-              "high_since": 92.33,
-              "initial_stop": 93.38,
-              "last_snapshot": {
-                "current_r": 0.43925234,
-                "giveback_r": 0.27102804,
-                "initial_risk_distance": 1.07,
-                "mae_r": 0.01869159,
-                "mfe_r": 0.71028037,
-                "partial_action": "NONE_UNTIL_RULE_CONFIRMED",
-                "pyramid_action": "NONE_UNTIL_RULE_CONFIRMED",
-                "remount_action": "NONE_UNTIL_RULE_CONFIRMED",
-                "stop_move_action": "NONE_UNTIL_RULE_CONFIRMED"
-              },
-              "low_since": 91.55,
-              "milestones_seen": [],
-              "realization_zones_seen": [],
-              "side": "Sell",
-              "size": "0.19",
-              "stop": 93.38,
-              "tp_orders": []
-            },
+            "owned_position": null,
             "pending": null,
             "runner_errors_today": 0,
             "skipped_fidelity_today": 1
@@ -752,8 +601,8 @@
               "exit_code": 0,
               "live_orders_enabled": false,
               "mode": "DEMO",
-              "status": "RUNNING",
-              "ts": "2026-09-29T11:43:01Z"
+              "status": "SKIPPED_LOCK_BUSY",
+              "ts": "2026-09-29T11:44:01Z"
             },
             "last_error": "Can only use .dt accessor with datetimelike values",
             "last_error_ts": "2026-09-28T17:49:49.327647+00:00",
@@ -774,8 +623,8 @@
               "exit_code": 0,
               "live_orders_enabled": false,
               "mode": "DEMO",
-              "status": "RUNNING",
-              "ts": "2026-09-29T11:43:01Z"
+              "status": "SKIPPED_LOCK_BUSY",
+              "ts": "2026-09-29T11:44:01Z"
             },
             "last_error": "Can only use .dt accessor with datetimelike values",
             "last_error_ts": "2026-09-28T17:49:49.025034+00:00",
@@ -796,8 +645,8 @@
               "exit_code": 0,
               "live_orders_enabled": false,
               "mode": "DEMO",
-              "status": "RUNNING",
-              "ts": "2026-09-29T11:43:01Z"
+              "status": "SKIPPED_LOCK_BUSY",
+              "ts": "2026-09-29T11:44:01Z"
             },
             "last_error": "Can only use .dt accessor with datetimelike values",
             "last_error_ts": "2026-09-28T17:50:06.685502+00:00",
@@ -818,8 +667,8 @@
               "exit_code": 0,
               "live_orders_enabled": false,
               "mode": "DEMO",
-              "status": "RUNNING",
-              "ts": "2026-09-29T11:43:01Z"
+              "status": "SKIPPED_LOCK_BUSY",
+              "ts": "2026-09-29T11:44:01Z"
             },
             "last_error": "reference feed empty",
             "last_error_ts": "2026-09-28T07:42:17.889745+00:00",
@@ -840,8 +689,8 @@
               "exit_code": 0,
               "live_orders_enabled": false,
               "mode": "DEMO",
-              "status": "RUNNING",
-              "ts": "2026-09-29T11:43:01Z"
+              "status": "SKIPPED_LOCK_BUSY",
+              "ts": "2026-09-29T11:44:01Z"
             },
             "last_error": null,
             "last_error_ts": null,
@@ -862,8 +711,8 @@
               "exit_code": 0,
               "live_orders_enabled": false,
               "mode": "DEMO",
-              "status": "RUNNING",
-              "ts": "2026-09-29T11:43:01Z"
+              "status": "SKIPPED_LOCK_BUSY",
+              "ts": "2026-09-29T11:44:01Z"
             },
             "last_error": "Can only use .dt accessor with datetimelike values",
             "last_error_ts": "2026-09-28T17:49:50.484911+00:00",
@@ -884,8 +733,8 @@
               "exit_code": 0,
               "live_orders_enabled": false,
               "mode": "DEMO",
-              "status": "RUNNING",
-              "ts": "2026-09-29T11:43:01Z"
+              "status": "SKIPPED_LOCK_BUSY",
+              "ts": "2026-09-29T11:44:01Z"
             },
             "last_error": "Can only use .dt accessor with datetimelike values",
             "last_error_ts": "2026-09-28T17:50:05.760374+00:00",
@@ -906,8 +755,8 @@
               "exit_code": 0,
               "live_orders_enabled": false,
               "mode": "DEMO",
-              "status": "RUNNING",
-              "ts": "2026-09-29T11:43:01Z"
+              "status": "SKIPPED_LOCK_BUSY",
+              "ts": "2026-09-29T11:44:01Z"
             },
             "last_error": null,
             "last_error_ts": null,
@@ -951,5 +800,5 @@
       }
     ]
   },
-  "updated_at": "2026-09-29T11:43:07.107000Z"
+  "updated_at": "2026-09-29T11:44:06.930000Z"
 }
