@@ -201,7 +201,7 @@
         "id": "spot_perp_arb",
         "label": "Spot ↔ Perp Arbitrage",
         "last_event": "CYCLE_END",
-        "last_update": "2026-10-01T18:08:28.638005+00:00",
+        "last_update": "2026-10-01T18:09:28.615478+00:00",
         "market": "spot",
         "market_label": "SPOT↔PERP",
         "mode": "demo",
@@ -224,8 +224,8 @@
         "health": "healthy",
         "id": "V44_LIQ_FLOW_STRICT_V2",
         "label": "Liquidation Flow Strict",
-        "last_event": "LIQUIDATION",
-        "last_update": "2026-10-01T18:07:34.563Z",
+        "last_event": "SIGNAL_REJECT",
+        "last_update": "2026-10-01T18:09:34.121Z",
         "market": "futures",
         "market_label": "FUTURES",
         "mode": "demo",
@@ -405,7 +405,7 @@
         "id": "V44_SESSION_MOMENTUM_SOL_CONSERVATIVE",
         "label": "Session Momentum SOL",
         "last_event": "SESSION_STATE",
-        "last_update": "2026-10-01T18:08:33.530Z",
+        "last_update": "2026-10-01T18:09:33.537Z",
         "market": "futures",
         "market_label": "FUTURES",
         "mode": "demo",
@@ -429,7 +429,7 @@
         "id": "V44_CONNORS_RSI2_SOL_SHORT_CONSERVATIVE",
         "label": "Connors RSI2 SOL Short",
         "last_event": "CONNORS_STATE",
-        "last_update": "2026-10-01T18:08:31.943Z",
+        "last_update": "2026-10-01T18:09:31.960Z",
         "market": "futures",
         "market_label": "FUTURES",
         "mode": "demo",
@@ -477,7 +477,7 @@
         "id": "V44_SESSION_MOMENTUM",
         "label": "Session Momentum (paper)",
         "last_event": "ALREADY_PROCESSED",
-        "last_update": "2026-10-01T18:09:03.908Z",
+        "last_update": "2026-10-01T18:10:04.266Z",
         "market": "futures",
         "market_label": "FUTURES",
         "mode": "demo",
@@ -501,7 +501,7 @@
         "id": "V44_REALTIME_SHADOW",
         "label": "Realtime Shadow Advisor",
         "last_event": "SNAPSHOT",
-        "last_update": "2026-10-01T18:08:46.782494+00:00",
+        "last_update": "2026-10-01T18:09:45.666345+00:00",
         "market": "futures",
         "market_label": "FUTURES",
         "mode": "demo",
@@ -555,7 +555,7 @@
         "id": "XTRADERS_PC2M_DEMO",
         "label": "XTRADERS PC2m — DEMO",
         "last_event": "RUNNER_RUNNING",
-        "last_update": "2026-10-01T18:09:02Z",
+        "last_update": "2026-10-01T18:10:02Z",
         "market": "futures",
         "market_label": "FUTURES",
         "mode": "demo",
@@ -588,7 +588,7 @@
               "live_orders_enabled": false,
               "mode": "DEMO",
               "status": "RUNNING",
-              "ts": "2026-10-01T18:09:02Z"
+              "ts": "2026-10-01T18:10:02Z"
             },
             "last_error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
             "last_error_ts": "2026-09-30T23:33:07.755372+00:00",
@@ -610,7 +610,7 @@
               "live_orders_enabled": false,
               "mode": "DEMO",
               "status": "OK",
-              "ts": "2026-10-01T18:08:24Z"
+              "ts": "2026-10-01T18:09:22Z"
             },
             "last_error": "In accordance with our terms and conditions and in compliance with local regulations, this product is not available in your region. (ErrCode: 110132) (ErrTime: 08:17:55).\nRequest → POST https://api-demo.bybit.com/v5/position/set-leverage: {\"category\": \"linear\", \"symbol\": \"EURUSDUSDT\", \"buyLeverage\": \"97.33\", \"sellLeverage\": \"97.33\"}.",
             "last_error_ts": "2026-10-01T08:17:55.248393+00:00",
@@ -632,7 +632,7 @@
               "live_orders_enabled": false,
               "mode": "DEMO",
               "status": "OK",
-              "ts": "2026-10-01T18:08:23Z"
+              "ts": "2026-10-01T18:09:22Z"
             },
             "last_error": "Can only use .dt accessor with datetimelike values",
             "last_error_ts": "2026-09-28T17:49:49.025034+00:00",
@@ -654,7 +654,7 @@
               "live_orders_enabled": false,
               "mode": "DEMO",
               "status": "OK",
-              "ts": "2026-10-01T18:08:17Z"
+              "ts": "2026-10-01T18:09:17Z"
             },
             "last_error": "Can only use .dt accessor with datetimelike values",
             "last_error_ts": "2026-09-28T17:50:06.685502+00:00",
@@ -676,7 +676,7 @@
               "live_orders_enabled": false,
               "mode": "DEMO",
               "status": "OK",
-              "ts": "2026-10-01T18:08:13Z"
+              "ts": "2026-10-01T18:09:13Z"
             },
             "last_error": "reference feed empty",
             "last_error_ts": "2026-09-28T07:42:17.889745+00:00",
@@ -698,7 +698,7 @@
               "live_orders_enabled": false,
               "mode": "DEMO",
               "status": "OK",
-              "ts": "2026-10-01T18:08:13Z"
+              "ts": "2026-10-01T18:09:13Z"
             },
             "last_error": null,
             "last_error_ts": null,
@@ -720,7 +720,7 @@
               "live_orders_enabled": false,
               "mode": "DEMO",
               "status": "OK",
-              "ts": "2026-10-01T18:08:28Z"
+              "ts": "2026-10-01T18:09:27Z"
             },
             "last_error": "Can only use .dt accessor with datetimelike values",
             "last_error_ts": "2026-09-28T17:49:50.484911+00:00",
@@ -742,7 +742,7 @@
               "live_orders_enabled": false,
               "mode": "DEMO",
               "status": "OK",
-              "ts": "2026-10-01T18:08:19Z"
+              "ts": "2026-10-01T18:09:18Z"
             },
             "last_error": "Can only use .dt accessor with datetimelike values",
             "last_error_ts": "2026-09-28T17:50:05.760374+00:00",
@@ -764,7 +764,7 @@
               "live_orders_enabled": false,
               "mode": "DEMO",
               "status": "RUNNING",
-              "ts": "2026-10-01T18:09:02Z"
+              "ts": "2026-10-01T18:10:02Z"
             },
             "last_error": null,
             "last_error_ts": null,
@@ -830,5 +830,5 @@
       }
     ]
   },
-  "updated_at": "2026-10-01T18:09:04.015000Z"
+  "updated_at": "2026-10-01T18:10:04.520000Z"
 }
