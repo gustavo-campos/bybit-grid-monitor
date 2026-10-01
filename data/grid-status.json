@@ -193,7 +193,7 @@
         "id": "spot_perp_arb",
         "label": "Spot ↔ Perp Arbitrage",
         "last_event": "CYCLE_END",
-        "last_update": "2026-10-01T14:54:28.528542+00:00",
+        "last_update": "2026-10-01T14:55:29.174164+00:00",
         "market": "spot",
         "market_label": "SPOT↔PERP",
         "mode": "demo",
@@ -397,7 +397,7 @@
         "id": "V44_SESSION_MOMENTUM_SOL_CONSERVATIVE",
         "label": "Session Momentum SOL",
         "last_event": "SESSION_STATE",
-        "last_update": "2026-10-01T14:54:33.082Z",
+        "last_update": "2026-10-01T14:55:33.252Z",
         "market": "futures",
         "market_label": "FUTURES",
         "mode": "demo",
@@ -421,7 +421,7 @@
         "id": "V44_CONNORS_RSI2_SOL_SHORT_CONSERVATIVE",
         "label": "Connors RSI2 SOL Short",
         "last_event": "CONNORS_STATE",
-        "last_update": "2026-10-01T14:54:31.608Z",
+        "last_update": "2026-10-01T14:55:32.108Z",
         "market": "futures",
         "market_label": "FUTURES",
         "mode": "demo",
@@ -469,7 +469,7 @@
         "id": "V44_SESSION_MOMENTUM",
         "label": "Session Momentum (paper)",
         "last_event": "ALREADY_PROCESSED",
-        "last_update": "2026-10-01T14:54:03.620Z",
+        "last_update": "2026-10-01T14:56:03.450Z",
         "market": "futures",
         "market_label": "FUTURES",
         "mode": "demo",
@@ -493,7 +493,7 @@
         "id": "V44_REALTIME_SHADOW",
         "label": "Realtime Shadow Advisor",
         "last_event": "SNAPSHOT",
-        "last_update": "2026-10-01T14:54:57.587283+00:00",
+        "last_update": "2026-10-01T14:55:54.153125+00:00",
         "market": "futures",
         "market_label": "FUTURES",
         "mode": "demo",
@@ -547,7 +547,7 @@
         "id": "XTRADERS_PC2M_DEMO",
         "label": "XTRADERS PC2m — DEMO",
         "last_event": "RUNNER_SKIPPED_LOCK_BUSY",
-        "last_update": "2026-10-01T14:55:02Z",
+        "last_update": "2026-10-01T14:56:01Z",
         "market": "futures",
         "market_label": "FUTURES",
         "mode": "demo",
@@ -667,21 +667,21 @@
               "exit_code": 0,
               "live_orders_enabled": false,
               "mode": "DEMO",
-              "status": "RUNNING",
-              "ts": "2026-10-01T14:54:56Z"
+              "status": "OK",
+              "ts": "2026-10-01T14:55:37Z"
             },
             "last_error": "reference feed empty",
             "last_error_ts": "2026-09-28T07:42:17.889745+00:00",
             "last_order_id": "bc45972e-7dd3-4ed1-8f53-9ef9e1de752f",
             "last_order_ts": "2026-09-30T14:47:42.939990+00:00",
             "latest_event": "PC2M_FUNNEL_STAGE",
-            "latest_event_ts": "2026-09-30T15:53:03.526053+00:00",
+            "latest_event_ts": "2026-10-01T14:55:37.073822+00:00",
             "missed_before_arm_today": 0,
             "orders_submitted_today": 0,
             "owned_position": null,
             "pending": null,
             "runner_errors_today": 0,
-            "skipped_fidelity_today": 0
+            "skipped_fidelity_today": 1
           },
           "spy": {
             "heartbeat": {
@@ -800,5 +800,5 @@
       }
     ]
   },
-  "updated_at": "2026-10-01T14:55:04.386000Z"
+  "updated_at": "2026-10-01T14:56:03.955000Z"
 }
