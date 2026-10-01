@@ -1,11 +1,11 @@
 {
   "account": {
-    "available_usdt": 122.76510425,
-    "equity_usdt": 122.76545354,
+    "available_usdt": 119.03918123,
+    "equity_usdt": 122.75621257,
     "gross_loss_today_usdt": 0.0,
     "gross_profit_today_usdt": 0.0,
     "pnl_today_usdt": 0.0,
-    "unrealized_pnl_usdt": 0.0
+    "unrealized_pnl_usdt": -0.0051
   },
   "day": "2026-10-01",
   "grids": {
@@ -78,9 +78,9 @@
           "healthy_strategies": 8,
           "losses_today": 0,
           "net_pnl_usdt": 0.0,
-          "open_positions": 0,
+          "open_positions": 1,
           "operations_today": 0,
-          "unrealized_pnl_usdt": 0.0,
+          "unrealized_pnl_usdt": -0.0051,
           "wins_today": 0
         },
         "spot": {
@@ -124,7 +124,21 @@
       }
     },
     "live_enabled": false,
-    "open_positions": [],
+    "open_positions": [
+      {
+        "entry": 10.916,
+        "mark": 10.913,
+        "market": "futures",
+        "mode": "demo",
+        "opened_at": null,
+        "side": "Buy",
+        "size": 1.7,
+        "strategy": "UNATTRIBUTED_FUTURES",
+        "symbol": "AVAXUSDT",
+        "target": null,
+        "unrealized_pnl_usdt": -0.0051
+      }
+    ],
     "strategies": [
       {
         "badges": [],
@@ -182,7 +196,7 @@
         "id": "spot_perp_arb",
         "label": "Spot ↔ Perp Arbitrage",
         "last_event": "CYCLE_END",
-        "last_update": "2026-10-01T10:28:30.719132+00:00",
+        "last_update": "2026-10-01T10:29:31.869329+00:00",
         "market": "spot",
         "market_label": "SPOT↔PERP",
         "mode": "demo",
@@ -308,8 +322,8 @@
         "health": "healthy",
         "id": "V44_WUNDER_MEAN_REVERSION",
         "label": "Wunder Mean Reversion",
-        "last_event": "SIGNAL_SCAN",
-        "last_update": "2026-10-01T10:15:00.838Z",
+        "last_event": "POSITION_CLOSE_REQUEST",
+        "last_update": "2026-10-01T10:30:08.757Z",
         "market": "futures",
         "market_label": "FUTURES",
         "mode": "demo",
@@ -386,7 +400,7 @@
         "id": "V44_SESSION_MOMENTUM_SOL_CONSERVATIVE",
         "label": "Session Momentum SOL",
         "last_event": "SESSION_STATE",
-        "last_update": "2026-10-01T10:28:32.273Z",
+        "last_update": "2026-10-01T10:29:32.321Z",
         "market": "futures",
         "market_label": "FUTURES",
         "mode": "demo",
@@ -410,7 +424,7 @@
         "id": "V44_CONNORS_RSI2_SOL_SHORT_CONSERVATIVE",
         "label": "Connors RSI2 SOL Short",
         "last_event": "CONNORS_STATE",
-        "last_update": "2026-10-01T10:28:33.868Z",
+        "last_update": "2026-10-01T10:29:34.367Z",
         "market": "futures",
         "market_label": "FUTURES",
         "mode": "demo",
@@ -458,7 +472,7 @@
         "id": "V44_SESSION_MOMENTUM",
         "label": "Session Momentum (paper)",
         "last_event": "WAITING_SESSION",
-        "last_update": "2026-10-01T10:29:06.522Z",
+        "last_update": "2026-10-01T10:30:08.327Z",
         "market": "futures",
         "market_label": "FUTURES",
         "mode": "demo",
@@ -482,7 +496,7 @@
         "id": "V44_REALTIME_SHADOW",
         "label": "Realtime Shadow Advisor",
         "last_event": "SNAPSHOT",
-        "last_update": "2026-10-01T10:28:50.310409+00:00",
+        "last_update": "2026-10-01T10:29:52.880803+00:00",
         "market": "futures",
         "market_label": "FUTURES",
         "mode": "demo",
@@ -569,7 +583,7 @@
               "live_orders_enabled": false,
               "mode": "DEMO",
               "status": "SKIPPED_LOCK_BUSY",
-              "ts": "2026-10-01T10:29:02Z"
+              "ts": "2026-10-01T10:30:02Z"
             },
             "last_error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
             "last_error_ts": "2026-09-30T23:33:07.755372+00:00",
@@ -590,8 +604,8 @@
               "exit_code": 0,
               "live_orders_enabled": false,
               "mode": "DEMO",
-              "status": "SKIPPED_LOCK_BUSY",
-              "ts": "2026-10-01T10:29:02Z"
+              "status": "RUNNING",
+              "ts": "2026-10-01T10:30:02Z"
             },
             "last_error": "In accordance with our terms and conditions and in compliance with local regulations, this product is not available in your region. (ErrCode: 110132) (ErrTime: 08:17:55).\nRequest → POST https://api-demo.bybit.com/v5/position/set-leverage: {\"category\": \"linear\", \"symbol\": \"EURUSDUSDT\", \"buyLeverage\": \"97.33\", \"sellLeverage\": \"97.33\"}.",
             "last_error_ts": "2026-10-01T08:17:55.248393+00:00",
@@ -612,8 +626,8 @@
               "exit_code": 0,
               "live_orders_enabled": false,
               "mode": "DEMO",
-              "status": "RUNNING",
-              "ts": "2026-10-01T10:29:02Z"
+              "status": "SKIPPED_LOCK_BUSY",
+              "ts": "2026-10-01T10:30:02Z"
             },
             "last_error": "Can only use .dt accessor with datetimelike values",
             "last_error_ts": "2026-09-28T17:49:49.025034+00:00",
@@ -635,7 +649,7 @@
               "live_orders_enabled": false,
               "mode": "DEMO",
               "status": "RUNNING",
-              "ts": "2026-10-01T10:29:02Z"
+              "ts": "2026-10-01T10:30:02Z"
             },
             "last_error": "Can only use .dt accessor with datetimelike values",
             "last_error_ts": "2026-09-28T17:50:06.685502+00:00",
@@ -656,8 +670,8 @@
               "exit_code": 0,
               "live_orders_enabled": false,
               "mode": "DEMO",
-              "status": "RUNNING",
-              "ts": "2026-10-01T10:29:02Z"
+              "status": "OK",
+              "ts": "2026-10-01T10:30:07Z"
             },
             "last_error": "reference feed empty",
             "last_error_ts": "2026-09-28T07:42:17.889745+00:00",
@@ -678,8 +692,8 @@
               "exit_code": 0,
               "live_orders_enabled": false,
               "mode": "DEMO",
-              "status": "OK",
-              "ts": "2026-10-01T10:29:07Z"
+              "status": "RUNNING",
+              "ts": "2026-10-01T10:30:02Z"
             },
             "last_error": null,
             "last_error_ts": null,
@@ -700,8 +714,8 @@
               "exit_code": 0,
               "live_orders_enabled": false,
               "mode": "DEMO",
-              "status": "SKIPPED_LOCK_BUSY",
-              "ts": "2026-10-01T10:29:02Z"
+              "status": "RUNNING",
+              "ts": "2026-10-01T10:30:02Z"
             },
             "last_error": "Can only use .dt accessor with datetimelike values",
             "last_error_ts": "2026-09-28T17:49:50.484911+00:00",
@@ -723,7 +737,7 @@
               "live_orders_enabled": false,
               "mode": "DEMO",
               "status": "SKIPPED_LOCK_BUSY",
-              "ts": "2026-10-01T10:29:02Z"
+              "ts": "2026-10-01T10:30:02Z"
             },
             "last_error": "Can only use .dt accessor with datetimelike values",
             "last_error_ts": "2026-09-28T17:50:05.760374+00:00",
@@ -744,8 +758,8 @@
               "exit_code": 0,
               "live_orders_enabled": false,
               "mode": "DEMO",
-              "status": "RUNNING",
-              "ts": "2026-10-01T10:29:02Z"
+              "status": "SKIPPED_LOCK_BUSY",
+              "ts": "2026-10-01T10:30:02Z"
             },
             "last_error": null,
             "last_error_ts": null,
@@ -761,6 +775,28 @@
             "skipped_fidelity_today": 1
           }
         }
+      },
+      {
+        "cron_enabled": false,
+        "execution": "venue",
+        "health": "unknown",
+        "id": "UNATTRIBUTED_FUTURES",
+        "label": "Futures não atribuído",
+        "last_event": null,
+        "last_update": null,
+        "market": "futures",
+        "market_label": "FUTURES",
+        "mode": "demo",
+        "stats": {
+          "gross_loss_usdt": 0.0,
+          "gross_profit_usdt": 0.0,
+          "losses_today": 0,
+          "net_pnl_usdt": 0.0,
+          "open_positions": 1,
+          "operations_today": 0,
+          "unrealized_pnl_usdt": -0.0051,
+          "wins_today": 0
+        }
       }
     ],
     "summary_today": {
@@ -770,12 +806,12 @@
       "healthy_strategies": 9,
       "losses_today": 0,
       "net_pnl_usdt": 0.0,
-      "open_positions": 0,
+      "open_positions": 1,
       "operations_today": 0,
-      "unrealized_pnl_usdt": 0.0,
+      "unrealized_pnl_usdt": -0.0051,
       "wins_today": 0
     },
     "trades_today": []
   },
-  "updated_at": "2026-10-01T10:29:07.052000Z"
+  "updated_at": "2026-10-01T10:30:08.912000Z"
 }
