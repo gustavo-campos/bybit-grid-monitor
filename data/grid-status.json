@@ -1,11 +1,11 @@
 {
   "account": {
-    "available_usdt": 119.25483433,
-    "equity_usdt": 122.82036399,
+    "available_usdt": 119.27498572,
+    "equity_usdt": 122.8369679,
     "gross_loss_today_usdt": 0.0,
     "gross_profit_today_usdt": 0.0,
     "pnl_today_usdt": 0.0,
-    "unrealized_pnl_usdt": 0.0976
+    "unrealized_pnl_usdt": 0.1152
   },
   "day": "2026-10-02",
   "grids": {
@@ -80,7 +80,7 @@
           "net_pnl_usdt": 0.0,
           "open_positions": 1,
           "operations_today": 0,
-          "unrealized_pnl_usdt": 0.0976,
+          "unrealized_pnl_usdt": 0.1152,
           "wins_today": 0
         },
         "spot": {
@@ -127,7 +127,7 @@
     "open_positions": [
       {
         "entry": 11.169,
-        "mark": 11.108,
+        "mark": 11.097,
         "market": "futures",
         "mode": "demo",
         "opened_at": "2026-10-02T04:30:06.327000Z",
@@ -136,7 +136,7 @@
         "strategy": "V44_WUNDER_MEAN_REVERSION",
         "symbol": "AVAXUSDT",
         "target": null,
-        "unrealized_pnl_usdt": 0.0976
+        "unrealized_pnl_usdt": 0.1152
       }
     ],
     "strategies": [
@@ -196,7 +196,7 @@
         "id": "spot_perp_arb",
         "label": "Spot ↔ Perp Arbitrage",
         "last_event": "CYCLE_END",
-        "last_update": "2026-10-02T05:20:27.843953+00:00",
+        "last_update": "2026-10-02T05:21:29.018802+00:00",
         "market": "spot",
         "market_label": "SPOT↔PERP",
         "mode": "demo",
@@ -219,8 +219,8 @@
         "health": "healthy",
         "id": "V44_LIQ_FLOW_STRICT_V2",
         "label": "Liquidation Flow Strict",
-        "last_event": "SIGNAL_REJECT",
-        "last_update": "2026-10-02T05:17:50.439Z",
+        "last_event": "LIQUIDATION",
+        "last_update": "2026-10-02T05:21:38.564Z",
         "market": "futures",
         "market_label": "FUTURES",
         "mode": "demo",
@@ -334,7 +334,7 @@
           "net_pnl_usdt": 0.0,
           "open_positions": 1,
           "operations_today": 0,
-          "unrealized_pnl_usdt": 0.0976,
+          "unrealized_pnl_usdt": 0.1152,
           "wins_today": 0
         },
         "symbols": []
@@ -400,7 +400,7 @@
         "id": "V44_SESSION_MOMENTUM_SOL_CONSERVATIVE",
         "label": "Session Momentum SOL",
         "last_event": "SESSION_STATE",
-        "last_update": "2026-10-02T05:20:34.986Z",
+        "last_update": "2026-10-02T05:21:34.990Z",
         "market": "futures",
         "market_label": "FUTURES",
         "mode": "demo",
@@ -424,7 +424,7 @@
         "id": "V44_CONNORS_RSI2_SOL_SHORT_CONSERVATIVE",
         "label": "Connors RSI2 SOL Short",
         "last_event": "CONNORS_STATE",
-        "last_update": "2026-10-02T05:20:33.476Z",
+        "last_update": "2026-10-02T05:21:33.338Z",
         "market": "futures",
         "market_label": "FUTURES",
         "mode": "demo",
@@ -448,7 +448,7 @@
         "id": "V44_CONNORS_RSI2_BTC_LONG",
         "label": "Connors RSI2 BTC Long",
         "last_event": "CONNORS_STATE",
-        "last_update": "2026-10-02T05:16:17.147Z",
+        "last_update": "2026-10-02T05:21:17.290Z",
         "market": "futures",
         "market_label": "FUTURES",
         "mode": "demo",
@@ -472,7 +472,7 @@
         "id": "V44_SESSION_MOMENTUM",
         "label": "Session Momentum (paper)",
         "last_event": "WAITING_SESSION",
-        "last_update": "2026-10-02T05:21:03.827Z",
+        "last_update": "2026-10-02T05:22:03.306Z",
         "market": "futures",
         "market_label": "FUTURES",
         "mode": "demo",
@@ -496,7 +496,7 @@
         "id": "V44_REALTIME_SHADOW",
         "label": "Realtime Shadow Advisor",
         "last_event": "SNAPSHOT",
-        "last_update": "2026-10-02T05:20:55.589064+00:00",
+        "last_update": "2026-10-02T05:21:53.392994+00:00",
         "market": "futures",
         "market_label": "FUTURES",
         "mode": "demo",
@@ -550,7 +550,7 @@
         "id": "XTRADERS_PC2M_DEMO",
         "label": "XTRADERS PC2m — DEMO",
         "last_event": "RUNNER_RUNNING",
-        "last_update": "2026-10-02T05:21:02Z",
+        "last_update": "2026-10-02T05:22:01Z",
         "market": "futures",
         "market_label": "FUTURES",
         "mode": "demo",
@@ -580,7 +580,7 @@
               "live_orders_enabled": false,
               "mode": "DEMO",
               "status": "RUNNING",
-              "ts": "2026-10-02T05:21:02Z"
+              "ts": "2026-10-02T05:22:01Z"
             },
             "last_error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
             "last_error_ts": "2026-09-30T23:33:07.755372+00:00",
@@ -602,7 +602,7 @@
               "live_orders_enabled": false,
               "mode": "DEMO",
               "status": "OK",
-              "ts": "2026-10-02T05:20:17Z"
+              "ts": "2026-10-02T05:21:18Z"
             },
             "last_error": "Can only use .dt accessor with datetimelike values",
             "last_error_ts": "2026-09-28T17:50:06.685502+00:00",
@@ -624,7 +624,7 @@
               "live_orders_enabled": false,
               "mode": "DEMO",
               "status": "OK",
-              "ts": "2026-10-02T05:20:13Z"
+              "ts": "2026-10-02T05:21:13Z"
             },
             "last_error": "reference feed empty",
             "last_error_ts": "2026-09-28T07:42:17.889745+00:00",
@@ -646,7 +646,7 @@
               "live_orders_enabled": false,
               "mode": "DEMO",
               "status": "OK",
-              "ts": "2026-10-02T05:20:13Z"
+              "ts": "2026-10-02T05:21:13Z"
             },
             "last_error": null,
             "last_error_ts": null,
@@ -668,20 +668,20 @@
               "live_orders_enabled": false,
               "mode": "DEMO",
               "status": "OK",
-              "ts": "2026-10-02T05:20:19Z"
+              "ts": "2026-10-02T05:21:20Z"
             },
             "last_error": "Can only use .dt accessor with datetimelike values",
             "last_error_ts": "2026-09-28T17:50:05.760374+00:00",
             "last_order_id": "bc550aa1-d92a-4ec9-8976-4f4d05622a5a",
             "last_order_ts": "2026-09-30T17:40:37.871292+00:00",
             "latest_event": "PC2M_FUNNEL_STAGE",
-            "latest_event_ts": "2026-10-01T14:41:51.493630+00:00",
+            "latest_event_ts": "2026-10-02T05:21:20.036809+00:00",
             "missed_before_arm_today": 0,
             "orders_submitted_today": 0,
             "owned_position": null,
             "pending": null,
             "runner_errors_today": 0,
-            "skipped_fidelity_today": 0
+            "skipped_fidelity_today": 1
           },
           "xau": {
             "heartbeat": {
@@ -690,7 +690,7 @@
               "live_orders_enabled": false,
               "mode": "DEMO",
               "status": "RUNNING",
-              "ts": "2026-10-02T05:21:02Z"
+              "ts": "2026-10-02T05:22:01Z"
             },
             "last_error": null,
             "last_error_ts": null,
@@ -717,10 +717,10 @@
       "net_pnl_usdt": 0.0,
       "open_positions": 1,
       "operations_today": 0,
-      "unrealized_pnl_usdt": 0.0976,
+      "unrealized_pnl_usdt": 0.1152,
       "wins_today": 0
     },
     "trades_today": []
   },
-  "updated_at": "2026-10-02T05:21:04.243000Z"
+  "updated_at": "2026-10-02T05:22:03.681000Z"
 }
