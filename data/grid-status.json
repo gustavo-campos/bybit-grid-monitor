@@ -1,7 +1,7 @@
 {
   "account": {
-    "available_usdt": 117.41664793,
-    "equity_usdt": 122.28062636,
+    "available_usdt": 117.41723628,
+    "equity_usdt": 122.28123906,
     "gross_loss_today_usdt": 0.0,
     "gross_profit_today_usdt": 0.0,
     "pnl_today_usdt": 0.0,
@@ -196,7 +196,7 @@
         "id": "spot_perp_arb",
         "label": "Spot ↔ Perp Arbitrage",
         "last_event": "CYCLE_END",
-        "last_update": "2026-10-03T23:01:28.520378+00:00",
+        "last_update": "2026-10-03T23:02:29.921232+00:00",
         "market": "spot",
         "market_label": "SPOT↔PERP",
         "mode": "demo",
@@ -400,7 +400,7 @@
         "id": "V44_SESSION_MOMENTUM_SOL_CONSERVATIVE",
         "label": "Session Momentum SOL",
         "last_event": "SESSION_STATE",
-        "last_update": "2026-10-03T23:01:40.714Z",
+        "last_update": "2026-10-03T23:02:40.715Z",
         "market": "futures",
         "market_label": "FUTURES",
         "mode": "demo",
@@ -424,7 +424,7 @@
         "id": "V44_CONNORS_RSI2_SOL_SHORT_CONSERVATIVE",
         "label": "Connors RSI2 SOL Short",
         "last_event": "CONNORS_STATE",
-        "last_update": "2026-10-03T23:01:38.158Z",
+        "last_update": "2026-10-03T23:02:39.681Z",
         "market": "futures",
         "market_label": "FUTURES",
         "mode": "demo",
@@ -472,7 +472,7 @@
         "id": "V44_SESSION_MOMENTUM",
         "label": "Session Momentum (paper)",
         "last_event": "ALREADY_PROCESSED",
-        "last_update": "2026-10-03T23:02:02.914Z",
+        "last_update": "2026-10-03T23:03:03.523Z",
         "market": "futures",
         "market_label": "FUTURES",
         "mode": "demo",
@@ -496,7 +496,7 @@
         "id": "V44_REALTIME_SHADOW",
         "label": "Realtime Shadow Advisor",
         "last_event": "SNAPSHOT",
-        "last_update": "2026-10-03T23:02:01.838082+00:00",
+        "last_update": "2026-10-03T23:02:55.591407+00:00",
         "market": "futures",
         "market_label": "FUTURES",
         "mode": "demo",
@@ -549,8 +549,8 @@
         "health": "healthy",
         "id": "XTRADERS_PC2M_DEMO",
         "label": "XTRADERS PC2m — DEMO",
-        "last_event": "RUNNER_OK",
-        "last_update": "2026-10-03T23:01:12Z",
+        "last_event": "RUNNER_SKIPPED_LOCK_BUSY",
+        "last_update": "2026-10-03T23:03:01Z",
         "market": "futures",
         "market_label": "FUTURES",
         "mode": "demo",
@@ -580,7 +580,7 @@
               "live_orders_enabled": false,
               "mode": "DEMO",
               "status": "OK",
-              "ts": "2026-10-03T23:00:29Z"
+              "ts": "2026-10-03T23:02:29Z"
             },
             "last_error": "priority claim failed: {'ok': False, 'error': \"Command '['/usr/bin/python3', '/home/ubuntu/bybit-v44/symbol_guard.py', 'priority_claim', 'CLUSDT', 'xtraders-pc2m-cl']' returned non-zero exit status 2.\", 'action': 'priority_claim', 'symbol': 'CLUSDT'}",
             "last_error_ts": "2026-10-02T10:58:03.258239+00:00",
@@ -602,7 +602,7 @@
               "live_orders_enabled": false,
               "mode": "DEMO",
               "status": "OK",
-              "ts": "2026-10-03T23:00:57Z"
+              "ts": "2026-10-03T23:02:56Z"
             },
             "last_error": "Can only use .dt accessor with datetimelike values",
             "last_error_ts": "2026-09-28T17:50:06.685502+00:00",
@@ -624,7 +624,7 @@
               "live_orders_enabled": false,
               "mode": "DEMO",
               "status": "OK",
-              "ts": "2026-10-03T23:00:46Z"
+              "ts": "2026-10-03T23:02:45Z"
             },
             "last_error": "BYBIT_DEMO must be true",
             "last_error_ts": "2026-10-03T10:07:23.563306+00:00",
@@ -646,7 +646,7 @@
               "live_orders_enabled": false,
               "mode": "DEMO",
               "status": "OK",
-              "ts": "2026-10-03T23:00:46Z"
+              "ts": "2026-10-03T23:02:45Z"
             },
             "last_error": null,
             "last_error_ts": null,
@@ -667,8 +667,8 @@
               "exit_code": 0,
               "live_orders_enabled": false,
               "mode": "DEMO",
-              "status": "OK",
-              "ts": "2026-10-03T23:01:12Z"
+              "status": "RUNNING",
+              "ts": "2026-10-03T23:02:45Z"
             },
             "last_error": "Can only use .dt accessor with datetimelike values",
             "last_error_ts": "2026-09-28T17:50:05.760374+00:00",
@@ -690,7 +690,7 @@
               "live_orders_enabled": false,
               "mode": "DEMO",
               "status": "OK",
-              "ts": "2026-10-03T23:00:32Z"
+              "ts": "2026-10-03T23:02:32Z"
             },
             "last_error": null,
             "last_error_ts": null,
@@ -722,5 +722,5 @@
     },
     "trades_today": []
   },
-  "updated_at": "2026-10-03T23:02:03.256000Z"
+  "updated_at": "2026-10-03T23:03:04.450000Z"
 }
