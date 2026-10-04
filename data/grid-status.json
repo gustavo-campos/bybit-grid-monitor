@@ -193,7 +193,7 @@
         "id": "spot_perp_arb",
         "label": "Spot ↔ Perp Arbitrage",
         "last_event": "CYCLE_END",
-        "last_update": "2026-10-04T22:12:29.814162+00:00",
+        "last_update": "2026-10-04T22:13:28.690863+00:00",
         "market": "spot",
         "market_label": "SPOT↔PERP",
         "mode": "demo",
@@ -217,7 +217,7 @@
         "id": "V44_LIQ_FLOW_STRICT_V2",
         "label": "Liquidation Flow Strict",
         "last_event": "LIQUIDATION",
-        "last_update": "2026-10-04T22:11:28.074Z",
+        "last_update": "2026-10-04T22:13:54.073Z",
         "market": "futures",
         "market_label": "FUTURES",
         "mode": "demo",
@@ -345,8 +345,8 @@
         "health": "healthy",
         "id": "V44_MICRO_CYCLE",
         "label": "Micro Cycle (pausado)",
-        "last_event": "SIGNAL_SKIPPED",
-        "last_update": "2026-10-04T22:07:48.275Z",
+        "last_event": "FLOW_CONFIRMATION",
+        "last_update": "2026-10-04T22:14:03.312Z",
         "market": "futures",
         "market_label": "FUTURES",
         "mode": "demo",
@@ -397,7 +397,7 @@
         "id": "V44_SESSION_MOMENTUM_SOL_CONSERVATIVE",
         "label": "Session Momentum SOL",
         "last_event": "SESSION_STATE",
-        "last_update": "2026-10-04T22:12:44.382Z",
+        "last_update": "2026-10-04T22:13:44.353Z",
         "market": "futures",
         "market_label": "FUTURES",
         "mode": "demo",
@@ -421,7 +421,7 @@
         "id": "V44_CONNORS_RSI2_SOL_SHORT_CONSERVATIVE",
         "label": "Connors RSI2 SOL Short",
         "last_event": "CONNORS_STATE",
-        "last_update": "2026-10-04T22:12:42.601Z",
+        "last_update": "2026-10-04T22:13:40.674Z",
         "market": "futures",
         "market_label": "FUTURES",
         "mode": "demo",
@@ -469,7 +469,7 @@
         "id": "V44_SESSION_MOMENTUM",
         "label": "Session Momentum (paper)",
         "last_event": "ALREADY_PROCESSED",
-        "last_update": "2026-10-04T22:13:03.872Z",
+        "last_update": "2026-10-04T22:14:03.257Z",
         "market": "futures",
         "market_label": "FUTURES",
         "mode": "demo",
@@ -493,7 +493,7 @@
         "id": "V44_REALTIME_SHADOW",
         "label": "Realtime Shadow Advisor",
         "last_event": "SNAPSHOT",
-        "last_update": "2026-10-04T22:13:01.061203+00:00",
+        "last_update": "2026-10-04T22:13:54.358056+00:00",
         "market": "futures",
         "market_label": "FUTURES",
         "mode": "demo",
@@ -546,8 +546,8 @@
         "health": "healthy",
         "id": "XTRADERS_PC2M_DEMO",
         "label": "XTRADERS PC2m — DEMO",
-        "last_event": "RUNNER_SKIPPED_LOCK_BUSY",
-        "last_update": "2026-10-04T22:13:01Z",
+        "last_event": "RUNNER_OK",
+        "last_update": "2026-10-04T22:13:16Z",
         "market": "futures",
         "market_label": "FUTURES",
         "mode": "demo",
@@ -664,21 +664,21 @@
               "exit_code": 0,
               "live_orders_enabled": false,
               "mode": "DEMO",
-              "status": "RUNNING",
-              "ts": "2026-10-04T22:12:46Z"
+              "status": "OK",
+              "ts": "2026-10-04T22:13:16Z"
             },
             "last_error": "Can only use .dt accessor with datetimelike values",
             "last_error_ts": "2026-09-28T17:50:05.760374+00:00",
             "last_order_id": "bc550aa1-d92a-4ec9-8976-4f4d05622a5a",
             "last_order_ts": "2026-09-30T17:40:37.871292+00:00",
             "latest_event": "PC2M_FUNNEL_STAGE",
-            "latest_event_ts": "2026-10-04T22:07:18.396164+00:00",
+            "latest_event_ts": "2026-10-04T22:13:15.440571+00:00",
             "missed_before_arm_today": 0,
             "orders_submitted_today": 0,
             "owned_position": null,
             "pending": null,
             "runner_errors_today": 0,
-            "skipped_fidelity_today": 1
+            "skipped_fidelity_today": 2
           },
           "xau": {
             "heartbeat": {
@@ -731,5 +731,5 @@
       }
     ]
   },
-  "updated_at": "2026-10-04T22:13:04.125000Z"
+  "updated_at": "2026-10-04T22:14:03.432000Z"
 }
