@@ -202,7 +202,7 @@
         "id": "spot_perp_arb",
         "label": "Spot ↔ Perp Arbitrage",
         "last_event": "CYCLE_END",
-        "last_update": "2026-10-05T11:57:29.066724+00:00",
+        "last_update": "2026-10-05T11:58:31.956875+00:00",
         "market": "spot",
         "market_label": "SPOT↔PERP",
         "mode": "demo",
@@ -354,8 +354,8 @@
         "health": "healthy",
         "id": "V44_MICRO_CYCLE",
         "label": "Micro Cycle (pausado)",
-        "last_event": "SIGNAL_SKIPPED",
-        "last_update": "2026-10-05T11:57:53.443Z",
+        "last_event": "FLOW_CONFIRMATION",
+        "last_update": "2026-10-05T11:58:53.567Z",
         "market": "futures",
         "market_label": "FUTURES",
         "mode": "demo",
@@ -406,7 +406,7 @@
         "id": "V44_SESSION_MOMENTUM_SOL_CONSERVATIVE",
         "label": "Session Momentum SOL",
         "last_event": "SESSION_STATE",
-        "last_update": "2026-10-05T11:57:46.667Z",
+        "last_update": "2026-10-05T11:58:46.526Z",
         "market": "futures",
         "market_label": "FUTURES",
         "mode": "demo",
@@ -430,7 +430,7 @@
         "id": "V44_CONNORS_RSI2_SOL_SHORT_CONSERVATIVE",
         "label": "Connors RSI2 SOL Short",
         "last_event": "CONNORS_STATE",
-        "last_update": "2026-10-05T11:57:42.127Z",
+        "last_update": "2026-10-05T11:58:44.824Z",
         "market": "futures",
         "market_label": "FUTURES",
         "mode": "demo",
@@ -478,7 +478,7 @@
         "id": "V44_SESSION_MOMENTUM",
         "label": "Session Momentum (paper)",
         "last_event": "WAITING_SESSION",
-        "last_update": "2026-10-05T11:58:03.782Z",
+        "last_update": "2026-10-05T11:59:08.012Z",
         "market": "futures",
         "market_label": "FUTURES",
         "mode": "demo",
@@ -502,7 +502,7 @@
         "id": "V44_REALTIME_SHADOW",
         "label": "Realtime Shadow Advisor",
         "last_event": "SNAPSHOT",
-        "last_update": "2026-10-05T11:57:50.028666+00:00",
+        "last_update": "2026-10-05T11:59:04.021007+00:00",
         "market": "futures",
         "market_label": "FUTURES",
         "mode": "demo",
@@ -555,8 +555,8 @@
         "health": "healthy",
         "id": "XTRADERS_PC2M_DEMO",
         "label": "XTRADERS PC2m — DEMO",
-        "last_event": "RUNNER_OK",
-        "last_update": "2026-10-05T11:57:39Z",
+        "last_event": "RUNNER_SKIPPED_LOCK_BUSY",
+        "last_update": "2026-10-05T11:59:02Z",
         "market": "futures",
         "market_label": "FUTURES",
         "mode": "demo",
@@ -586,7 +586,7 @@
               "live_orders_enabled": false,
               "mode": "DEMO",
               "status": "OK",
-              "ts": "2026-10-05T11:57:19Z"
+              "ts": "2026-10-05T11:58:44Z"
             },
             "last_error": "priority claim failed: {'ok': False, 'error': \"Command '['/usr/bin/python3', '/home/ubuntu/bybit-v44/symbol_guard.py', 'priority_claim', 'CLUSDT', 'xtraders-pc2m-cl']' returned non-zero exit status 2.\", 'action': 'priority_claim', 'symbol': 'CLUSDT'}",
             "last_error_ts": "2026-10-02T10:58:03.258239+00:00",
@@ -629,8 +629,8 @@
               "exit_code": 0,
               "live_orders_enabled": false,
               "mode": "DEMO",
-              "status": "OK",
-              "ts": "2026-10-05T11:57:27Z"
+              "status": "RUNNING",
+              "ts": "2026-10-05T11:58:48Z"
             },
             "last_error": "BYBIT_DEMO must be true",
             "last_error_ts": "2026-10-03T10:07:23.563306+00:00",
@@ -651,8 +651,8 @@
               "exit_code": 0,
               "live_orders_enabled": false,
               "mode": "DEMO",
-              "status": "OK",
-              "ts": "2026-10-05T11:57:26Z"
+              "status": "RUNNING",
+              "ts": "2026-10-05T11:58:48Z"
             },
             "last_error": null,
             "last_error_ts": null,
@@ -696,7 +696,7 @@
               "live_orders_enabled": false,
               "mode": "DEMO",
               "status": "OK",
-              "ts": "2026-10-05T11:57:21Z"
+              "ts": "2026-10-05T11:58:48Z"
             },
             "last_error": null,
             "last_error_ts": null,
@@ -751,5 +751,5 @@
       }
     ]
   },
-  "updated_at": "2026-10-05T11:58:04.100000Z"
+  "updated_at": "2026-10-05T11:59:08.012000Z"
 }
