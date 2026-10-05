@@ -86,7 +86,7 @@
           "active_strategies": 12,
           "gross_loss_usdt": 0.3638343,
           "gross_profit_usdt": 0.0,
-          "healthy_strategies": 8,
+          "healthy_strategies": 9,
           "losses_today": 1,
           "net_pnl_usdt": -0.3638343,
           "open_positions": 0,
@@ -193,7 +193,7 @@
         "id": "spot_perp_arb",
         "label": "Spot ↔ Perp Arbitrage",
         "last_event": "CYCLE_END",
-        "last_update": "2026-10-05T04:59:28.311003+00:00",
+        "last_update": "2026-10-05T05:00:29.966158+00:00",
         "market": "spot",
         "market_label": "SPOT↔PERP",
         "mode": "demo",
@@ -264,11 +264,11 @@
         ],
         "cron_enabled": true,
         "execution": "venue",
-        "health": "delayed",
+        "health": "healthy",
         "id": "V44_MULTI_SPEED_TREND",
         "label": "Multi-Speed Trend Portfolio",
         "last_event": "SIGNAL_SCAN",
-        "last_update": "2026-10-05T04:22:49.901Z",
+        "last_update": "2026-10-05T05:00:19.924Z",
         "market": "futures",
         "market_label": "FUTURES",
         "mode": "demo",
@@ -320,7 +320,7 @@
         "id": "V44_WUNDER_MEAN_REVERSION",
         "label": "Wunder Mean Reversion",
         "last_event": "SIGNAL_SCAN",
-        "last_update": "2026-10-05T04:45:04.079Z",
+        "last_update": "2026-10-05T05:00:04.308Z",
         "market": "futures",
         "market_label": "FUTURES",
         "mode": "demo",
@@ -397,7 +397,7 @@
         "id": "V44_SESSION_MOMENTUM_SOL_CONSERVATIVE",
         "label": "Session Momentum SOL",
         "last_event": "SESSION_STATE",
-        "last_update": "2026-10-05T04:59:45.399Z",
+        "last_update": "2026-10-05T05:00:45.424Z",
         "market": "futures",
         "market_label": "FUTURES",
         "mode": "demo",
@@ -421,7 +421,7 @@
         "id": "V44_CONNORS_RSI2_SOL_SHORT_CONSERVATIVE",
         "label": "Connors RSI2 SOL Short",
         "last_event": "CONNORS_STATE",
-        "last_update": "2026-10-05T04:59:41.399Z",
+        "last_update": "2026-10-05T05:00:43.367Z",
         "market": "futures",
         "market_label": "FUTURES",
         "mode": "demo",
@@ -469,7 +469,7 @@
         "id": "V44_SESSION_MOMENTUM",
         "label": "Session Momentum (paper)",
         "last_event": "WAITING_SESSION",
-        "last_update": "2026-10-05T05:00:03.785Z",
+        "last_update": "2026-10-05T05:01:04.212Z",
         "market": "futures",
         "market_label": "FUTURES",
         "mode": "demo",
@@ -493,7 +493,7 @@
         "id": "V44_REALTIME_SHADOW",
         "label": "Realtime Shadow Advisor",
         "last_event": "SNAPSHOT",
-        "last_update": "2026-10-05T04:59:58.570242+00:00",
+        "last_update": "2026-10-05T05:00:52.695713+00:00",
         "market": "futures",
         "market_label": "FUTURES",
         "mode": "demo",
@@ -546,8 +546,8 @@
         "health": "healthy",
         "id": "XTRADERS_PC2M_DEMO",
         "label": "XTRADERS PC2m — DEMO",
-        "last_event": "RUNNER_OK",
-        "last_update": "2026-10-05T04:59:09Z",
+        "last_event": "RUNNER_SKIPPED_LOCK_BUSY",
+        "last_update": "2026-10-05T05:01:01Z",
         "market": "futures",
         "market_label": "FUTURES",
         "mode": "demo",
@@ -577,7 +577,7 @@
               "live_orders_enabled": false,
               "mode": "DEMO",
               "status": "OK",
-              "ts": "2026-10-05T04:58:29Z"
+              "ts": "2026-10-05T05:00:27Z"
             },
             "last_error": "priority claim failed: {'ok': False, 'error': \"Command '['/usr/bin/python3', '/home/ubuntu/bybit-v44/symbol_guard.py', 'priority_claim', 'CLUSDT', 'xtraders-pc2m-cl']' returned non-zero exit status 2.\", 'action': 'priority_claim', 'symbol': 'CLUSDT'}",
             "last_error_ts": "2026-10-02T10:58:03.258239+00:00",
@@ -599,7 +599,7 @@
               "live_orders_enabled": false,
               "mode": "DEMO",
               "status": "OK",
-              "ts": "2026-10-05T04:58:55Z"
+              "ts": "2026-10-05T05:00:58Z"
             },
             "last_error": "Can only use .dt accessor with datetimelike values",
             "last_error_ts": "2026-09-28T17:50:06.685502+00:00",
@@ -621,7 +621,7 @@
               "live_orders_enabled": false,
               "mode": "DEMO",
               "status": "OK",
-              "ts": "2026-10-05T04:58:44Z"
+              "ts": "2026-10-05T05:00:46Z"
             },
             "last_error": "BYBIT_DEMO must be true",
             "last_error_ts": "2026-10-03T10:07:23.563306+00:00",
@@ -643,7 +643,7 @@
               "live_orders_enabled": false,
               "mode": "DEMO",
               "status": "OK",
-              "ts": "2026-10-05T04:58:43Z"
+              "ts": "2026-10-05T05:00:45Z"
             },
             "last_error": null,
             "last_error_ts": null,
@@ -664,8 +664,8 @@
               "exit_code": 0,
               "live_orders_enabled": false,
               "mode": "DEMO",
-              "status": "OK",
-              "ts": "2026-10-05T04:59:09Z"
+              "status": "RUNNING",
+              "ts": "2026-10-05T05:00:46Z"
             },
             "last_error": "Can only use .dt accessor with datetimelike values",
             "last_error_ts": "2026-09-28T17:50:05.760374+00:00",
@@ -687,7 +687,7 @@
               "live_orders_enabled": false,
               "mode": "DEMO",
               "status": "OK",
-              "ts": "2026-10-05T04:58:31Z"
+              "ts": "2026-10-05T05:00:31Z"
             },
             "last_error": null,
             "last_error_ts": null,
@@ -709,7 +709,7 @@
       "active_strategies": 13,
       "gross_loss_usdt": 0.3638343,
       "gross_profit_usdt": 0.0,
-      "healthy_strategies": 9,
+      "healthy_strategies": 10,
       "losses_today": 1,
       "net_pnl_usdt": -0.3638343,
       "open_positions": 0,
@@ -731,5 +731,5 @@
       }
     ]
   },
-  "updated_at": "2026-10-05T05:00:03.880000Z"
+  "updated_at": "2026-10-05T05:01:04.262000Z"
 }
