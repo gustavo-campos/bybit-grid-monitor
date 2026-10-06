@@ -1,11 +1,11 @@
 {
   "account": {
-    "available_usdt": 89.09052329,
-    "equity_usdt": 140.05127375,
+    "available_usdt": 87.63087988,
+    "equity_usdt": 138.61332641,
     "gross_loss_today_usdt": 1.11599585,
     "gross_profit_today_usdt": 8.88154304,
     "pnl_today_usdt": 7.76554719,
-    "unrealized_pnl_usdt": 11.4902
+    "unrealized_pnl_usdt": 10.04905
   },
   "day": "2026-10-06",
   "grids": {
@@ -64,13 +64,8 @@
     "charts": {
       "pnl_by_strategy": [
         {
-          "operations": 1,
-          "pnl_usdt": 8.88154304,
-          "strategy": "Futures não atribuído"
-        },
-        {
-          "operations": 1,
-          "pnl_usdt": -1.11599585,
+          "operations": 2,
+          "pnl_usdt": 7.76554719,
           "strategy": "XTRADERS PC2m — DEMO"
         }
       ],
@@ -100,7 +95,7 @@
           "net_pnl_usdt": 7.76554719,
           "open_positions": 1,
           "operations_today": 2,
-          "unrealized_pnl_usdt": 11.4902,
+          "unrealized_pnl_usdt": 10.04905,
           "wins_today": 1
         },
         "spot": {
@@ -146,17 +141,18 @@
     "live_enabled": false,
     "open_positions": [
       {
+        "attribution_source": "position_order_link_id",
         "entry": 88.06499872,
-        "mark": 87.77,
+        "mark": 87.807,
         "market": "futures",
         "mode": "demo",
-        "opened_at": null,
+        "opened_at": "2026-10-06T10:04:19.412000Z",
         "side": "Sell",
         "size": 38.95,
-        "strategy": "UNATTRIBUTED_FUTURES",
+        "strategy": "XTRADERS_PC2M_DEMO",
         "symbol": "CLUSDT",
         "target": null,
-        "unrealized_pnl_usdt": 11.4902
+        "unrealized_pnl_usdt": 10.04905
       }
     ],
     "strategies": [
@@ -307,8 +303,7 @@
         },
         "symbols": [
           "BTCUSDT",
-          "XRPUSDT",
-          "CLUSDT"
+          "XRPUSDT"
         ]
       },
       {
@@ -576,13 +571,13 @@
         "mode": "demo",
         "stats": {
           "gross_loss_usdt": 1.11599585,
-          "gross_profit_usdt": 0.0,
+          "gross_profit_usdt": 8.88154304,
           "losses_today": 1,
-          "net_pnl_usdt": -1.11599585,
-          "open_positions": 0,
-          "operations_today": 1,
-          "unrealized_pnl_usdt": 0.0,
-          "wins_today": 0
+          "net_pnl_usdt": 7.76554719,
+          "open_positions": 1,
+          "operations_today": 2,
+          "unrealized_pnl_usdt": 10.04905,
+          "wins_today": 1
         },
         "symbols": [
           "XAUUSDT",
@@ -1067,28 +1062,6 @@
             "skipped_fidelity_today": 6
           }
         }
-      },
-      {
-        "cron_enabled": false,
-        "execution": "venue",
-        "health": "unknown",
-        "id": "UNATTRIBUTED_FUTURES",
-        "label": "Futures não atribuído",
-        "last_event": null,
-        "last_update": null,
-        "market": "futures",
-        "market_label": "FUTURES",
-        "mode": "demo",
-        "stats": {
-          "gross_loss_usdt": 0.0,
-          "gross_profit_usdt": 8.88154304,
-          "losses_today": 0,
-          "net_pnl_usdt": 8.88154304,
-          "open_positions": 1,
-          "operations_today": 1,
-          "unrealized_pnl_usdt": 11.4902,
-          "wins_today": 1
-        }
       }
     ],
     "summary_today": {
@@ -1100,11 +1073,12 @@
       "net_pnl_usdt": 7.76554719,
       "open_positions": 1,
       "operations_today": 2,
-      "unrealized_pnl_usdt": 11.4902,
+      "unrealized_pnl_usdt": 10.04905,
       "wins_today": 1
     },
     "trades_today": [
       {
+        "attribution_source": "closing_order_link_id",
         "closed_at": "2026-10-06T08:37:10.846000Z",
         "entry": 88.32,
         "exit": 87.82,
@@ -1112,10 +1086,11 @@
         "mode": "demo",
         "pnl_usdt": 8.88154304,
         "side": "Buy",
-        "strategy": "UNATTRIBUTED_FUTURES",
+        "strategy": "XTRADERS_PC2M_DEMO",
         "symbol": "CLUSDT"
       },
       {
+        "attribution_source": "matched_entry_order_partial_aware",
         "closed_at": "2026-10-06T05:36:45.040000Z",
         "entry": 60.49,
         "exit": 60.64,
@@ -1128,5 +1103,5 @@
       }
     ]
   },
-  "updated_at": "2026-10-06T11:05:05.602000Z"
+  "updated_at": "2026-10-06T11:05:16.219000Z"
 }
