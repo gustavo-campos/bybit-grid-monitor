@@ -1,7 +1,7 @@
 {
   "account": {
-    "available_usdt": 163.87294533,
-    "equity_usdt": 183.80668479,
+    "available_usdt": 163.87081398,
+    "equity_usdt": 183.80429418,
     "gross_loss_today_usdt": 0.0,
     "gross_profit_today_usdt": 6.80466627,
     "pnl_today_usdt": 6.80466627,
@@ -9,8 +9,8 @@
   },
   "accounts": {
     "demo": {
-      "available_usdt": 163.87294533,
-      "equity_usdt": 183.80668479,
+      "available_usdt": 163.87081398,
+      "equity_usdt": 183.80429418,
       "gross_loss_today_usdt": 0.0,
       "gross_profit_today_usdt": 6.80466627,
       "pnl_today_usdt": 6.80466627,
@@ -130,10 +130,10 @@
       },
       "live": {
         "futures": {
-          "active_strategies": 0,
+          "active_strategies": 1,
           "gross_loss_usdt": 0.0,
           "gross_profit_usdt": 0.0,
-          "healthy_strategies": 0,
+          "healthy_strategies": 1,
           "losses_today": 0,
           "net_pnl_usdt": 0.0,
           "open_positions": 0,
@@ -155,7 +155,7 @@
         }
       }
     },
-    "live_enabled": false,
+    "live_enabled": true,
     "open_positions": [
       {
         "attribution_source": "position_order_link_id",
@@ -504,7 +504,7 @@
         "id": "V44_SESSION_MOMENTUM",
         "label": "Session Momentum (paper)",
         "last_event": "ALREADY_PROCESSED",
-        "last_update": "2026-10-07T23:34:03.234Z",
+        "last_update": "2026-10-07T23:35:03.487Z",
         "market": "futures",
         "market_label": "FUTURES",
         "mode": "demo",
@@ -1100,13 +1100,13 @@
           "LIVE",
           "CL"
         ],
-        "cron_enabled": false,
+        "cron_enabled": true,
         "execution": "venue",
-        "health": "disabled",
+        "health": "healthy",
         "id": "XTRADERS_PC2M_LIVE",
         "label": "XTRADERS",
         "last_event": "XTRADERS_PARALLEL_ENV_SYMBOL_OWNER_ACCEPTED",
-        "last_update": "2026-10-07T23:34:02.648108+00:00",
+        "last_update": "2026-10-07T23:35:02.615388+00:00",
         "market": "futures",
         "market_label": "FUTURES",
         "mode": "live",
@@ -1152,5 +1152,5 @@
       }
     ]
   },
-  "updated_at": "2026-10-07T23:34:58.989000Z"
+  "updated_at": "2026-10-07T23:35:04.989000Z"
 }
