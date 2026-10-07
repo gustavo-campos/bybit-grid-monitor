@@ -84,7 +84,7 @@ function render(data){
   const gridSection=$('gridSection');if(gridSection)gridSection.hidden=true;
   const ts=data.updated_at?new Date(data.updated_at):null;setText('updatedAt',ts&&!Number.isNaN(ts.getTime())?ts.toLocaleString('pt-PT'):'—');const age=ts?(Date.now()-ts.getTime())/60000:Infinity,h=$('health');if(age<=3){h.textContent='● Dados recentes';h.className='health good'}else if(age<=15){h.textContent=`● ${Math.round(age)} min sem atualização`;h.className='health warn'}else{h.textContent='● Dados desatualizados';h.className='health bad'}
 }
-async function refresh(){try{const r=await fetch(`data/grid-status.json?t=${Date.now()}`,{cache:'no-store'});if(!r.ok)throw new Error(`HTTP ${r.status}`);render(await r.json());$('errorBox').hidden=true}catch(e){$('errorBox').textContent=`Não foi possível carregar os dados: ${e.message}`;$('errorBox').hidden=false}}
+async function refresh(){try{const dataUrl=`https://raw.githubusercontent.com/gustavo-campos/bybit-grid-monitor/main/data/grid-status.json?t=${Date.now()}`;const r=await fetch(dataUrl,{cache:'no-store'});if(!r.ok)throw new Error(`HTTP ${r.status}`);render(await r.json());$('errorBox').hidden=true}catch(e){$('errorBox').textContent=`Não foi possível carregar os dados: ${e.message}`;$('errorBox').hidden=false}}
 document.querySelectorAll('.env-tab').forEach(btn=>btn.addEventListener('click',()=>{selectedEnv=btn.dataset.env;updateEnvironmentChrome(selectedEnv);if(lastData)render(lastData)}));
 let resizeTimer;window.addEventListener('resize',()=>{clearTimeout(resizeTimer);resizeTimer=setTimeout(()=>{if(lastData)render(lastData)},120)});
 updateEnvironmentChrome(selectedEnv);refresh();setInterval(refresh,30000);
