@@ -18,11 +18,11 @@
       "wallet_usdt": 161.90061768
     },
     "live": {
-      "available_usdt": 136.92451646,
-      "equity_usdt": 138.45407748,
+      "available_usdt": 136.92773009,
+      "equity_usdt": 138.45732786,
       "gross_loss_today_usdt": 15.31196935,
       "gross_profit_today_usdt": 0.0,
-      "margin_balance_usdt": 138.45407748,
+      "margin_balance_usdt": 138.45732786,
       "pnl_today_usdt": -15.31196935,
       "unrealized_pnl_usdt": 0.0,
       "wallet_usdt": -15.31230058
@@ -239,7 +239,7 @@
         "id": "spot_perp_arb",
         "label": "Spot ↔ Perp Arbitrage",
         "last_event": "CYCLE_END",
-        "last_update": "2026-10-12T08:31:30.104899+00:00",
+        "last_update": "2026-10-12T08:32:28.781934+00:00",
         "market": "spot",
         "market_label": "SPOT↔PERP",
         "mode": "demo",
@@ -442,7 +442,7 @@
         "id": "V44_SESSION_MOMENTUM_SOL_CONSERVATIVE",
         "label": "Session Momentum SOL",
         "last_event": "SESSION_STATE",
-        "last_update": "2026-10-12T08:31:10.494Z",
+        "last_update": "2026-10-12T08:32:10.495Z",
         "market": "futures",
         "market_label": "FUTURES",
         "mode": "demo",
@@ -466,7 +466,7 @@
         "id": "V44_CONNORS_RSI2_SOL_SHORT_CONSERVATIVE",
         "label": "Connors RSI2 SOL Short",
         "last_event": "CONNORS_STATE",
-        "last_update": "2026-10-12T08:32:07.250Z",
+        "last_update": "2026-10-12T08:33:04.898Z",
         "market": "futures",
         "market_label": "FUTURES",
         "mode": "demo",
@@ -514,7 +514,7 @@
         "id": "V44_SESSION_MOMENTUM",
         "label": "Session Momentum (paper)",
         "last_event": "WAITING_SESSION",
-        "last_update": "2026-10-12T08:32:06.437Z",
+        "last_update": "2026-10-12T08:33:04.759Z",
         "market": "futures",
         "market_label": "FUTURES",
         "mode": "demo",
@@ -538,7 +538,7 @@
         "id": "V44_REALTIME_SHADOW",
         "label": "Realtime Shadow Advisor",
         "last_event": "SNAPSHOT",
-        "last_update": "2026-10-12T08:31:58.513684+00:00",
+        "last_update": "2026-10-12T08:32:51.193874+00:00",
         "market": "futures",
         "market_label": "FUTURES",
         "mode": "demo",
@@ -590,8 +590,8 @@
         "health": "healthy",
         "id": "XTRADERS_PC2M_DEMO",
         "label": "XTRADERS",
-        "last_event": "RUNNER_SKIPPED_LOCK_BUSY",
-        "last_update": "2026-10-12T08:32:02Z",
+        "last_event": "RUNNER_OK",
+        "last_update": "2026-10-12T08:32:16Z",
         "market": "futures",
         "market_label": "FUTURES",
         "mode": "demo",
@@ -708,8 +708,8 @@
               "exit_code": 0,
               "live_orders_enabled": false,
               "mode": "DEMO",
-              "status": "RUNNING",
-              "ts": "2026-10-12T08:31:53Z"
+              "status": "OK",
+              "ts": "2026-10-12T08:32:16Z"
             },
             "last_error": "BYBIT_DEMO must be true",
             "last_error_ts": "2026-10-09T19:54:41.390310+00:00",
@@ -759,7 +759,7 @@
         "id": "XTRADERS_PC2M_LIVE",
         "label": "XTRADERS",
         "last_event": "LIVE_CL_WAITING_FOR_DEMO_ORDER",
-        "last_update": "2026-10-12T08:32:03.350657+00:00",
+        "last_update": "2026-10-12T08:33:02.486953+00:00",
         "market": "futures",
         "market_label": "FUTURES",
         "mode": "live",
@@ -865,5 +865,5 @@
       }
     ]
   },
-  "updated_at": "2026-10-12T08:32:08.860000Z"
+  "updated_at": "2026-10-12T08:33:05.542000Z"
 }
