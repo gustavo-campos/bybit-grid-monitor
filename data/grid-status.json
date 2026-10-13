@@ -1,28 +1,28 @@
 {
   "account": {
-    "available_usdt": 145.93263259,
-    "equity_usdt": 146.59101568,
+    "available_usdt": 146.50590074,
+    "equity_usdt": 146.50622682,
     "gross_loss_today_usdt": 7.9316963,
-    "gross_profit_today_usdt": 0.57050448,
-    "pnl_today_usdt": -7.36119182,
-    "unrealized_pnl_usdt": 0.1947
+    "gross_profit_today_usdt": 0.65703499,
+    "pnl_today_usdt": -7.27466131,
+    "unrealized_pnl_usdt": 0.0
   },
   "accounts": {
     "demo": {
-      "available_usdt": 145.93263259,
-      "equity_usdt": 146.59101568,
+      "available_usdt": 146.50590074,
+      "equity_usdt": 146.50622682,
       "gross_loss_today_usdt": 7.9316963,
-      "gross_profit_today_usdt": 0.57050448,
-      "pnl_today_usdt": -7.36119182,
-      "unrealized_pnl_usdt": 0.1947,
-      "wallet_usdt": 146.56508173
+      "gross_profit_today_usdt": 0.65703499,
+      "pnl_today_usdt": -7.27466131,
+      "unrealized_pnl_usdt": 0.0,
+      "wallet_usdt": 146.67326483
     },
     "live": {
-      "available_usdt": 136.91131492,
-      "equity_usdt": 138.44080154,
+      "available_usdt": 136.90583571,
+      "equity_usdt": 138.43526108,
       "gross_loss_today_usdt": 0.0,
       "gross_profit_today_usdt": 0.0,
-      "margin_balance_usdt": 138.44080154,
+      "margin_balance_usdt": 138.43526108,
       "pnl_today_usdt": 0.0,
       "unrealized_pnl_usdt": 0.0,
       "wallet_usdt": -15.31414678
@@ -90,8 +90,8 @@
           "strategy": "Wunder Mean Reversion"
         },
         {
-          "operations": 6,
-          "pnl_usdt": -6.29695797,
+          "operations": 7,
+          "pnl_usdt": -6.21042746,
           "strategy": "XTRADERS"
         }
       ],
@@ -127,11 +127,15 @@
         {
           "pnl_usdt": -7.36119182,
           "time": "12:01"
+        },
+        {
+          "pnl_usdt": -7.27466131,
+          "time": "12:32"
         }
       ],
       "wins_losses": {
         "losses": 7,
-        "wins": 1
+        "wins": 2
       }
     },
     "groups": {
@@ -139,14 +143,14 @@
         "futures": {
           "active_strategies": 12,
           "gross_loss_usdt": 7.9316963,
-          "gross_profit_usdt": 0.57050448,
+          "gross_profit_usdt": 0.65703499,
           "healthy_strategies": 9,
           "losses_today": 7,
-          "net_pnl_usdt": -7.36119182,
-          "open_positions": 1,
-          "operations_today": 8,
-          "unrealized_pnl_usdt": 0.1947,
-          "wins_today": 1
+          "net_pnl_usdt": -7.27466131,
+          "open_positions": 0,
+          "operations_today": 9,
+          "unrealized_pnl_usdt": 0.0,
+          "wins_today": 2
         },
         "spot": {
           "active_strategies": 1,
@@ -189,22 +193,7 @@
       }
     },
     "live_enabled": true,
-    "open_positions": [
-      {
-        "attribution_source": "position_order_link_id",
-        "entry": 60.66,
-        "mark": 60.51,
-        "market": "futures",
-        "mode": "demo",
-        "opened_at": "2026-10-13T05:41:17.765000Z",
-        "side": "Sell",
-        "size": 1.298,
-        "strategy": "XTRADERS_PC2M_DEMO",
-        "symbol": "XAGUSDT",
-        "target": null,
-        "unrealized_pnl_usdt": 0.1947
-      }
-    ],
+    "open_positions": [],
     "strategies": [
       {
         "badges": [],
@@ -262,7 +251,7 @@
         "id": "spot_perp_arb",
         "label": "Spot ↔ Perp Arbitrage",
         "last_event": "CYCLE_END",
-        "last_update": "2026-10-13T11:31:28.610663+00:00",
+        "last_update": "2026-10-13T11:32:28.614022+00:00",
         "market": "spot",
         "market_label": "SPOT↔PERP",
         "mode": "demo",
@@ -465,7 +454,7 @@
         "id": "V44_SESSION_MOMENTUM_SOL_CONSERVATIVE",
         "label": "Session Momentum SOL",
         "last_event": "SESSION_STATE",
-        "last_update": "2026-10-13T11:31:15.157Z",
+        "last_update": "2026-10-13T11:32:15.202Z",
         "market": "futures",
         "market_label": "FUTURES",
         "mode": "demo",
@@ -489,7 +478,7 @@
         "id": "V44_CONNORS_RSI2_SOL_SHORT_CONSERVATIVE",
         "label": "Connors RSI2 SOL Short",
         "last_event": "CONNORS_STATE",
-        "last_update": "2026-10-13T11:31:07.123Z",
+        "last_update": "2026-10-13T11:32:07.016Z",
         "market": "futures",
         "market_label": "FUTURES",
         "mode": "demo",
@@ -537,7 +526,7 @@
         "id": "V44_SESSION_MOMENTUM",
         "label": "Session Momentum (paper)",
         "last_event": "WAITING_SESSION",
-        "last_update": "2026-10-13T11:32:03.168Z",
+        "last_update": "2026-10-13T11:33:03.706Z",
         "market": "futures",
         "market_label": "FUTURES",
         "mode": "demo",
@@ -561,7 +550,7 @@
         "id": "V44_REALTIME_SHADOW",
         "label": "Realtime Shadow Advisor",
         "last_event": "SNAPSHOT",
-        "last_update": "2026-10-13T11:31:57.132818+00:00",
+        "last_update": "2026-10-13T11:32:48.730230+00:00",
         "market": "futures",
         "market_label": "FUTURES",
         "mode": "demo",
@@ -614,19 +603,19 @@
         "id": "XTRADERS_PC2M_DEMO",
         "label": "XTRADERS",
         "last_event": "RUNNER_OK",
-        "last_update": "2026-10-13T11:31:40Z",
+        "last_update": "2026-10-13T11:32:39Z",
         "market": "futures",
         "market_label": "FUTURES",
         "mode": "demo",
         "stats": {
           "gross_loss_usdt": 6.86746245,
-          "gross_profit_usdt": 0.57050448,
+          "gross_profit_usdt": 0.65703499,
           "losses_today": 5,
-          "net_pnl_usdt": -6.29695797,
-          "open_positions": 1,
-          "operations_today": 6,
-          "unrealized_pnl_usdt": 0.1947,
-          "wins_today": 1
+          "net_pnl_usdt": -6.21042746,
+          "open_positions": 0,
+          "operations_today": 7,
+          "unrealized_pnl_usdt": 0.0,
+          "wins_today": 2
         },
         "symbols": [
           "XAUUSDT",
@@ -666,7 +655,7 @@
               "live_orders_enabled": false,
               "mode": "DEMO",
               "status": "OK",
-              "ts": "2026-10-13T11:31:34Z"
+              "ts": "2026-10-13T11:32:32Z"
             },
             "last_error": "Can only use .dt accessor with datetimelike values",
             "last_error_ts": "2026-09-28T17:50:06.685502+00:00",
@@ -688,7 +677,7 @@
               "live_orders_enabled": false,
               "mode": "DEMO",
               "status": "OK",
-              "ts": "2026-10-13T11:31:20Z"
+              "ts": "2026-10-13T11:32:20Z"
             },
             "last_error": "BYBIT_DEMO must be true",
             "last_error_ts": "2026-10-03T10:07:23.563306+00:00",
@@ -710,7 +699,7 @@
               "live_orders_enabled": false,
               "mode": "DEMO",
               "status": "OK",
-              "ts": "2026-10-13T11:31:34Z"
+              "ts": "2026-10-13T11:32:33Z"
             },
             "last_error": null,
             "last_error_ts": null,
@@ -732,14 +721,14 @@
               "live_orders_enabled": false,
               "mode": "DEMO",
               "status": "OK",
-              "ts": "2026-10-13T11:31:40Z"
+              "ts": "2026-10-13T11:32:39Z"
             },
             "last_error": null,
             "last_error_ts": null,
             "last_order_id": null,
             "last_order_ts": null,
             "latest_event": "XTRADERS_DEMO_POSITION_TELEMETRY",
-            "latest_event_ts": "2026-10-13T11:31:40.030934+00:00",
+            "latest_event_ts": "2026-10-13T11:32:39.385692+00:00",
             "missed_before_arm_today": 0,
             "orders_submitted_today": 2,
             "owned_position": {
@@ -1136,20 +1125,20 @@
               "live_orders_enabled": false,
               "mode": "DEMO",
               "status": "OK",
-              "ts": "2026-10-13T11:31:28Z"
+              "ts": "2026-10-13T11:32:25Z"
             },
             "last_error": "global initial-margin cap exceeded: projected=107.0033% cap=95.0000%",
             "last_error_ts": "2026-10-12T11:48:31.751387+00:00",
             "last_order_id": "b0abdbee-a044-4257-b442-e7fd2e1cd286",
             "last_order_ts": "2026-10-13T01:34:26.488372+00:00",
-            "latest_event": "NO_XTRADERS_ENTRY_SIGNAL",
-            "latest_event_ts": "2026-10-13T11:31:27.965354+00:00",
+            "latest_event": "PC2M_FUNNEL_STAGE",
+            "latest_event_ts": "2026-10-13T11:32:24.985184+00:00",
             "missed_before_arm_today": 2,
             "orders_submitted_today": 2,
             "owned_position": null,
             "pending": null,
             "runner_errors_today": 0,
-            "skipped_fidelity_today": 5
+            "skipped_fidelity_today": 6
           }
         }
       },
@@ -1164,7 +1153,7 @@
         "id": "XTRADERS_PC2M_LIVE",
         "label": "XTRADERS",
         "last_event": "LIVE_CL_WAITING_FOR_DEMO_ORDER",
-        "last_update": "2026-10-13T11:32:02.297965+00:00",
+        "last_update": "2026-10-13T11:33:02.410859+00:00",
         "market": "futures",
         "market_label": "FUTURES",
         "mode": "live",
@@ -1186,16 +1175,28 @@
     "summary_today": {
       "active_strategies": 12,
       "gross_loss_usdt": 7.9316963,
-      "gross_profit_usdt": 0.57050448,
+      "gross_profit_usdt": 0.65703499,
       "healthy_strategies": 9,
       "losses_today": 7,
-      "net_pnl_usdt": -7.36119182,
-      "open_positions": 1,
-      "operations_today": 8,
-      "unrealized_pnl_usdt": 0.1947,
-      "wins_today": 1
+      "net_pnl_usdt": -7.27466131,
+      "open_positions": 0,
+      "operations_today": 9,
+      "unrealized_pnl_usdt": 0.0,
+      "wins_today": 2
     },
     "trades_today": [
+      {
+        "attribution_source": "matched_entry_order_partial_aware",
+        "closed_at": "2026-10-13T11:32:45.436000Z",
+        "entry": 60.66,
+        "exit": 60.56,
+        "market": "futures",
+        "mode": "demo",
+        "pnl_usdt": 0.08653051,
+        "side": "Buy",
+        "strategy": "XTRADERS_PC2M_DEMO",
+        "symbol": "XAGUSDT"
+      },
       {
         "attribution_source": "closing_order_link_id",
         "closed_at": "2026-10-13T11:01:21.235000Z",
@@ -1294,5 +1295,5 @@
       }
     ]
   },
-  "updated_at": "2026-10-13T11:32:04.427000Z"
+  "updated_at": "2026-10-13T11:33:04.466000Z"
 }
