@@ -18,11 +18,11 @@
       "wallet_usdt": 141.33103753
     },
     "live": {
-      "available_usdt": 136.96234254,
-      "equity_usdt": 138.49246166,
+      "available_usdt": 136.95315947,
+      "equity_usdt": 138.48317598,
       "gross_loss_today_usdt": 0.0,
       "gross_profit_today_usdt": 0.0,
-      "margin_balance_usdt": 138.49246166,
+      "margin_balance_usdt": 138.48317598,
       "pnl_today_usdt": 0.0,
       "unrealized_pnl_usdt": 0.0,
       "wallet_usdt": -15.31592516
@@ -38,7 +38,7 @@
         {
           "operations": 8,
           "pnl_usdt": -4.07390735,
-          "strategy": "XTRADERS"
+          "strategy": "Futures não atribuído"
         }
       ],
       "pnl_curve": [
@@ -83,10 +83,10 @@
     "groups": {
       "demo": {
         "futures": {
-          "active_strategies": 6,
+          "active_strategies": 2,
           "gross_loss_usdt": 4.43602758,
           "gross_profit_usdt": 0.36212023,
-          "healthy_strategies": 4,
+          "healthy_strategies": 2,
           "losses_today": 6,
           "net_pnl_usdt": -4.07390735,
           "open_positions": 0,
@@ -138,85 +138,11 @@
     "open_positions": [],
     "strategies": [
       {
-        "badges": [],
-        "cron_enabled": true,
-        "execution": "venue",
-        "health": "healthy",
-        "id": "V44_LIQ_FLOW_STRICT_V2",
-        "label": "Liquidation Flow Strict",
-        "last_event": "LIQUIDATION",
-        "last_update": "2026-10-14T13:21:04.018Z",
-        "market": "futures",
-        "market_label": "FUTURES",
-        "mode": "demo",
-        "stats": {
-          "gross_loss_usdt": 0.0,
-          "gross_profit_usdt": 0.0,
-          "losses_today": 0,
-          "net_pnl_usdt": 0.0,
-          "open_positions": 0,
-          "operations_today": 0,
-          "unrealized_pnl_usdt": 0.0,
-          "wins_today": 0
-        },
-        "symbols": []
-      },
-      {
         "badges": [
-          "FAST FAILURE",
-          "UNCAPPED"
+          "DEMO",
+          "VENUE",
+          "EQUITY-SIZED"
         ],
-        "cron_enabled": true,
-        "execution": "venue",
-        "health": "delayed",
-        "id": "V44_MULTI_SPEED_TREND",
-        "label": "Multi-Speed Trend Portfolio",
-        "last_event": "SIGNAL_REJECT",
-        "last_update": "2026-10-14T13:00:11.259Z",
-        "market": "futures",
-        "market_label": "FUTURES",
-        "mode": "demo",
-        "stats": {
-          "gross_loss_usdt": 0.0,
-          "gross_profit_usdt": 0.0,
-          "losses_today": 0,
-          "net_pnl_usdt": 0.0,
-          "open_positions": 0,
-          "operations_today": 0,
-          "unrealized_pnl_usdt": 0.0,
-          "wins_today": 0
-        },
-        "symbols": [
-          "BTCUSDT",
-          "XRPUSDT"
-        ]
-      },
-      {
-        "badges": [],
-        "cron_enabled": true,
-        "execution": "venue",
-        "health": "stale",
-        "id": "V44_LIQUIDITY_SWEEP",
-        "label": "Liquidity Sweep",
-        "last_event": "WS_CONNECTED",
-        "last_update": "2026-10-13T07:26:26.521Z",
-        "market": "futures",
-        "market_label": "FUTURES",
-        "mode": "demo",
-        "stats": {
-          "gross_loss_usdt": 0.0,
-          "gross_profit_usdt": 0.0,
-          "losses_today": 0,
-          "net_pnl_usdt": 0.0,
-          "open_positions": 0,
-          "operations_today": 0,
-          "unrealized_pnl_usdt": 0.0,
-          "wins_today": 0
-        },
-        "symbols": []
-      },
-      {
-        "badges": [],
         "cron_enabled": true,
         "execution": "venue",
         "health": "healthy",
@@ -237,184 +163,16 @@
           "unrealized_pnl_usdt": 0.0,
           "wins_today": 0
         },
-        "symbols": []
-      },
-      {
-        "badges": [
-          "DEMO",
-          "CONTEXT V2",
-          "BYBIT 1m",
-          "6 ASSETS"
-        ],
-        "cron_enabled": true,
-        "execution": "venue",
-        "health": "healthy",
-        "id": "XTRADERS_PC2M_DEMO",
-        "label": "XTRADERS",
-        "last_event": "RUNNER_OK",
-        "last_update": "2026-10-14T13:22:15Z",
-        "market": "futures",
-        "market_label": "FUTURES",
-        "mode": "demo",
-        "stats": {
-          "gross_loss_usdt": 4.43602758,
-          "gross_profit_usdt": 0.36212023,
-          "losses_today": 6,
-          "net_pnl_usdt": -4.07390735,
-          "open_positions": 0,
-          "operations_today": 8,
-          "unrealized_pnl_usdt": 0.0,
-          "wins_today": 2
-        },
         "symbols": [
-          "XAUUSDT",
-          "CLUSDT",
-          "QQQUSDT",
-          "SPYUSDT",
-          "IWMUSDT",
-          "XAGUSDT"
-        ],
-        "telemetry": {
-          "cl": {
-            "heartbeat": {
-              "asset_key": "cl",
-              "exit_code": 0,
-              "live_orders_enabled": false,
-              "mode": "DEMO",
-              "status": "OK",
-              "ts": "2026-10-12T10:46:29Z"
-            },
-            "last_error": null,
-            "last_error_ts": null,
-            "last_order_id": "9ecb19b1-266f-4cb9-b1b4-4d1e8b1bfbfb",
-            "last_order_ts": "2026-10-12T02:48:24.814744+00:00",
-            "latest_event": "NO_XTRADERS_ENTRY_SIGNAL",
-            "latest_event_ts": "2026-10-12T10:46:29.186737+00:00",
-            "missed_before_arm_today": 0,
-            "orders_submitted_today": 0,
-            "owned_position": null,
-            "pending": null,
-            "runner_errors_today": 0,
-            "skipped_fidelity_today": 0
-          },
-          "iwm": {
-            "heartbeat": {
-              "asset_key": "iwm",
-              "exit_code": 0,
-              "live_orders_enabled": false,
-              "mode": "DEMO",
-              "status": "OK",
-              "ts": "2026-10-14T13:22:15Z"
-            },
-            "last_error": "Can only use .dt accessor with datetimelike values",
-            "last_error_ts": "2026-09-28T17:50:06.685502+00:00",
-            "last_order_id": null,
-            "last_order_ts": null,
-            "latest_event": "XTRADERS_DEMO_ACCOUNT_RISK_GOVERNOR_BLOCK",
-            "latest_event_ts": "2026-10-14T13:22:15.379011+00:00",
-            "missed_before_arm_today": 0,
-            "orders_submitted_today": 0,
-            "owned_position": null,
-            "pending": null,
-            "runner_errors_today": 0,
-            "skipped_fidelity_today": 0
-          },
-          "qqq": {
-            "heartbeat": {
-              "asset_key": "qqq",
-              "exit_code": 0,
-              "live_orders_enabled": false,
-              "mode": "DEMO",
-              "status": "OK",
-              "ts": "2026-10-14T13:22:13Z"
-            },
-            "last_error": "BYBIT_DEMO must be true",
-            "last_error_ts": "2026-10-03T10:07:23.563306+00:00",
-            "last_order_id": "6ad9d9aa-55e9-474f-a8b0-f6f29953293b",
-            "last_order_ts": "2026-10-13T18:05:21.220763+00:00",
-            "latest_event": "XTRADERS_DEMO_ACCOUNT_RISK_GOVERNOR_BLOCK",
-            "latest_event_ts": "2026-10-14T13:22:13.630158+00:00",
-            "missed_before_arm_today": 0,
-            "orders_submitted_today": 0,
-            "owned_position": null,
-            "pending": null,
-            "runner_errors_today": 0,
-            "skipped_fidelity_today": 0
-          },
-          "spy": {
-            "heartbeat": {
-              "asset_key": "spy",
-              "exit_code": 0,
-              "live_orders_enabled": false,
-              "mode": "DEMO",
-              "status": "OK",
-              "ts": "2026-10-14T13:22:13Z"
-            },
-            "last_error": null,
-            "last_error_ts": null,
-            "last_order_id": "a4e5bf6b-a72b-45bd-80bb-ae96af4e699a",
-            "last_order_ts": "2026-10-05T15:22:42.886948+00:00",
-            "latest_event": "XTRADERS_DEMO_ACCOUNT_RISK_GOVERNOR_BLOCK",
-            "latest_event_ts": "2026-10-14T13:22:13.597702+00:00",
-            "missed_before_arm_today": 0,
-            "orders_submitted_today": 0,
-            "owned_position": null,
-            "pending": null,
-            "runner_errors_today": 0,
-            "skipped_fidelity_today": 0
-          },
-          "xag": {
-            "heartbeat": {
-              "asset_key": "xag",
-              "exit_code": 0,
-              "live_orders_enabled": false,
-              "mode": "DEMO",
-              "status": "OK",
-              "ts": "2026-10-14T13:22:15Z"
-            },
-            "last_error": null,
-            "last_error_ts": null,
-            "last_order_id": "609c4dbe-24bf-4556-ae86-65e74838a25b",
-            "last_order_ts": "2026-10-14T10:58:36.639061+00:00",
-            "latest_event": "XTRADERS_DEMO_ACCOUNT_RISK_GOVERNOR_BLOCK",
-            "latest_event_ts": "2026-10-14T13:22:15.412348+00:00",
-            "missed_before_arm_today": 7,
-            "orders_submitted_today": 3,
-            "owned_position": null,
-            "pending": null,
-            "runner_errors_today": 0,
-            "skipped_fidelity_today": 17
-          },
-          "xau": {
-            "heartbeat": {
-              "asset_key": "xau",
-              "exit_code": 0,
-              "live_orders_enabled": false,
-              "mode": "DEMO",
-              "status": "OK",
-              "ts": "2026-10-14T10:34:29Z"
-            },
-            "last_error": null,
-            "last_error_ts": null,
-            "last_order_id": "77d22809-afc2-4d65-a480-b72c45d0c485",
-            "last_order_ts": "2026-10-14T10:02:27.082143+00:00",
-            "latest_event": "NO_XTRADERS_ENTRY_SIGNAL",
-            "latest_event_ts": "2026-10-14T10:34:29.614973+00:00",
-            "missed_before_arm_today": 2,
-            "orders_submitted_today": 2,
-            "owned_position": null,
-            "pending": null,
-            "runner_errors_today": 0,
-            "skipped_fidelity_today": 3
-          }
-        }
+          "AVAXUSDT"
+        ]
       },
       {
         "badges": [
           "DEMO",
           "VENUE",
           "1m",
-          "TP3 0.85R"
+          "EQUITY-SIZED"
         ],
         "cron_enabled": true,
         "execution": "venue",
@@ -422,7 +180,7 @@
         "id": "V44_TYSON_SCALP_DEMO",
         "label": "TYSON Scalp",
         "last_event": "RUNNER_OK",
-        "last_update": "2026-10-14T13:23:02.362788+00:00",
+        "last_update": "2026-10-14T13:24:00.985590+00:00",
         "market": "futures",
         "market_label": "FUTURES",
         "mode": "demo",
@@ -451,7 +209,7 @@
         "id": "XTRADERS_PC2M_LIVE",
         "label": "XTRADERS",
         "last_event": "LIVE_CL_WAITING_FOR_DEMO_ORDER",
-        "last_update": "2026-10-14T13:23:02.296786+00:00",
+        "last_update": "2026-10-14T13:24:02.272964+00:00",
         "market": "futures",
         "market_label": "FUTURES",
         "mode": "live",
@@ -468,13 +226,35 @@
         "symbols": [
           "CLUSDT"
         ]
+      },
+      {
+        "cron_enabled": false,
+        "execution": "venue",
+        "health": "unknown",
+        "id": "XTRADERS_PC2M_DEMO",
+        "label": "Futures não atribuído",
+        "last_event": null,
+        "last_update": null,
+        "market": "futures",
+        "market_label": "FUTURES",
+        "mode": "demo",
+        "stats": {
+          "gross_loss_usdt": 4.43602758,
+          "gross_profit_usdt": 0.36212023,
+          "losses_today": 6,
+          "net_pnl_usdt": -4.07390735,
+          "open_positions": 0,
+          "operations_today": 8,
+          "unrealized_pnl_usdt": 0.0,
+          "wins_today": 2
+        }
       }
     ],
     "summary_today": {
-      "active_strategies": 6,
+      "active_strategies": 2,
       "gross_loss_usdt": 4.43602758,
       "gross_profit_usdt": 0.36212023,
-      "healthy_strategies": 4,
+      "healthy_strategies": 2,
       "losses_today": 6,
       "net_pnl_usdt": -4.07390735,
       "open_positions": 0,
@@ -581,5 +361,5 @@
       }
     ]
   },
-  "updated_at": "2026-10-14T13:23:04.167000Z"
+  "updated_at": "2026-10-14T13:24:02.589000Z"
 }
