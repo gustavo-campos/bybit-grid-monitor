@@ -5,7 +5,7 @@
     "gross_loss_today_usdt": 4.43602758,
     "gross_profit_today_usdt": 0.36212023,
     "pnl_today_usdt": -4.07390735,
-    "unrealized_pnl_usdt": 0
+    "unrealized_pnl_usdt": 0.0
   },
   "accounts": {
     "demo": {
@@ -14,22 +14,65 @@
       "gross_loss_today_usdt": 4.43602758,
       "gross_profit_today_usdt": 0.36212023,
       "pnl_today_usdt": -4.07390735,
-      "unrealized_pnl_usdt": 0,
+      "unrealized_pnl_usdt": 0.0,
       "wallet_usdt": 141.33103753
     },
     "live": {
-      "available_usdt": 136.93461165,
-      "equity_usdt": 138.46446696,
-      "gross_loss_today_usdt": 0,
-      "gross_profit_today_usdt": 0,
-      "margin_balance_usdt": 138.46446696,
-      "pnl_today_usdt": 0,
-      "unrealized_pnl_usdt": 0,
+      "available_usdt": 136.93433724,
+      "equity_usdt": 138.46418948,
+      "gross_loss_today_usdt": 0.0,
+      "gross_profit_today_usdt": 0.0,
+      "margin_balance_usdt": 138.46418948,
+      "pnl_today_usdt": 0.0,
+      "unrealized_pnl_usdt": 0.0,
       "wallet_usdt": -15.3163353
     }
   },
   "day": "2026-10-14",
   "grids": {},
+  "jjunior_m5": {
+    "assets": [
+      {
+        "last_closed_candle": "2026-09-12 22:35:00+00:00",
+        "orders_enabled": false,
+        "signal": "NONE",
+        "status": "STALE_DATA",
+        "symbol": "BTCUSDT"
+      },
+      {
+        "last_closed_candle": "2026-09-12 21:45:00+00:00",
+        "orders_enabled": false,
+        "signal": "NONE",
+        "status": "STALE_DATA",
+        "symbol": "CLUSDT"
+      },
+      {
+        "last_closed_candle": "2026-09-12 20:55:00+00:00",
+        "orders_enabled": false,
+        "signal": "NONE",
+        "status": "STALE_DATA",
+        "symbol": "BZUSDT"
+      },
+      {
+        "last_closed_candle": "2026-09-12 20:35:00+00:00",
+        "orders_enabled": false,
+        "signal": "NONE",
+        "status": "STALE_DATA",
+        "symbol": "XAUUSDT"
+      },
+      {
+        "last_closed_candle": "2026-09-12 20:50:00+00:00",
+        "orders_enabled": false,
+        "signal": "NONE",
+        "status": "STALE_DATA",
+        "symbol": "XAGUSDT"
+      }
+    ],
+    "mode": "DEMO_MONITOR",
+    "orders_enabled": false,
+    "strategy": "JJUNIORB3_M5",
+    "updated_at": "2026-10-14T19:53:35.910094+00:00"
+  },
   "mode": "MULTI_ENV",
   "schema_version": 2,
   "system": {
@@ -91,45 +134,45 @@
           "net_pnl_usdt": -4.07390735,
           "open_positions": 0,
           "operations_today": 8,
-          "unrealized_pnl_usdt": 0,
+          "unrealized_pnl_usdt": 0.0,
           "wins_today": 2
         },
         "spot": {
           "active_strategies": 0,
-          "gross_loss_usdt": 0,
-          "gross_profit_usdt": 0,
+          "gross_loss_usdt": 0.0,
+          "gross_profit_usdt": 0.0,
           "healthy_strategies": 0,
           "losses_today": 0,
-          "net_pnl_usdt": 0,
+          "net_pnl_usdt": 0.0,
           "open_positions": 0,
           "operations_today": 0,
-          "unrealized_pnl_usdt": 0,
+          "unrealized_pnl_usdt": 0.0,
           "wins_today": 0
         }
       },
       "live": {
         "futures": {
           "active_strategies": 0,
-          "gross_loss_usdt": 0,
-          "gross_profit_usdt": 0,
+          "gross_loss_usdt": 0.0,
+          "gross_profit_usdt": 0.0,
           "healthy_strategies": 0,
           "losses_today": 0,
-          "net_pnl_usdt": 0,
+          "net_pnl_usdt": 0.0,
           "open_positions": 0,
           "operations_today": 0,
-          "unrealized_pnl_usdt": 0,
+          "unrealized_pnl_usdt": 0.0,
           "wins_today": 0
         },
         "spot": {
           "active_strategies": 0,
-          "gross_loss_usdt": 0,
-          "gross_profit_usdt": 0,
+          "gross_loss_usdt": 0.0,
+          "gross_profit_usdt": 0.0,
           "healthy_strategies": 0,
           "losses_today": 0,
-          "net_pnl_usdt": 0,
+          "net_pnl_usdt": 0.0,
           "open_positions": 0,
           "operations_today": 0,
-          "unrealized_pnl_usdt": 0,
+          "unrealized_pnl_usdt": 0.0,
           "wins_today": 0
         }
       }
@@ -154,13 +197,13 @@
         "market_label": "FUTURES",
         "mode": "demo",
         "stats": {
-          "gross_loss_usdt": 0,
-          "gross_profit_usdt": 0,
+          "gross_loss_usdt": 0.0,
+          "gross_profit_usdt": 0.0,
           "losses_today": 0,
-          "net_pnl_usdt": 0,
+          "net_pnl_usdt": 0.0,
           "open_positions": 0,
           "operations_today": 0,
-          "unrealized_pnl_usdt": 0,
+          "unrealized_pnl_usdt": 0.0,
           "wins_today": 0
         },
         "symbols": [
@@ -180,18 +223,18 @@
         "id": "BNF_MULTI_ASSET_DEMO",
         "label": "BNF Multi-Asset",
         "last_event": "BNF_ACCOUNT_CYCLE",
-        "last_update": "2026-10-14T19:47:05.223Z",
+        "last_update": "2026-10-14T19:53:06.738Z",
         "market": "futures",
         "market_label": "FUTURES",
         "mode": "demo",
         "stats": {
-          "gross_loss_usdt": 0,
-          "gross_profit_usdt": 0,
+          "gross_loss_usdt": 0.0,
+          "gross_profit_usdt": 0.0,
           "losses_today": 0,
-          "net_pnl_usdt": 0,
+          "net_pnl_usdt": 0.0,
           "open_positions": 0,
           "operations_today": 0,
-          "unrealized_pnl_usdt": 0,
+          "unrealized_pnl_usdt": 0.0,
           "wins_today": 0
         },
         "symbols": []
@@ -209,7 +252,7 @@
         "id": "XTRADERS_PC2M_DEMO",
         "label": "XTRADERS",
         "last_event": "RUNNER_OK",
-        "last_update": "2026-10-14T19:47:16Z",
+        "last_update": "2026-10-14T19:53:15Z",
         "market": "futures",
         "market_label": "FUTURES",
         "mode": "demo",
@@ -220,7 +263,7 @@
           "net_pnl_usdt": -4.07390735,
           "open_positions": 0,
           "operations_today": 8,
-          "unrealized_pnl_usdt": 0,
+          "unrealized_pnl_usdt": 0.0,
           "wins_today": 2
         },
         "symbols": [
@@ -236,7 +279,7 @@
               "live_orders_enabled": false,
               "mode": "DEMO",
               "status": "OK",
-              "ts": "2026-10-14T19:47:14Z"
+              "ts": "2026-10-14T19:53:13Z"
             },
             "last_error": null,
             "last_error_ts": null,
@@ -346,7 +389,7 @@
               "live_orders_enabled": false,
               "mode": "DEMO",
               "status": "OK",
-              "ts": "2026-10-14T19:47:14Z"
+              "ts": "2026-10-14T19:53:13Z"
             },
             "last_error": null,
             "last_error_ts": null,
@@ -379,13 +422,13 @@
         "market_label": "FUTURES",
         "mode": "live",
         "stats": {
-          "gross_loss_usdt": 0,
-          "gross_profit_usdt": 0,
+          "gross_loss_usdt": 0.0,
+          "gross_profit_usdt": 0.0,
           "losses_today": 0,
-          "net_pnl_usdt": 0,
+          "net_pnl_usdt": 0.0,
           "open_positions": 0,
           "operations_today": 0,
-          "unrealized_pnl_usdt": 0,
+          "unrealized_pnl_usdt": 0.0,
           "wins_today": 0
         },
         "symbols": [
@@ -393,19 +436,6 @@
         ]
       },
       {
-        "id": "JJUNIORB3_M5_DEMO",
-        "label": "JJUNIORB3 M5",
-        "market": "futures",
-        "market_label": "FUTURES",
-        "mode": "demo",
-        "execution": "monitor",
-        "symbols": [
-          "BTCUSDT",
-          "CLUSDT",
-          "BZUSDT",
-          "XAUUSDT",
-          "XAGUSDT"
-        ],
         "badges": [
           "M5",
           "PATHFINDER",
@@ -413,19 +443,32 @@
           "DADOS ANTIGOS"
         ],
         "cron_enabled": false,
+        "execution": "monitor",
         "health": "stale",
-        "last_update": "2026-10-14T19:48:41.336856+00:00",
+        "id": "JJUNIORB3_M5_DEMO",
+        "label": "JJUNIORB3 M5",
         "last_event": "MONITOR_ONLY",
+        "last_update": "2026-10-14T19:52:33.289392+00:00",
+        "market": "futures",
+        "market_label": "FUTURES",
+        "mode": "demo",
         "stats": {
-          "operations_today": 0,
-          "wins_today": 0,
+          "gross_loss_usdt": 0.0,
+          "gross_profit_usdt": 0.0,
           "losses_today": 0,
-          "gross_profit_usdt": 0,
-          "gross_loss_usdt": 0,
-          "net_pnl_usdt": 0,
+          "net_pnl_usdt": 0.0,
           "open_positions": 0,
-          "unrealized_pnl_usdt": 0
-        }
+          "operations_today": 0,
+          "unrealized_pnl_usdt": 0.0,
+          "wins_today": 0
+        },
+        "symbols": [
+          "BTCUSDT",
+          "CLUSDT",
+          "BZUSDT",
+          "XAUUSDT",
+          "XAGUSDT"
+        ]
       }
     ],
     "summary_today": {
@@ -437,7 +480,7 @@
       "net_pnl_usdt": -4.07390735,
       "open_positions": 0,
       "operations_today": 8,
-      "unrealized_pnl_usdt": 0,
+      "unrealized_pnl_usdt": 0.0,
       "wins_today": 2
     },
     "trades_today": [
@@ -539,48 +582,5 @@
       }
     ]
   },
-  "updated_at": "2026-10-14T19:48:03.410000Z",
-  "jjunior_m5": {
-    "strategy": "JJUNIORB3_M5",
-    "mode": "DEMO_MONITOR",
-    "orders_enabled": false,
-    "updated_at": "2026-10-14T19:48:41.336856+00:00",
-    "assets": [
-      {
-        "symbol": "BTCUSDT",
-        "last_closed_candle": "2026-09-12 22:35:00+00:00",
-        "status": "STALE_DATA",
-        "signal": "NONE",
-        "orders_enabled": false
-      },
-      {
-        "symbol": "CLUSDT",
-        "last_closed_candle": "2026-09-12 21:45:00+00:00",
-        "status": "STALE_DATA",
-        "signal": "NONE",
-        "orders_enabled": false
-      },
-      {
-        "symbol": "BZUSDT",
-        "last_closed_candle": "2026-09-12 20:55:00+00:00",
-        "status": "STALE_DATA",
-        "signal": "NONE",
-        "orders_enabled": false
-      },
-      {
-        "symbol": "XAUUSDT",
-        "last_closed_candle": "2026-09-12 20:35:00+00:00",
-        "status": "STALE_DATA",
-        "signal": "NONE",
-        "orders_enabled": false
-      },
-      {
-        "symbol": "XAGUSDT",
-        "last_closed_candle": "2026-09-12 20:50:00+00:00",
-        "status": "STALE_DATA",
-        "signal": "NONE",
-        "orders_enabled": false
-      }
-    ]
-  }
+  "updated_at": "2026-10-14T19:53:34.936000Z"
 }
