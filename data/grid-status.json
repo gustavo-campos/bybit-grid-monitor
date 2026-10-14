@@ -18,11 +18,11 @@
       "wallet_usdt": 141.33103753
     },
     "live": {
-      "available_usdt": 136.95653306,
-      "equity_usdt": 138.48660988,
+      "available_usdt": 136.95868958,
+      "equity_usdt": 138.48879091,
       "gross_loss_today_usdt": 0.0,
       "gross_profit_today_usdt": 0.0,
-      "margin_balance_usdt": 138.48660988,
+      "margin_balance_usdt": 138.48879091,
       "pnl_today_usdt": 0.0,
       "unrealized_pnl_usdt": 0.0,
       "wallet_usdt": -15.31613024
@@ -83,10 +83,10 @@
     "groups": {
       "demo": {
         "futures": {
-          "active_strategies": 3,
+          "active_strategies": 4,
           "gross_loss_usdt": 4.43602758,
           "gross_profit_usdt": 0.36212023,
-          "healthy_strategies": 2,
+          "healthy_strategies": 3,
           "losses_today": 6,
           "net_pnl_usdt": -4.07390735,
           "open_positions": 0,
@@ -166,6 +166,35 @@
         "symbols": [
           "AVAXUSDT"
         ]
+      },
+      {
+        "badges": [
+          "DEMO",
+          "VENUE",
+          "~160 EQUITIES",
+          "TIERED RISK"
+        ],
+        "cron_enabled": true,
+        "execution": "venue",
+        "health": "healthy",
+        "id": "BNF_MULTI_ASSET_DEMO",
+        "label": "BNF Multi-Asset",
+        "last_event": "BNF_ACCOUNT_CYCLE",
+        "last_update": "2026-10-14T17:00:12.023Z",
+        "market": "futures",
+        "market_label": "FUTURES",
+        "mode": "demo",
+        "stats": {
+          "gross_loss_usdt": 0.0,
+          "gross_profit_usdt": 0.0,
+          "losses_today": 0,
+          "net_pnl_usdt": 0.0,
+          "open_positions": 0,
+          "operations_today": 0,
+          "unrealized_pnl_usdt": 0.0,
+          "wins_today": 0
+        },
+        "symbols": []
       },
       {
         "badges": [
@@ -348,7 +377,7 @@
         "id": "V44_TYSON_SCALP_DEMO",
         "label": "TYSON Scalp",
         "last_event": "RUNNER_OK",
-        "last_update": "2026-10-14T17:03:02.325211+00:00",
+        "last_update": "2026-10-14T17:03:53.659918+00:00",
         "market": "futures",
         "market_label": "FUTURES",
         "mode": "demo",
@@ -397,10 +426,10 @@
       }
     ],
     "summary_today": {
-      "active_strategies": 3,
+      "active_strategies": 4,
       "gross_loss_usdt": 4.43602758,
       "gross_profit_usdt": 0.36212023,
-      "healthy_strategies": 2,
+      "healthy_strategies": 3,
       "losses_today": 6,
       "net_pnl_usdt": -4.07390735,
       "open_positions": 0,
@@ -507,5 +536,5 @@
       }
     ]
   },
-  "updated_at": "2026-10-14T17:03:04.269000Z"
+  "updated_at": "2026-10-14T17:03:54.400000Z"
 }
