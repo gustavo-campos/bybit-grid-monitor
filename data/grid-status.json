@@ -18,11 +18,11 @@
       "wallet_usdt": 141.33103753
     },
     "live": {
-      "available_usdt": 136.95840486,
-      "equity_usdt": 138.48851147,
+      "available_usdt": 136.9586156,
+      "equity_usdt": 138.48872375,
       "gross_loss_today_usdt": 0.0,
       "gross_profit_today_usdt": 0.0,
-      "margin_balance_usdt": 138.48851147,
+      "margin_balance_usdt": 138.48872375,
       "pnl_today_usdt": 0.0,
       "unrealized_pnl_usdt": 0.0,
       "wallet_usdt": -15.31619857
@@ -171,8 +171,37 @@
         "badges": [
           "DEMO",
           "VENUE",
-          "BYBIT 1m",
-          "4 ASSETS"
+          "~160 EQUITIES",
+          "TIERED RISK"
+        ],
+        "cron_enabled": true,
+        "execution": "venue",
+        "health": "healthy",
+        "id": "BNF_MULTI_ASSET_DEMO",
+        "label": "BNF Multi-Asset",
+        "last_event": "BNF_ACCOUNT_CYCLE",
+        "last_update": "2026-10-14T17:10:24.833Z",
+        "market": "futures",
+        "market_label": "FUTURES",
+        "mode": "demo",
+        "stats": {
+          "gross_loss_usdt": 0.0,
+          "gross_profit_usdt": 0.0,
+          "losses_today": 0,
+          "net_pnl_usdt": 0.0,
+          "open_positions": 0,
+          "operations_today": 0,
+          "unrealized_pnl_usdt": 0.0,
+          "wins_today": 0
+        },
+        "symbols": []
+      },
+      {
+        "badges": [
+          "DEMO",
+          "VENUE",
+          "3 ASSETS",
+          "EQUITY-SIZED"
         ],
         "cron_enabled": true,
         "execution": "venue",
@@ -195,10 +224,9 @@
           "wins_today": 2
         },
         "symbols": [
-          "QQQUSDT",
-          "SPYUSDT",
-          "IWMUSDT",
-          "XAGUSDT"
+          "CLUSDT",
+          "XAUUSDT",
+          "BTCUSDT"
         ],
         "telemetry": {
           "cl": {
@@ -334,37 +362,6 @@
             "skipped_fidelity_today": 3
           }
         }
-      },
-      {
-        "badges": [
-          "DEMO",
-          "VENUE",
-          "1m",
-          "EQUITY-SIZED"
-        ],
-        "cron_enabled": true,
-        "execution": "venue",
-        "health": "healthy",
-        "id": "V44_TYSON_SCALP_DEMO",
-        "label": "TYSON Scalp",
-        "last_event": "RUNNER_OK",
-        "last_update": "2026-10-14T17:10:03.228967+00:00",
-        "market": "futures",
-        "market_label": "FUTURES",
-        "mode": "demo",
-        "stats": {
-          "gross_loss_usdt": 0.0,
-          "gross_profit_usdt": 0.0,
-          "losses_today": 0,
-          "net_pnl_usdt": 0.0,
-          "open_positions": 0,
-          "operations_today": 0,
-          "unrealized_pnl_usdt": 0.0,
-          "wins_today": 0
-        },
-        "symbols": [
-          "BTCUSDT"
-        ]
       },
       {
         "badges": [
@@ -507,5 +504,5 @@
       }
     ]
   },
-  "updated_at": "2026-10-14T17:10:03.963000Z"
+  "updated_at": "2026-10-14T17:10:32.364000Z"
 }
