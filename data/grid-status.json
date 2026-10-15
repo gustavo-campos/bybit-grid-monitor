@@ -1,28 +1,28 @@
 {
   "account": {
-    "available_usdt": 132.26907014,
-    "equity_usdt": 145.09236695,
+    "available_usdt": 136.40204708,
+    "equity_usdt": 145.42504562,
     "gross_loss_today_usdt": 0.05827664,
-    "gross_profit_today_usdt": 0.18872094,
-    "pnl_today_usdt": 0.1304443,
-    "unrealized_pnl_usdt": 3.87612
+    "gross_profit_today_usdt": 1.35113489,
+    "pnl_today_usdt": 1.29285825,
+    "unrealized_pnl_usdt": 3.0186
   },
   "accounts": {
     "demo": {
-      "available_usdt": 132.26907014,
-      "equity_usdt": 145.09236695,
+      "available_usdt": 136.40204708,
+      "equity_usdt": 145.42504562,
       "gross_loss_today_usdt": 0.05827664,
-      "gross_profit_today_usdt": 0.18872094,
-      "pnl_today_usdt": 0.1304443,
-      "unrealized_pnl_usdt": 3.87612,
-      "wallet_usdt": 141.37541964
+      "gross_profit_today_usdt": 1.35113489,
+      "pnl_today_usdt": 1.29285825,
+      "unrealized_pnl_usdt": 3.0186,
+      "wallet_usdt": 142.56341964
     },
     "live": {
-      "available_usdt": 136.93750424,
-      "equity_usdt": 138.46740197,
+      "available_usdt": 136.94432096,
+      "equity_usdt": 138.47429528,
       "gross_loss_today_usdt": 0.0,
       "gross_profit_today_usdt": 0.0,
-      "margin_balance_usdt": 138.46740197,
+      "margin_balance_usdt": 138.47429528,
       "pnl_today_usdt": 0.0,
       "unrealized_pnl_usdt": 0.0,
       "wallet_usdt": -15.31763417
@@ -69,6 +69,11 @@
     "charts": {
       "pnl_by_strategy": [
         {
+          "operations": 1,
+          "pnl_usdt": 1.16241395,
+          "strategy": "XTRADERS"
+        },
+        {
           "operations": 4,
           "pnl_usdt": 0.1304443,
           "strategy": "BNF Multi-Asset"
@@ -90,11 +95,15 @@
         {
           "pnl_usdt": 0.1304443,
           "time": "10:30"
+        },
+        {
+          "pnl_usdt": 1.29285825,
+          "time": "15:15"
         }
       ],
       "wins_losses": {
         "losses": 2,
-        "wins": 2
+        "wins": 3
       }
     },
     "groups": {
@@ -102,14 +111,14 @@
         "futures": {
           "active_strategies": 3,
           "gross_loss_usdt": 0.05827664,
-          "gross_profit_usdt": 0.18872094,
+          "gross_profit_usdt": 1.35113489,
           "healthy_strategies": 3,
           "losses_today": 2,
-          "net_pnl_usdt": 0.1304443,
+          "net_pnl_usdt": 1.29285825,
           "open_positions": 1,
-          "operations_today": 4,
-          "unrealized_pnl_usdt": 3.87612,
-          "wins_today": 2
+          "operations_today": 5,
+          "unrealized_pnl_usdt": 3.0186,
+          "wins_today": 3
         },
         "spot": {
           "active_strategies": 0,
@@ -156,16 +165,16 @@
       {
         "attribution_source": "position_order_link_id",
         "entry": 93.98,
-        "mark": 95.144,
+        "mark": 95.27,
         "market": "futures",
         "mode": "demo",
         "opened_at": "2026-10-15T11:00:15.175000Z",
         "side": "Buy",
-        "size": 3.33,
+        "size": 2.34,
         "strategy": "XTRADERS_PC2M_DEMO",
         "symbol": "CLUSDT",
         "target": null,
-        "unrealized_pnl_usdt": 3.87612
+        "unrealized_pnl_usdt": 3.0186
       }
     ],
     "strategies": [
@@ -181,7 +190,7 @@
         "id": "V44_WUNDER_MEAN_REVERSION",
         "label": "Wunder Mean Reversion",
         "last_event": "SIGNAL_SCAN",
-        "last_update": "2026-10-15T14:00:08.404Z",
+        "last_update": "2026-10-15T14:15:08.334Z",
         "market": "futures",
         "market_label": "FUTURES",
         "mode": "demo",
@@ -212,7 +221,7 @@
         "id": "BNF_MULTI_ASSET_DEMO",
         "label": "BNF Multi-Asset",
         "last_event": "BNF_ACCOUNT_CYCLE",
-        "last_update": "2026-10-15T14:14:07.436Z",
+        "last_update": "2026-10-15T14:15:08.236Z",
         "market": "futures",
         "market_label": "FUTURES",
         "mode": "demo",
@@ -241,19 +250,19 @@
         "id": "XTRADERS_PC2M_DEMO",
         "label": "XTRADERS",
         "last_event": "RUNNER_OK",
-        "last_update": "2026-10-15T14:14:16Z",
+        "last_update": "2026-10-15T14:15:16Z",
         "market": "futures",
         "market_label": "FUTURES",
         "mode": "demo",
         "stats": {
           "gross_loss_usdt": 0.0,
-          "gross_profit_usdt": 0.0,
+          "gross_profit_usdt": 1.16241395,
           "losses_today": 0,
-          "net_pnl_usdt": 0.0,
+          "net_pnl_usdt": 1.16241395,
           "open_positions": 1,
-          "operations_today": 0,
-          "unrealized_pnl_usdt": 3.87612,
-          "wins_today": 0
+          "operations_today": 1,
+          "unrealized_pnl_usdt": 3.0186,
+          "wins_today": 1
         },
         "symbols": [
           "CLUSDT",
@@ -268,7 +277,7 @@
               "live_orders_enabled": false,
               "mode": "DEMO",
               "status": "OK",
-              "ts": "2026-10-15T14:14:12Z"
+              "ts": "2026-10-15T14:15:12Z"
             },
             "last_error": null,
             "last_error_ts": null,
@@ -378,7 +387,7 @@
               "live_orders_enabled": false,
               "mode": "DEMO",
               "status": "OK",
-              "ts": "2026-10-15T14:14:13Z"
+              "ts": "2026-10-15T14:15:13Z"
             },
             "last_error": null,
             "last_error_ts": null,
@@ -462,16 +471,28 @@
     "summary_today": {
       "active_strategies": 3,
       "gross_loss_usdt": 0.05827664,
-      "gross_profit_usdt": 0.18872094,
+      "gross_profit_usdt": 1.35113489,
       "healthy_strategies": 3,
       "losses_today": 2,
-      "net_pnl_usdt": 0.1304443,
+      "net_pnl_usdt": 1.29285825,
       "open_positions": 1,
-      "operations_today": 4,
-      "unrealized_pnl_usdt": 3.87612,
-      "wins_today": 2
+      "operations_today": 5,
+      "unrealized_pnl_usdt": 3.0186,
+      "wins_today": 3
     },
     "trades_today": [
+      {
+        "attribution_source": "closing_order_link_id",
+        "closed_at": "2026-10-15T14:15:28.158000Z",
+        "entry": 93.98,
+        "exit": 95.18,
+        "market": "futures",
+        "mode": "demo",
+        "pnl_usdt": 1.16241395,
+        "side": "Sell",
+        "strategy": "XTRADERS_PC2M_DEMO",
+        "symbol": "CLUSDT"
+      },
       {
         "attribution_source": "matched_entry_order_partial_aware",
         "closed_at": "2026-10-15T09:30:51.944000Z",
@@ -522,5 +543,5 @@
       }
     ]
   },
-  "updated_at": "2026-10-15T14:15:03.723000Z"
+  "updated_at": "2026-10-15T14:16:03.903000Z"
 }
