@@ -1,28 +1,28 @@
 {
   "account": {
-    "available_usdt": 141.0984852,
-    "equity_usdt": 141.09879481,
+    "available_usdt": 130.41630798,
+    "equity_usdt": 140.9978563,
     "gross_loss_today_usdt": 0.0,
     "gross_profit_today_usdt": 0.0,
     "pnl_today_usdt": 0.0,
-    "unrealized_pnl_usdt": 0.0
+    "unrealized_pnl_usdt": -0.075
   },
   "accounts": {
     "demo": {
-      "available_usdt": 141.0984852,
-      "equity_usdt": 141.09879481,
+      "available_usdt": 130.41630798,
+      "equity_usdt": 140.9978563,
       "gross_loss_today_usdt": 0.0,
       "gross_profit_today_usdt": 0.0,
       "pnl_today_usdt": 0.0,
-      "unrealized_pnl_usdt": 0.0,
-      "wallet_usdt": 141.27276089
+      "unrealized_pnl_usdt": -0.075,
+      "wallet_usdt": 141.24374701
     },
     "live": {
-      "available_usdt": 136.92255143,
-      "equity_usdt": 138.45222825,
+      "available_usdt": 136.92463764,
+      "equity_usdt": 138.45433743,
       "gross_loss_today_usdt": 0.0,
       "gross_profit_today_usdt": 0.0,
-      "margin_balance_usdt": 138.45222825,
+      "margin_balance_usdt": 138.45433743,
       "pnl_today_usdt": 0.0,
       "unrealized_pnl_usdt": 0.0,
       "wallet_usdt": -15.31715523
@@ -83,9 +83,9 @@
           "healthy_strategies": 3,
           "losses_today": 0,
           "net_pnl_usdt": 0.0,
-          "open_positions": 0,
+          "open_positions": 1,
           "operations_today": 0,
-          "unrealized_pnl_usdt": 0.0,
+          "unrealized_pnl_usdt": -0.075,
           "wins_today": 0
         },
         "spot": {
@@ -129,7 +129,22 @@
       }
     },
     "live_enabled": false,
-    "open_positions": [],
+    "open_positions": [
+      {
+        "attribution_source": "position_order_link_id",
+        "entry": 422.02,
+        "mark": 421.72,
+        "market": "futures",
+        "mode": "demo",
+        "opened_at": "2026-10-15T08:03:09.392000Z",
+        "side": "Buy",
+        "size": 0.25,
+        "strategy": "BNF_MULTI_ASSET_DEMO",
+        "symbol": "TSMUSDT",
+        "target": null,
+        "unrealized_pnl_usdt": -0.075
+      }
+    ],
     "strategies": [
       {
         "badges": [
@@ -174,7 +189,7 @@
         "id": "BNF_MULTI_ASSET_DEMO",
         "label": "BNF Multi-Asset",
         "last_event": "BNF_FAST_PROTECT_CYCLE",
-        "last_update": "2026-10-15T08:02:14.119Z",
+        "last_update": "2026-10-15T08:03:58.991Z",
         "market": "futures",
         "market_label": "FUTURES",
         "mode": "demo",
@@ -183,9 +198,9 @@
           "gross_profit_usdt": 0.0,
           "losses_today": 0,
           "net_pnl_usdt": 0.0,
-          "open_positions": 0,
+          "open_positions": 1,
           "operations_today": 0,
-          "unrealized_pnl_usdt": 0.0,
+          "unrealized_pnl_usdt": -0.075,
           "wins_today": 0
         },
         "symbols": []
@@ -203,7 +218,7 @@
         "id": "XTRADERS_PC2M_DEMO",
         "label": "XTRADERS",
         "last_event": "RUNNER_OK",
-        "last_update": "2026-10-15T08:02:16Z",
+        "last_update": "2026-10-15T08:03:15Z",
         "market": "futures",
         "market_label": "FUTURES",
         "mode": "demo",
@@ -230,7 +245,7 @@
               "live_orders_enabled": false,
               "mode": "DEMO",
               "status": "OK",
-              "ts": "2026-10-15T08:02:14Z"
+              "ts": "2026-10-15T08:03:12Z"
             },
             "last_error": null,
             "last_error_ts": null,
@@ -340,7 +355,7 @@
               "live_orders_enabled": false,
               "mode": "DEMO",
               "status": "OK",
-              "ts": "2026-10-15T08:02:14Z"
+              "ts": "2026-10-15T08:03:13Z"
             },
             "last_error": null,
             "last_error_ts": null,
@@ -428,12 +443,12 @@
       "healthy_strategies": 3,
       "losses_today": 0,
       "net_pnl_usdt": 0.0,
-      "open_positions": 0,
+      "open_positions": 1,
       "operations_today": 0,
-      "unrealized_pnl_usdt": 0.0,
+      "unrealized_pnl_usdt": -0.075,
       "wins_today": 0
     },
     "trades_today": []
   },
-  "updated_at": "2026-10-15T08:03:03.319000Z"
+  "updated_at": "2026-10-15T08:04:03.508000Z"
 }
