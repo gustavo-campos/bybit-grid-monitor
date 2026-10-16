@@ -1,28 +1,28 @@
 {
   "account": {
-    "available_usdt": 130.3799396,
-    "equity_usdt": 145.97915543,
-    "gross_loss_today_usdt": 0.0,
+    "available_usdt": 130.389794,
+    "equity_usdt": 145.98922733,
+    "gross_loss_today_usdt": 0.4242714,
     "gross_profit_today_usdt": 4.19571705,
-    "pnl_today_usdt": 4.19571705,
-    "unrealized_pnl_usdt": -0.13616
+    "pnl_today_usdt": 3.77144565,
+    "unrealized_pnl_usdt": -0.12328
   },
   "accounts": {
     "demo": {
-      "available_usdt": 130.3799396,
-      "equity_usdt": 145.97915543,
-      "gross_loss_today_usdt": 0.0,
+      "available_usdt": 130.389794,
+      "equity_usdt": 145.98922733,
+      "gross_loss_today_usdt": 0.4242714,
       "gross_profit_today_usdt": 4.19571705,
-      "pnl_today_usdt": 4.19571705,
-      "unrealized_pnl_usdt": -0.13616,
+      "pnl_today_usdt": 3.77144565,
+      "unrealized_pnl_usdt": -0.12328,
       "wallet_usdt": 146.28082733
     },
     "live": {
-      "available_usdt": 136.94314745,
-      "equity_usdt": 138.47310875,
+      "available_usdt": 136.94446949,
+      "equity_usdt": 138.47444611,
       "gross_loss_today_usdt": 0.0,
       "gross_profit_today_usdt": 0.0,
-      "margin_balance_usdt": 138.47310875,
+      "margin_balance_usdt": 138.47444611,
       "pnl_today_usdt": 0.0,
       "unrealized_pnl_usdt": 0.0,
       "wallet_usdt": -15.31886888
@@ -68,8 +68,8 @@
     "charts": {
       "pnl_by_strategy": [
         {
-          "operations": 1,
-          "pnl_usdt": 4.19571705,
+          "operations": 3,
+          "pnl_usdt": 3.77144565,
           "strategy": "XTRADERS"
         }
       ],
@@ -77,10 +77,18 @@
         {
           "pnl_usdt": 4.19571705,
           "time": "03:22"
+        },
+        {
+          "pnl_usdt": 3.98356339,
+          "time": "09:00"
+        },
+        {
+          "pnl_usdt": 3.77144565,
+          "time": "09:01"
         }
       ],
       "wins_losses": {
-        "losses": 0,
+        "losses": 2,
         "wins": 1
       }
     },
@@ -88,14 +96,14 @@
       "demo": {
         "futures": {
           "active_strategies": 4,
-          "gross_loss_usdt": 0.0,
+          "gross_loss_usdt": 0.4242714,
           "gross_profit_usdt": 4.19571705,
           "healthy_strategies": 4,
-          "losses_today": 0,
-          "net_pnl_usdt": 4.19571705,
+          "losses_today": 2,
+          "net_pnl_usdt": 3.77144565,
           "open_positions": 1,
-          "operations_today": 1,
-          "unrealized_pnl_usdt": -0.13616,
+          "operations_today": 3,
+          "unrealized_pnl_usdt": -0.12328,
           "wins_today": 1
         },
         "spot": {
@@ -143,7 +151,7 @@
       {
         "attribution_source": "position_order_link_id",
         "entry": 4190.27,
-        "mark": 4188.79,
+        "mark": 4188.93,
         "market": "futures",
         "mode": "demo",
         "opened_at": "2026-10-16T08:02:15.139000Z",
@@ -152,7 +160,7 @@
         "strategy": "XTRADERS_PC2M_DEMO",
         "symbol": "XAUUSDT",
         "target": null,
-        "unrealized_pnl_usdt": -0.13616
+        "unrealized_pnl_usdt": -0.12328
       }
     ],
     "strategies": [
@@ -199,7 +207,7 @@
         "id": "BNF_MULTI_ASSET_DEMO",
         "label": "BNF Multi-Asset",
         "last_event": "BNF_ACCOUNT_CYCLE",
-        "last_update": "2026-10-16T08:04:08.105Z",
+        "last_update": "2026-10-16T08:05:08.593Z",
         "market": "futures",
         "market_label": "FUTURES",
         "mode": "demo",
@@ -228,18 +236,18 @@
         "id": "XTRADERS_PC2M_DEMO",
         "label": "XTRADERS",
         "last_event": "RUNNER_OK",
-        "last_update": "2026-10-16T08:04:16Z",
+        "last_update": "2026-10-16T08:05:16Z",
         "market": "futures",
         "market_label": "FUTURES",
         "mode": "demo",
         "stats": {
-          "gross_loss_usdt": 0.0,
+          "gross_loss_usdt": 0.4242714,
           "gross_profit_usdt": 4.19571705,
-          "losses_today": 0,
-          "net_pnl_usdt": 4.19571705,
+          "losses_today": 2,
+          "net_pnl_usdt": 3.77144565,
           "open_positions": 1,
-          "operations_today": 1,
-          "unrealized_pnl_usdt": -0.13616,
+          "operations_today": 3,
+          "unrealized_pnl_usdt": -0.12328,
           "wins_today": 1
         },
         "symbols": [
@@ -255,7 +263,7 @@
               "live_orders_enabled": false,
               "mode": "DEMO",
               "status": "OK",
-              "ts": "2026-10-16T08:04:13Z"
+              "ts": "2026-10-16T08:05:13Z"
             },
             "last_error": null,
             "last_error_ts": null,
@@ -365,7 +373,7 @@
               "live_orders_enabled": false,
               "mode": "DEMO",
               "status": "OK",
-              "ts": "2026-10-16T08:04:13Z"
+              "ts": "2026-10-16T08:05:14Z"
             },
             "last_error": null,
             "last_error_ts": null,
@@ -455,17 +463,41 @@
     ],
     "summary_today": {
       "active_strategies": 4,
-      "gross_loss_usdt": 0.0,
+      "gross_loss_usdt": 0.4242714,
       "gross_profit_usdt": 4.19571705,
       "healthy_strategies": 4,
-      "losses_today": 0,
-      "net_pnl_usdt": 4.19571705,
+      "losses_today": 2,
+      "net_pnl_usdt": 3.77144565,
       "open_positions": 1,
-      "operations_today": 1,
-      "unrealized_pnl_usdt": -0.13616,
+      "operations_today": 3,
+      "unrealized_pnl_usdt": -0.12328,
       "wins_today": 1
     },
     "trades_today": [
+      {
+        "attribution_source": "closing_order_link_id",
+        "closed_at": "2026-10-16T08:01:16.338000Z",
+        "entry": 4192.05,
+        "exit": 4192.05,
+        "market": "futures",
+        "mode": "demo",
+        "pnl_usdt": -0.21211774,
+        "side": "Sell",
+        "strategy": "XTRADERS_PC2M_DEMO",
+        "symbol": "XAUUSDT"
+      },
+      {
+        "attribution_source": "closing_order_link_id",
+        "closed_at": "2026-10-16T08:00:16.053000Z",
+        "entry": 4192.76,
+        "exit": 4192.76,
+        "market": "futures",
+        "mode": "demo",
+        "pnl_usdt": -0.21215366,
+        "side": "Sell",
+        "strategy": "XTRADERS_PC2M_DEMO",
+        "symbol": "XAUUSDT"
+      },
       {
         "attribution_source": "matched_entry_order_partial_aware",
         "closed_at": "2026-10-16T02:22:13.041000Z",
@@ -480,5 +512,5 @@
       }
     ]
   },
-  "updated_at": "2026-10-16T08:05:04.299000Z"
+  "updated_at": "2026-10-16T08:06:03.903000Z"
 }
