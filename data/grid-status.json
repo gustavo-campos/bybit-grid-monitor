@@ -18,11 +18,11 @@
       "wallet_usdt": 142.64803677
     },
     "live": {
-      "available_usdt": 14.70534159,
-      "equity_usdt": 158.08413434,
+      "available_usdt": 14.68239463,
+      "equity_usdt": 157.85433084,
       "gross_loss_today_usdt": 0.0,
       "gross_profit_today_usdt": 0.0,
-      "margin_balance_usdt": 158.08413434,
+      "margin_balance_usdt": 157.85433084,
       "pnl_today_usdt": 0.0,
       "unrealized_pnl_usdt": 0.0,
       "wallet_usdt": -2.19457826
@@ -33,8 +33,8 @@
   "jjunior_m5": {
     "assets": [
       {
-        "blocked": "WAE_NOT_CONFIRMED",
-        "last_closed_candle": "2026-10-17 22:12:00+00:00",
+        "blocked": "NO_PATHFINDER_RETEST",
+        "last_closed_candle": "2026-10-17 22:14:00+00:00",
         "status": "WAITING_SIGNAL",
         "symbol": "SPYUSDT"
       }
@@ -43,14 +43,14 @@
     "mode": "DEMO",
     "orders_enabled": true,
     "strategy": "JJUNIORB3_VIDEO_M2_SPY_SHORT",
-    "updated_at": "2026-10-17T22:15:02.652Z",
+    "updated_at": "2026-10-17T22:16:02.612Z",
     "version": "JJUNIORB3_VIDEO_M2_SPY_SHORT_DEMO_V1"
   },
   "jjunior_video_m2": {
     "assets": [
       {
-        "blocked": "WAE_NOT_CONFIRMED",
-        "last_closed_candle": "2026-10-17 22:12:00+00:00",
+        "blocked": "NO_PATHFINDER_RETEST",
+        "last_closed_candle": "2026-10-17 22:14:00+00:00",
         "status": "WAITING_SIGNAL",
         "symbol": "SPYUSDT"
       }
@@ -59,7 +59,7 @@
     "mode": "DEMO",
     "orders_enabled": true,
     "strategy": "JJUNIORB3_VIDEO_M2_SPY_SHORT",
-    "updated_at": "2026-10-17T22:15:02.652Z",
+    "updated_at": "2026-10-17T22:16:02.612Z",
     "version": "JJUNIORB3_VIDEO_M2_SPY_SHORT_DEMO_V1"
   },
   "mode": "MULTI_ENV",
@@ -162,7 +162,7 @@
         "id": "V44_WUNDER_MEAN_REVERSION",
         "label": "Wunder Mean Reversion",
         "last_event": "SIGNAL_SCAN",
-        "last_update": "2026-10-17T22:00:10.092Z",
+        "last_update": "2026-10-17T22:15:10.340Z",
         "market": "futures",
         "market_label": "FUTURES",
         "mode": "demo",
@@ -193,7 +193,7 @@
         "id": "BNF_MULTI_ASSET_DEMO",
         "label": "BNF Multi-Asset",
         "last_event": "BNF_ACCOUNT_CYCLE",
-        "last_update": "2026-10-17T22:14:08.849Z",
+        "last_update": "2026-10-17T22:15:09.742Z",
         "market": "futures",
         "market_label": "FUTURES",
         "mode": "demo",
@@ -222,7 +222,7 @@
         "id": "XTRADERS_PC2M_DEMO",
         "label": "XTRADERS",
         "last_event": "RUNNER_OK",
-        "last_update": "2026-10-17T22:14:16Z",
+        "last_update": "2026-10-17T22:15:16Z",
         "market": "futures",
         "market_label": "FUTURES",
         "mode": "demo",
@@ -249,7 +249,7 @@
               "live_orders_enabled": false,
               "mode": "DEMO",
               "status": "OK",
-              "ts": "2026-10-17T22:14:13Z"
+              "ts": "2026-10-17T22:15:14Z"
             },
             "last_error": null,
             "last_error_ts": null,
@@ -359,7 +359,7 @@
               "live_orders_enabled": false,
               "mode": "DEMO",
               "status": "OK",
-              "ts": "2026-10-17T22:14:14Z"
+              "ts": "2026-10-17T22:15:14Z"
             },
             "last_error": null,
             "last_error_ts": null,
@@ -421,7 +421,7 @@
         "id": "JJUNIORB3_VIDEO_M2_DEMO",
         "label": "JJUNIORB3",
         "last_event": "WAITING_SIGNAL",
-        "last_update": "2026-10-17T22:15:02.652Z",
+        "last_update": "2026-10-17T22:16:02.612Z",
         "market": "futures",
         "market_label": "FUTURES",
         "mode": "demo",
@@ -439,9 +439,9 @@
           "SPYUSDT"
         ],
         "telemetry": {
-          "blocked": "WAE_NOT_CONFIRMED",
+          "blocked": "NO_PATHFINDER_RETEST",
           "candidate_side": null,
-          "last_closed_candle": "2026-10-17 22:12:00+00:00",
+          "last_closed_candle": "2026-10-17 22:14:00+00:00",
           "orders_enabled": true,
           "version": "JJUNIORB3_VIDEO_M2_SPY_SHORT_DEMO_V1"
         }
@@ -486,5 +486,5 @@
       }
     ]
   },
-  "updated_at": "2026-10-17T22:15:04.846000Z"
+  "updated_at": "2026-10-17T22:16:04.535000Z"
 }
