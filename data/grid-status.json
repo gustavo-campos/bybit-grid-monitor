@@ -1,28 +1,28 @@
 {
   "account": {
-    "available_usdt": 142.36791888,
-    "equity_usdt": 142.36823038,
-    "gross_loss_today_usdt": 0.11521984,
+    "available_usdt": 142.07781431,
+    "equity_usdt": 142.0781256,
+    "gross_loss_today_usdt": 0.40710526,
     "gross_profit_today_usdt": 0.0,
-    "pnl_today_usdt": -0.11521984,
+    "pnl_today_usdt": -0.40710526,
     "unrealized_pnl_usdt": 0.0
   },
   "accounts": {
     "demo": {
-      "available_usdt": 142.36791888,
-      "equity_usdt": 142.36823038,
-      "gross_loss_today_usdt": 0.11521984,
+      "available_usdt": 142.07781431,
+      "equity_usdt": 142.0781256,
+      "gross_loss_today_usdt": 0.40710526,
       "gross_profit_today_usdt": 0.0,
-      "pnl_today_usdt": -0.11521984,
+      "pnl_today_usdt": -0.40710526,
       "unrealized_pnl_usdt": 0.0,
-      "wallet_usdt": 142.53281693
+      "wallet_usdt": 142.24093151
     },
     "live": {
-      "available_usdt": 14.71473469,
-      "equity_usdt": 158.17895343,
+      "available_usdt": 14.71934948,
+      "equity_usdt": 158.22423341,
       "gross_loss_today_usdt": 0.0,
       "gross_profit_today_usdt": 0.0,
-      "margin_balance_usdt": 158.17895343,
+      "margin_balance_usdt": 158.22423341,
       "pnl_today_usdt": 0.0,
       "unrealized_pnl_usdt": 0.0,
       "wallet_usdt": -2.19458497
@@ -43,7 +43,7 @@
     "mode": "DEMO",
     "orders_enabled": true,
     "strategy": "JJUNIORB3_VIDEO_M2_SPY_SHORT",
-    "updated_at": "2026-10-17T23:06:02.761Z",
+    "updated_at": "2026-10-17T23:07:03.480Z",
     "version": "JJUNIORB3_VIDEO_M2_SPY_SHORT_DEMO_V1"
   },
   "jjunior_video_m2": {
@@ -59,7 +59,7 @@
     "mode": "DEMO",
     "orders_enabled": true,
     "strategy": "JJUNIORB3_VIDEO_M2_SPY_SHORT",
-    "updated_at": "2026-10-17T23:06:02.761Z",
+    "updated_at": "2026-10-17T23:07:03.480Z",
     "version": "JJUNIORB3_VIDEO_M2_SPY_SHORT_DEMO_V1"
   },
   "mode": "MULTI_ENV",
@@ -68,8 +68,8 @@
     "charts": {
       "pnl_by_strategy": [
         {
-          "operations": 2,
-          "pnl_usdt": -0.11521984,
+          "operations": 3,
+          "pnl_usdt": -0.40710526,
           "strategy": "BNF Multi-Asset"
         }
       ],
@@ -81,10 +81,14 @@
         {
           "pnl_usdt": -0.11521984,
           "time": "00:03"
+        },
+        {
+          "pnl_usdt": -0.40710526,
+          "time": "00:06"
         }
       ],
       "wins_losses": {
-        "losses": 2,
+        "losses": 3,
         "wins": 0
       }
     },
@@ -92,13 +96,13 @@
       "demo": {
         "futures": {
           "active_strategies": 4,
-          "gross_loss_usdt": 0.11521984,
+          "gross_loss_usdt": 0.40710526,
           "gross_profit_usdt": 0.0,
           "healthy_strategies": 4,
-          "losses_today": 2,
-          "net_pnl_usdt": -0.11521984,
+          "losses_today": 3,
+          "net_pnl_usdt": -0.40710526,
           "open_positions": 0,
-          "operations_today": 2,
+          "operations_today": 3,
           "unrealized_pnl_usdt": 0.0,
           "wins_today": 0
         },
@@ -188,17 +192,17 @@
         "id": "BNF_MULTI_ASSET_DEMO",
         "label": "BNF Multi-Asset",
         "last_event": "BNF_FAST_PROTECT_CYCLE",
-        "last_update": "2026-10-17T23:05:14.408Z",
+        "last_update": "2026-10-17T23:06:58.856Z",
         "market": "futures",
         "market_label": "FUTURES",
         "mode": "demo",
         "stats": {
-          "gross_loss_usdt": 0.11521984,
+          "gross_loss_usdt": 0.40710526,
           "gross_profit_usdt": 0.0,
-          "losses_today": 2,
-          "net_pnl_usdt": -0.11521984,
+          "losses_today": 3,
+          "net_pnl_usdt": -0.40710526,
           "open_positions": 0,
-          "operations_today": 2,
+          "operations_today": 3,
           "unrealized_pnl_usdt": 0.0,
           "wins_today": 0
         },
@@ -217,7 +221,7 @@
         "id": "XTRADERS_PC2M_DEMO",
         "label": "XTRADERS",
         "last_event": "RUNNER_OK",
-        "last_update": "2026-10-17T23:05:17Z",
+        "last_update": "2026-10-17T23:06:16Z",
         "market": "futures",
         "market_label": "FUTURES",
         "mode": "demo",
@@ -244,7 +248,7 @@
               "live_orders_enabled": false,
               "mode": "DEMO",
               "status": "OK",
-              "ts": "2026-10-17T23:05:14Z"
+              "ts": "2026-10-17T23:06:14Z"
             },
             "last_error": null,
             "last_error_ts": null,
@@ -354,7 +358,7 @@
               "live_orders_enabled": false,
               "mode": "DEMO",
               "status": "OK",
-              "ts": "2026-10-17T23:05:15Z"
+              "ts": "2026-10-17T23:06:14Z"
             },
             "last_error": null,
             "last_error_ts": null,
@@ -416,7 +420,7 @@
         "id": "JJUNIORB3_VIDEO_M2_DEMO",
         "label": "JJUNIORB3",
         "last_event": "WAITING_SIGNAL",
-        "last_update": "2026-10-17T23:06:02.761Z",
+        "last_update": "2026-10-17T23:07:03.480Z",
         "market": "futures",
         "market_label": "FUTURES",
         "mode": "demo",
@@ -444,17 +448,29 @@
     ],
     "summary_today": {
       "active_strategies": 4,
-      "gross_loss_usdt": 0.11521984,
+      "gross_loss_usdt": 0.40710526,
       "gross_profit_usdt": 0.0,
       "healthy_strategies": 4,
-      "losses_today": 2,
-      "net_pnl_usdt": -0.11521984,
+      "losses_today": 3,
+      "net_pnl_usdt": -0.40710526,
       "open_positions": 0,
-      "operations_today": 2,
+      "operations_today": 3,
       "unrealized_pnl_usdt": 0.0,
       "wins_today": 0
     },
     "trades_today": [
+      {
+        "attribution_source": "matched_entry_order_partial_aware",
+        "closed_at": "2026-10-17T23:06:13.539000Z",
+        "entry": 317.63,
+        "exit": 316.92,
+        "market": "futures",
+        "mode": "demo",
+        "pnl_usdt": -0.29188542,
+        "side": "Sell",
+        "strategy": "BNF_MULTI_ASSET_DEMO",
+        "symbol": "TERUSDT"
+      },
       {
         "attribution_source": "matched_entry_order_partial_aware",
         "closed_at": "2026-10-17T23:03:13.247000Z",
@@ -481,5 +497,5 @@
       }
     ]
   },
-  "updated_at": "2026-10-17T23:06:04.761000Z"
+  "updated_at": "2026-10-17T23:07:05.166000Z"
 }
