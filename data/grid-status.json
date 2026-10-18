@@ -18,11 +18,11 @@
       "wallet_usdt": 141.28369367
     },
     "live": {
-      "available_usdt": 157.79946105,
-      "equity_usdt": 157.98510443,
+      "available_usdt": 157.79724183,
+      "equity_usdt": 157.98288261,
       "gross_loss_today_usdt": 0.0,
       "gross_profit_today_usdt": 0.0,
-      "margin_balance_usdt": 157.98510443,
+      "margin_balance_usdt": 157.98288261,
       "pnl_today_usdt": 0.0,
       "unrealized_pnl_usdt": 0.0,
       "wallet_usdt": -1.85878148
@@ -43,7 +43,7 @@
     "mode": "DEMO",
     "orders_enabled": true,
     "strategy": "JJUNIORB3_VIDEO_M2_SPY_SHORT",
-    "updated_at": "2026-10-18T15:50:02.570Z",
+    "updated_at": "2026-10-18T15:51:02.505Z",
     "version": "JJUNIORB3_VIDEO_M2_SPY_SHORT_DEMO_V1"
   },
   "jjunior_video_m2": {
@@ -59,7 +59,7 @@
     "mode": "DEMO",
     "orders_enabled": true,
     "strategy": "JJUNIORB3_VIDEO_M2_SPY_SHORT",
-    "updated_at": "2026-10-18T15:50:02.570Z",
+    "updated_at": "2026-10-18T15:51:02.505Z",
     "version": "JJUNIORB3_VIDEO_M2_SPY_SHORT_DEMO_V1"
   },
   "mode": "MULTI_ENV",
@@ -120,10 +120,10 @@
     "groups": {
       "demo": {
         "futures": {
-          "active_strategies": 3,
+          "active_strategies": 4,
           "gross_loss_usdt": 1.3643431,
           "gross_profit_usdt": 0.0,
-          "healthy_strategies": 3,
+          "healthy_strategies": 4,
           "losses_today": 8,
           "net_pnl_usdt": -1.3643431,
           "open_positions": 0,
@@ -217,7 +217,7 @@
         "id": "BNF_MULTI_ASSET_DEMO",
         "label": "BNF Multi-Asset",
         "last_event": "BNF_ACCOUNT_CYCLE",
-        "last_update": "2026-10-18T15:49:09.404Z",
+        "last_update": "2026-10-18T15:50:09.573Z",
         "market": "futures",
         "market_label": "FUTURES",
         "mode": "demo",
@@ -246,7 +246,7 @@
         "id": "XTRADERS_PC2M_DEMO",
         "label": "XTRADERS",
         "last_event": "RUNNER_OK",
-        "last_update": "2026-10-18T15:49:16Z",
+        "last_update": "2026-10-18T15:50:15Z",
         "market": "futures",
         "market_label": "FUTURES",
         "mode": "demo",
@@ -273,7 +273,7 @@
               "live_orders_enabled": false,
               "mode": "DEMO",
               "status": "OK",
-              "ts": "2026-10-18T15:49:14Z"
+              "ts": "2026-10-18T15:50:13Z"
             },
             "last_error": null,
             "last_error_ts": null,
@@ -383,7 +383,7 @@
               "live_orders_enabled": false,
               "mode": "DEMO",
               "status": "OK",
-              "ts": "2026-10-18T15:49:13Z"
+              "ts": "2026-10-18T15:50:13Z"
             },
             "last_error": null,
             "last_error_ts": null,
@@ -439,13 +439,13 @@
           "PATHFINDER",
           "WAE"
         ],
-        "cron_enabled": false,
+        "cron_enabled": true,
         "execution": "venue",
-        "health": "disabled",
+        "health": "healthy",
         "id": "JJUNIORB3_VIDEO_M2_DEMO",
         "label": "JJUNIORB3",
-        "last_event": "RUNNER_DISABLED",
-        "last_update": null,
+        "last_event": "WAITING_SIGNAL",
+        "last_update": "2026-10-18T15:51:02.505Z",
         "market": "futures",
         "market_label": "FUTURES",
         "mode": "demo",
@@ -463,19 +463,19 @@
           "SPYUSDT"
         ],
         "telemetry": {
-          "blocked": null,
+          "blocked": "NO_PATHFINDER_RETEST",
           "candidate_side": null,
-          "last_closed_candle": null,
-          "orders_enabled": null,
-          "version": null
+          "last_closed_candle": "2026-10-18 15:48:00+00:00",
+          "orders_enabled": true,
+          "version": "JJUNIORB3_VIDEO_M2_SPY_SHORT_DEMO_V1"
         }
       }
     ],
     "summary_today": {
-      "active_strategies": 3,
+      "active_strategies": 4,
       "gross_loss_usdt": 1.3643431,
       "gross_profit_usdt": 0.0,
-      "healthy_strategies": 3,
+      "healthy_strategies": 4,
       "losses_today": 8,
       "net_pnl_usdt": -1.3643431,
       "open_positions": 0,
@@ -582,5 +582,5 @@
       }
     ]
   },
-  "updated_at": "2026-10-18T15:50:04.114000Z"
+  "updated_at": "2026-10-18T15:51:04.456000Z"
 }
