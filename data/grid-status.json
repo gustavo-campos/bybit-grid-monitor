@@ -18,11 +18,11 @@
       "wallet_usdt": 137.34408006
     },
     "live": {
-      "available_usdt": 156.79597251,
-      "equity_usdt": 157.07562885,
+      "available_usdt": 156.7936232,
+      "equity_usdt": 157.07327534,
       "gross_loss_today_usdt": 0.0,
       "gross_profit_today_usdt": 0.0,
-      "margin_balance_usdt": 157.07562885,
+      "margin_balance_usdt": 157.07327534,
       "pnl_today_usdt": 0.0,
       "unrealized_pnl_usdt": 0.0,
       "wallet_usdt": -2.80001018
@@ -31,18 +31,36 @@
   "day": "2026-10-20",
   "grids": {},
   "jjunior_m5": {
-    "assets": [],
+    "assets": [
+      {
+        "blocked": "NO_PATHFINDER_RETEST",
+        "last_closed_candle": "2026-10-20 07:02:00+00:00",
+        "status": "WAITING_SIGNAL",
+        "symbol": "SPYUSDT"
+      }
+    ],
+    "events": [],
     "mode": "DEMO",
-    "orders_enabled": false,
-    "status": "NOT_STARTED",
-    "strategy": "JJUNIORB3_VIDEO_M2_SPY_SHORT"
+    "orders_enabled": true,
+    "strategy": "JJUNIORB3_VIDEO_M2_SPY_SHORT",
+    "updated_at": "2026-10-20T07:04:02.778Z",
+    "version": "JJUNIORB3_VIDEO_M2_SPY_SHORT_DEMO_V1"
   },
   "jjunior_video_m2": {
-    "assets": [],
+    "assets": [
+      {
+        "blocked": "NO_PATHFINDER_RETEST",
+        "last_closed_candle": "2026-10-20 07:02:00+00:00",
+        "status": "WAITING_SIGNAL",
+        "symbol": "SPYUSDT"
+      }
+    ],
+    "events": [],
     "mode": "DEMO",
-    "orders_enabled": false,
-    "status": "NOT_STARTED",
-    "strategy": "JJUNIORB3_VIDEO_M2_SPY_SHORT"
+    "orders_enabled": true,
+    "strategy": "JJUNIORB3_VIDEO_M2_SPY_SHORT",
+    "updated_at": "2026-10-20T07:04:02.778Z",
+    "version": "JJUNIORB3_VIDEO_M2_SPY_SHORT_DEMO_V1"
   },
   "mode": "MULTI_ENV",
   "schema_version": 2,
@@ -58,10 +76,10 @@
     "groups": {
       "demo": {
         "futures": {
-          "active_strategies": 3,
+          "active_strategies": 4,
           "gross_loss_usdt": 0.0,
           "gross_profit_usdt": 0.0,
-          "healthy_strategies": 3,
+          "healthy_strategies": 4,
           "losses_today": 0,
           "net_pnl_usdt": 0.0,
           "open_positions": 0,
@@ -155,7 +173,7 @@
         "id": "BNF_MULTI_ASSET_DEMO",
         "label": "BNF Multi-Asset",
         "last_event": "BNF_ACCOUNT_CYCLE",
-        "last_update": "2026-10-20T07:02:05.532Z",
+        "last_update": "2026-10-20T07:03:06.307Z",
         "market": "futures",
         "market_label": "FUTURES",
         "mode": "demo",
@@ -184,7 +202,7 @@
         "id": "XTRADERS_PC2M_DEMO",
         "label": "XTRADERS",
         "last_event": "RUNNER_OK",
-        "last_update": "2026-10-20T07:02:16Z",
+        "last_update": "2026-10-20T07:03:16Z",
         "market": "futures",
         "market_label": "FUTURES",
         "mode": "demo",
@@ -211,7 +229,7 @@
               "live_orders_enabled": false,
               "mode": "DEMO",
               "status": "OK",
-              "ts": "2026-10-20T07:02:14Z"
+              "ts": "2026-10-20T07:03:14Z"
             },
             "last_error": null,
             "last_error_ts": null,
@@ -321,7 +339,7 @@
               "live_orders_enabled": false,
               "mode": "DEMO",
               "status": "OK",
-              "ts": "2026-10-20T07:02:14Z"
+              "ts": "2026-10-20T07:03:14Z"
             },
             "last_error": null,
             "last_error_ts": null,
@@ -377,13 +395,13 @@
           "PATHFINDER",
           "WAE"
         ],
-        "cron_enabled": false,
+        "cron_enabled": true,
         "execution": "venue",
-        "health": "disabled",
+        "health": "healthy",
         "id": "JJUNIORB3_VIDEO_M2_DEMO",
         "label": "JJUNIORB3",
-        "last_event": "RUNNER_DISABLED",
-        "last_update": null,
+        "last_event": "WAITING_SIGNAL",
+        "last_update": "2026-10-20T07:04:02.778Z",
         "market": "futures",
         "market_label": "FUTURES",
         "mode": "demo",
@@ -401,19 +419,19 @@
           "SPYUSDT"
         ],
         "telemetry": {
-          "blocked": null,
+          "blocked": "NO_PATHFINDER_RETEST",
           "candidate_side": null,
-          "last_closed_candle": null,
-          "orders_enabled": null,
-          "version": null
+          "last_closed_candle": "2026-10-20 07:02:00+00:00",
+          "orders_enabled": true,
+          "version": "JJUNIORB3_VIDEO_M2_SPY_SHORT_DEMO_V1"
         }
       }
     ],
     "summary_today": {
-      "active_strategies": 3,
+      "active_strategies": 4,
       "gross_loss_usdt": 0.0,
       "gross_profit_usdt": 0.0,
-      "healthy_strategies": 3,
+      "healthy_strategies": 4,
       "losses_today": 0,
       "net_pnl_usdt": 0.0,
       "open_positions": 0,
@@ -423,5 +441,5 @@
     },
     "trades_today": []
   },
-  "updated_at": "2026-10-20T07:03:04.098000Z"
+  "updated_at": "2026-10-20T07:04:04.731000Z"
 }
