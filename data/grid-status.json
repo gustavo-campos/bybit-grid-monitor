@@ -18,51 +18,197 @@
       "wallet_usdt": 137.34408006
     },
     "live": {
-      "available_usdt": 137.54475161,
-      "equity_usdt": 154.66823907,
+      "available_usdt": 137.55433664,
+      "equity_usdt": 154.67643748,
       "gross_loss_today_usdt": 0.0,
       "gross_profit_today_usdt": 0.0,
-      "margin_balance_usdt": 154.66823907,
+      "margin_balance_usdt": 154.67643748,
       "pnl_today_usdt": 0.0,
       "unrealized_pnl_usdt": 0.0,
       "wallet_usdt": -4.88085512
     }
   },
   "day": "2026-10-20",
-  "grids": {},
-  "jjunior_m5": {
-    "assets": [
-      {
-        "blocked": "NO_PATHFINDER_RETEST",
-        "last_closed_candle": "2026-10-20 20:58:00+00:00",
-        "status": "WAITING_SIGNAL",
-        "symbol": "SPYUSDT"
-      }
-    ],
-    "events": [],
-    "mode": "DEMO",
-    "orders_enabled": true,
-    "strategy": "JJUNIORB3_VIDEO_M2_SPY_SHORT",
-    "updated_at": "2026-10-20T21:01:02.472Z",
-    "version": "JJUNIORB3_VIDEO_M2_SPY_SHORT_DEMO_V1"
-  },
-  "jjunior_video_m2": {
-    "assets": [
-      {
-        "blocked": "NO_PATHFINDER_RETEST",
-        "last_closed_candle": "2026-10-20 20:58:00+00:00",
-        "status": "WAITING_SIGNAL",
-        "symbol": "SPYUSDT"
-      }
-    ],
-    "events": [],
-    "mode": "DEMO",
-    "orders_enabled": true,
-    "strategy": "JJUNIORB3_VIDEO_M2_SPY_SHORT",
-    "updated_at": "2026-10-20T21:01:02.472Z",
-    "version": "JJUNIORB3_VIDEO_M2_SPY_SHORT_DEMO_V1"
+  "grids": {
+    "BTCUSDT": {
+      "cluster_owner": "ETHUSDT",
+      "grid": {
+        "high": 87401.9,
+        "low": 62272.5,
+        "projected_net_step_pct": 0.0096346,
+        "step_pct": 0.0126346
+      },
+      "inventory_usdt": 0.0,
+      "legs": [],
+      "open_legs": 0,
+      "price": 84126.3,
+      "realized_pnl_usdt": 0.0,
+      "regime": {
+        "adx4h": 15.66753288,
+        "adx_limit": 15,
+        "adx_pass": false,
+        "trend_pass": true
+      },
+      "source_ts": "2026-09-26T16:29:04.730Z",
+      "status": "DISABLED",
+      "symbol": "BTCUSDT",
+      "unrealized_pnl_usdt": 0.0
+    },
+    "ETHUSDT": {
+      "cluster_owner": "ETHUSDT",
+      "grid": {
+        "high": 2807.6,
+        "low": 2356.3,
+        "projected_net_step_pct": 0.00337957,
+        "step_pct": 0.00487957
+      },
+      "inventory_usdt": 0.0,
+      "legs": [],
+      "open_legs": 0,
+      "price": 2691.53,
+      "realized_pnl_usdt": 0.0,
+      "regime": {
+        "adx4h": 20.65039336,
+        "adx_limit": 25,
+        "adx_pass": true,
+        "trend_pass": true
+      },
+      "source_ts": "2026-09-26T16:29:04.575Z",
+      "status": "DISABLED",
+      "symbol": "ETHUSDT",
+      "unrealized_pnl_usdt": 0.0
+    }
   },
   "mode": "MULTI_ENV",
+  "research": {
+    "lbr310": {
+      "close": 82811.8,
+      "closed_bar_only": true,
+      "events": [
+        {
+          "confirmed": true,
+          "direction": "short",
+          "note": "Oscilador recua da banda superior",
+          "price": 82496.4,
+          "time": "2026-10-20T19:00:00Z",
+          "type": "exhaustion"
+        },
+        {
+          "confirmed": true,
+          "direction": "short",
+          "note": "Oscilador recua da banda superior",
+          "price": 82784.5,
+          "time": "2026-10-20T18:00:00Z",
+          "type": "exhaustion"
+        },
+        {
+          "confirmed": true,
+          "direction": "long",
+          "note": "Slow Line acima de zero",
+          "price": 82745.4,
+          "time": "2026-10-20T17:00:00Z",
+          "type": "trend_change"
+        },
+        {
+          "confirmed": true,
+          "direction": "long",
+          "note": "Divergência altista confirmada com 5 candles de atraso",
+          "price": 83232.0,
+          "time": "2026-10-20T15:00:00Z",
+          "type": "divergence"
+        },
+        {
+          "confirmed": true,
+          "direction": "long",
+          "note": "Oscilador recua da banda inferior",
+          "price": 81573.9,
+          "time": "2026-10-20T13:00:00Z",
+          "type": "exhaustion"
+        },
+        {
+          "confirmed": true,
+          "direction": "long",
+          "note": "Oscilador recua da banda inferior",
+          "price": 81461.4,
+          "time": "2026-10-20T12:00:00Z",
+          "type": "exhaustion"
+        },
+        {
+          "confirmed": true,
+          "direction": "long",
+          "note": "Oscilador recua da banda inferior",
+          "price": 81521.7,
+          "time": "2026-10-20T11:00:00Z",
+          "type": "exhaustion"
+        },
+        {
+          "confirmed": true,
+          "direction": "long",
+          "note": "Fast Line recupera após correção",
+          "price": 81521.7,
+          "time": "2026-10-20T11:00:00Z",
+          "type": "anti"
+        },
+        {
+          "confirmed": true,
+          "direction": "short",
+          "note": "Primeiro cruzamento rápido/lento na tendência negativa",
+          "price": 81513.3,
+          "time": "2026-10-20T08:00:00Z",
+          "type": "first_cross"
+        },
+        {
+          "confirmed": true,
+          "direction": "long",
+          "note": "Fast Line recupera após correção",
+          "price": 82099.4,
+          "time": "2026-10-20T04:00:00Z",
+          "type": "anti"
+        },
+        {
+          "confirmed": true,
+          "direction": "short",
+          "note": "Fast Line vira para baixo após correção",
+          "price": 81900.8,
+          "time": "2026-10-20T00:00:00Z",
+          "type": "anti"
+        },
+        {
+          "confirmed": true,
+          "direction": "short",
+          "note": "Slow Line abaixo de zero",
+          "price": 81842.1,
+          "time": "2026-10-19T20:00:00Z",
+          "type": "trend_change"
+        }
+      ],
+      "fast_line": 190.036667,
+      "histogram": 23.052292,
+      "last_closed_at": "2026-10-20T21:00:00Z",
+      "last_signal": {
+        "confirmed": true,
+        "direction": "short",
+        "note": "Primeiro cruzamento rápido/lento na tendência negativa",
+        "price": 81513.3,
+        "time": "2026-10-20T08:00:00Z",
+        "type": "first_cross"
+      },
+      "method": "SIBA LBR310 public indicator signal interpretation; not an executable strategy",
+      "mode": "monitor_only",
+      "parameters": {
+        "fast": 3,
+        "signal": 16,
+        "slow": 10
+      },
+      "slow_line": 166.984375,
+      "source": "bybit_v5_linear_public_klines",
+      "status": "ok",
+      "symbol": "BTCUSDT",
+      "timeframe": "1h",
+      "trend": "bull",
+      "venue": "Bybit linear"
+    }
+  },
   "schema_version": 2,
   "system": {
     "charts": {
@@ -76,10 +222,10 @@
     "groups": {
       "demo": {
         "futures": {
-          "active_strategies": 4,
+          "active_strategies": 2,
           "gross_loss_usdt": 0.0,
           "gross_profit_usdt": 0.0,
-          "healthy_strategies": 4,
+          "healthy_strategies": 2,
           "losses_today": 0,
           "net_pnl_usdt": 0.0,
           "open_positions": 0,
@@ -131,11 +277,181 @@
     "open_positions": [],
     "strategies": [
       {
+        "badges": [],
+        "cron_enabled": false,
+        "execution": "venue",
+        "health": "disabled",
+        "id": "V44_ETH_VAULT_GRID",
+        "label": "ETH Vault Grid",
+        "last_event": "NO_NEW_BAR",
+        "last_update": "2026-09-26T16:29:04.575Z",
+        "market": "spot",
+        "market_label": "SPOT",
+        "mode": "demo",
+        "stats": {
+          "gross_loss_usdt": 0.0,
+          "gross_profit_usdt": 0.0,
+          "losses_today": 0,
+          "net_pnl_usdt": 0.0,
+          "open_positions": 0,
+          "operations_today": 0,
+          "unrealized_pnl_usdt": 0.0,
+          "wins_today": 0
+        },
+        "symbols": []
+      },
+      {
+        "badges": [],
+        "cron_enabled": false,
+        "execution": "venue",
+        "health": "disabled",
+        "id": "V44_BTC_VAULT_GRID",
+        "label": "BTC Vault Grid",
+        "last_event": "NO_NEW_BAR",
+        "last_update": "2026-09-26T16:29:04.730Z",
+        "market": "spot",
+        "market_label": "SPOT",
+        "mode": "demo",
+        "stats": {
+          "gross_loss_usdt": 0.0,
+          "gross_profit_usdt": 0.0,
+          "losses_today": 0,
+          "net_pnl_usdt": 0.0,
+          "open_positions": 0,
+          "operations_today": 0,
+          "unrealized_pnl_usdt": 0.0,
+          "wins_today": 0
+        },
+        "symbols": []
+      },
+      {
+        "badges": [],
+        "cron_enabled": false,
+        "execution": "venue",
+        "health": "disabled",
+        "id": "spot_perp_arb",
+        "label": "Spot ↔ Perp Arbitrage",
+        "last_event": null,
+        "last_update": null,
+        "market": "spot",
+        "market_label": "SPOT↔PERP",
+        "mode": "demo",
+        "stats": {
+          "gross_loss_usdt": 0.0,
+          "gross_profit_usdt": 0.0,
+          "losses_today": 0,
+          "net_pnl_usdt": 0.0,
+          "open_positions": 0,
+          "operations_today": 0,
+          "unrealized_pnl_usdt": 0.0,
+          "wins_today": 0
+        },
+        "symbols": []
+      },
+      {
+        "badges": [],
+        "cron_enabled": false,
+        "execution": "venue",
+        "health": "disabled",
+        "id": "V44_LIQ_FLOW_STRICT_V2",
+        "label": "Liquidation Flow Strict",
+        "last_event": null,
+        "last_update": null,
+        "market": "futures",
+        "market_label": "FUTURES",
+        "mode": "demo",
+        "stats": {
+          "gross_loss_usdt": 0.0,
+          "gross_profit_usdt": 0.0,
+          "losses_today": 0,
+          "net_pnl_usdt": 0.0,
+          "open_positions": 0,
+          "operations_today": 0,
+          "unrealized_pnl_usdt": 0.0,
+          "wins_today": 0
+        },
+        "symbols": []
+      },
+      {
+        "badges": [],
+        "cron_enabled": false,
+        "execution": "venue",
+        "health": "disabled",
+        "id": "V44_LIQ_EXPANSION_5_10",
+        "label": "Liquidation Expansion (quarentena)",
+        "last_event": "LIQUIDATION",
+        "last_update": "2026-09-25T22:54:21.074Z",
+        "market": "futures",
+        "market_label": "FUTURES",
+        "mode": "demo",
+        "stats": {
+          "gross_loss_usdt": 0.0,
+          "gross_profit_usdt": 0.0,
+          "losses_today": 0,
+          "net_pnl_usdt": 0.0,
+          "open_positions": 0,
+          "operations_today": 0,
+          "unrealized_pnl_usdt": 0.0,
+          "wins_today": 0
+        },
+        "symbols": []
+      },
+      {
         "badges": [
-          "DEMO",
-          "VENUE",
-          "EQUITY-SIZED"
+          "FAST FAILURE",
+          "UNCAPPED"
         ],
+        "cron_enabled": false,
+        "execution": "venue",
+        "health": "disabled",
+        "id": "V44_MULTI_SPEED_TREND",
+        "label": "Multi-Speed Trend Portfolio",
+        "last_event": null,
+        "last_update": null,
+        "market": "futures",
+        "market_label": "FUTURES",
+        "mode": "demo",
+        "stats": {
+          "gross_loss_usdt": 0.0,
+          "gross_profit_usdt": 0.0,
+          "losses_today": 0,
+          "net_pnl_usdt": 0.0,
+          "open_positions": 0,
+          "operations_today": 0,
+          "unrealized_pnl_usdt": 0.0,
+          "wins_today": 0
+        },
+        "symbols": [
+          "BTCUSDT",
+          "XRPUSDT"
+        ]
+      },
+      {
+        "badges": [],
+        "cron_enabled": false,
+        "execution": "venue",
+        "health": "disabled",
+        "id": "V44_LIQUIDITY_SWEEP",
+        "label": "Liquidity Sweep",
+        "last_event": null,
+        "last_update": null,
+        "market": "futures",
+        "market_label": "FUTURES",
+        "mode": "demo",
+        "stats": {
+          "gross_loss_usdt": 0.0,
+          "gross_profit_usdt": 0.0,
+          "losses_today": 0,
+          "net_pnl_usdt": 0.0,
+          "open_positions": 0,
+          "operations_today": 0,
+          "unrealized_pnl_usdt": 0.0,
+          "wins_today": 0
+        },
+        "symbols": []
+      },
+      {
+        "badges": [],
         "cron_enabled": true,
         "execution": "venue",
         "health": "healthy",
@@ -156,24 +472,190 @@
           "unrealized_pnl_usdt": 0.0,
           "wins_today": 0
         },
-        "symbols": [
-          "AVAXUSDT"
-        ]
+        "symbols": []
       },
       {
         "badges": [
-          "DEMO",
-          "VENUE",
-          "~160 EQUITIES",
-          "TIERED RISK"
+          "NOVAS ENTRADAS OFF"
         ],
-        "cron_enabled": true,
+        "cron_enabled": false,
+        "execution": "monitor",
+        "health": "disabled",
+        "id": "V44_MICRO_CYCLE",
+        "label": "Micro Cycle (pausado)",
+        "last_event": null,
+        "last_update": null,
+        "market": "futures",
+        "market_label": "FUTURES",
+        "mode": "demo",
+        "stats": {
+          "gross_loss_usdt": 0.0,
+          "gross_profit_usdt": 0.0,
+          "losses_today": 0,
+          "net_pnl_usdt": 0.0,
+          "open_positions": 0,
+          "operations_today": 0,
+          "unrealized_pnl_usdt": 0.0,
+          "wins_today": 0
+        },
+        "symbols": [
+          "BTCUSDT",
+          "ETHUSDT"
+        ]
+      },
+      {
+        "badges": [],
+        "cron_enabled": false,
         "execution": "venue",
-        "health": "healthy",
-        "id": "BNF_MULTI_ASSET_DEMO",
-        "label": "BNF Multi-Asset",
-        "last_event": "BNF_ACCOUNT_CYCLE",
-        "last_update": "2026-10-20T21:01:05.623Z",
+        "health": "disabled",
+        "id": "V44_CHART_PATTERN_ZONE_FLIP_V1",
+        "label": "Chart Pattern Zone Flip (quarentena)",
+        "last_event": "PATTERN_STATE",
+        "last_update": "2026-09-25T22:55:11.584Z",
+        "market": "futures",
+        "market_label": "FUTURES",
+        "mode": "demo",
+        "stats": {
+          "gross_loss_usdt": 0.0,
+          "gross_profit_usdt": 0.0,
+          "losses_today": 0,
+          "net_pnl_usdt": 0.0,
+          "open_positions": 0,
+          "operations_today": 0,
+          "unrealized_pnl_usdt": 0.0,
+          "wins_today": 0
+        },
+        "symbols": []
+      },
+      {
+        "badges": [],
+        "cron_enabled": false,
+        "execution": "venue",
+        "health": "disabled",
+        "id": "V44_SESSION_MOMENTUM_SOL_CONSERVATIVE",
+        "label": "Session Momentum SOL",
+        "last_event": null,
+        "last_update": null,
+        "market": "futures",
+        "market_label": "FUTURES",
+        "mode": "demo",
+        "stats": {
+          "gross_loss_usdt": 0.0,
+          "gross_profit_usdt": 0.0,
+          "losses_today": 0,
+          "net_pnl_usdt": 0.0,
+          "open_positions": 0,
+          "operations_today": 0,
+          "unrealized_pnl_usdt": 0.0,
+          "wins_today": 0
+        },
+        "symbols": []
+      },
+      {
+        "badges": [],
+        "cron_enabled": false,
+        "execution": "venue",
+        "health": "disabled",
+        "id": "V44_CONNORS_RSI2_SOL_SHORT_CONSERVATIVE",
+        "label": "Connors RSI2 SOL Short",
+        "last_event": null,
+        "last_update": null,
+        "market": "futures",
+        "market_label": "FUTURES",
+        "mode": "demo",
+        "stats": {
+          "gross_loss_usdt": 0.0,
+          "gross_profit_usdt": 0.0,
+          "losses_today": 0,
+          "net_pnl_usdt": 0.0,
+          "open_positions": 0,
+          "operations_today": 0,
+          "unrealized_pnl_usdt": 0.0,
+          "wins_today": 0
+        },
+        "symbols": []
+      },
+      {
+        "badges": [],
+        "cron_enabled": false,
+        "execution": "venue",
+        "health": "disabled",
+        "id": "V44_CONNORS_RSI2_BTC_LONG",
+        "label": "Connors RSI2 BTC Long",
+        "last_event": null,
+        "last_update": null,
+        "market": "futures",
+        "market_label": "FUTURES",
+        "mode": "demo",
+        "stats": {
+          "gross_loss_usdt": 0.0,
+          "gross_profit_usdt": 0.0,
+          "losses_today": 0,
+          "net_pnl_usdt": 0.0,
+          "open_positions": 0,
+          "operations_today": 0,
+          "unrealized_pnl_usdt": 0.0,
+          "wins_today": 0
+        },
+        "symbols": []
+      },
+      {
+        "badges": [],
+        "cron_enabled": false,
+        "execution": "paper",
+        "health": "disabled",
+        "id": "V44_SESSION_MOMENTUM",
+        "label": "Session Momentum (paper)",
+        "last_event": null,
+        "last_update": null,
+        "market": "futures",
+        "market_label": "FUTURES",
+        "mode": "demo",
+        "stats": {
+          "gross_loss_usdt": 0.0,
+          "gross_profit_usdt": 0.0,
+          "losses_today": 0,
+          "net_pnl_usdt": 0.0,
+          "open_positions": 0,
+          "operations_today": 0,
+          "unrealized_pnl_usdt": 0.0,
+          "wins_today": 0
+        },
+        "symbols": []
+      },
+      {
+        "badges": [],
+        "cron_enabled": false,
+        "execution": "shadow",
+        "health": "disabled",
+        "id": "V44_REALTIME_SHADOW",
+        "label": "Realtime Shadow Advisor",
+        "last_event": null,
+        "last_update": null,
+        "market": "futures",
+        "market_label": "FUTURES",
+        "mode": "demo",
+        "stats": {
+          "gross_loss_usdt": 0.0,
+          "gross_profit_usdt": 0.0,
+          "losses_today": 0,
+          "net_pnl_usdt": 0.0,
+          "open_positions": 0,
+          "operations_today": 0,
+          "unrealized_pnl_usdt": 0.0,
+          "wins_today": 0
+        },
+        "symbols": []
+      },
+      {
+        "badges": [],
+        "cron_enabled": false,
+        "execution": "venue",
+        "health": "disabled",
+        "id": "V44_REALTIME_ADVISOR_EXECUTOR",
+        "label": "Realtime Venue Executor",
+        "last_event": null,
+        "last_update": null,
         "market": "futures",
         "market_label": "FUTURES",
         "mode": "demo",
@@ -192,9 +674,9 @@
       {
         "badges": [
           "DEMO",
-          "VENUE",
-          "3 ASSETS",
-          "EQUITY-SIZED"
+          "CONTEXT V2",
+          "BYBIT 1m",
+          "6 ASSETS"
         ],
         "cron_enabled": true,
         "execution": "venue",
@@ -202,7 +684,7 @@
         "id": "XTRADERS_PC2M_DEMO",
         "label": "XTRADERS",
         "last_event": "RUNNER_OK",
-        "last_update": "2026-10-20T21:01:16Z",
+        "last_update": "2026-10-20T21:02:16Z",
         "market": "futures",
         "market_label": "FUTURES",
         "mode": "demo",
@@ -217,9 +699,12 @@
           "wins_today": 0
         },
         "symbols": [
-          "CLUSDT",
           "XAUUSDT",
-          "BTCUSDT"
+          "CLUSDT",
+          "QQQUSDT",
+          "SPYUSDT",
+          "IWMUSDT",
+          "XAGUSDT"
         ],
         "telemetry": {
           "cl": {
@@ -229,7 +714,7 @@
               "live_orders_enabled": false,
               "mode": "DEMO",
               "status": "OK",
-              "ts": "2026-10-20T21:01:14Z"
+              "ts": "2026-10-20T21:02:13Z"
             },
             "last_error": null,
             "last_error_ts": null,
@@ -339,7 +824,7 @@
               "live_orders_enabled": false,
               "mode": "DEMO",
               "status": "OK",
-              "ts": "2026-10-20T21:01:14Z"
+              "ts": "2026-10-20T21:02:14Z"
             },
             "last_error": null,
             "last_error_ts": null,
@@ -384,54 +869,13 @@
         "symbols": [
           "CLUSDT"
         ]
-      },
-      {
-        "badges": [
-          "DEMO",
-          "VENUE",
-          "SPY",
-          "SHORT",
-          "M2",
-          "PATHFINDER",
-          "WAE"
-        ],
-        "cron_enabled": true,
-        "execution": "venue",
-        "health": "healthy",
-        "id": "JJUNIORB3_VIDEO_M2_DEMO",
-        "label": "JJUNIORB3",
-        "last_event": "WAITING_SIGNAL",
-        "last_update": "2026-10-20T21:01:02.472Z",
-        "market": "futures",
-        "market_label": "FUTURES",
-        "mode": "demo",
-        "stats": {
-          "gross_loss_usdt": 0.0,
-          "gross_profit_usdt": 0.0,
-          "losses_today": 0,
-          "net_pnl_usdt": 0.0,
-          "open_positions": 0,
-          "operations_today": 0,
-          "unrealized_pnl_usdt": 0.0,
-          "wins_today": 0
-        },
-        "symbols": [
-          "SPYUSDT"
-        ],
-        "telemetry": {
-          "blocked": "NO_PATHFINDER_RETEST",
-          "candidate_side": null,
-          "last_closed_candle": "2026-10-20 20:58:00+00:00",
-          "orders_enabled": true,
-          "version": "JJUNIORB3_VIDEO_M2_SPY_SHORT_DEMO_V1"
-        }
       }
     ],
     "summary_today": {
-      "active_strategies": 4,
+      "active_strategies": 2,
       "gross_loss_usdt": 0.0,
       "gross_profit_usdt": 0.0,
-      "healthy_strategies": 4,
+      "healthy_strategies": 2,
       "losses_today": 0,
       "net_pnl_usdt": 0.0,
       "open_positions": 0,
@@ -441,5 +885,5 @@
     },
     "trades_today": []
   },
-  "updated_at": "2026-10-20T21:02:04.016000Z"
+  "updated_at": "2026-10-20T21:02:29.555000Z"
 }
