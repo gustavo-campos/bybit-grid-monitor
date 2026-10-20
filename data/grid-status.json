@@ -18,11 +18,11 @@
       "wallet_usdt": 137.34408006
     },
     "live": {
-      "available_usdt": 154.00929004,
-      "equity_usdt": 154.54591745,
+      "available_usdt": 154.00989513,
+      "equity_usdt": 154.54652469,
       "gross_loss_today_usdt": 0.0,
       "gross_profit_today_usdt": 0.0,
-      "margin_balance_usdt": 154.54591745,
+      "margin_balance_usdt": 154.54652469,
       "pnl_today_usdt": 0.0,
       "unrealized_pnl_usdt": 0.0,
       "wallet_usdt": -5.37154361
@@ -43,7 +43,7 @@
     "mode": "DEMO",
     "orders_enabled": true,
     "strategy": "JJUNIORB3_VIDEO_M2_SPY_SHORT",
-    "updated_at": "2026-10-20T23:46:02.580Z",
+    "updated_at": "2026-10-20T23:47:02.138Z",
     "version": "JJUNIORB3_VIDEO_M2_SPY_SHORT_DEMO_V1"
   },
   "jjunior_video_m2": {
@@ -59,11 +59,167 @@
     "mode": "DEMO",
     "orders_enabled": true,
     "strategy": "JJUNIORB3_VIDEO_M2_SPY_SHORT",
-    "updated_at": "2026-10-20T23:46:02.580Z",
+    "updated_at": "2026-10-20T23:47:02.138Z",
     "version": "JJUNIORB3_VIDEO_M2_SPY_SHORT_DEMO_V1"
   },
   "mode": "MULTI_ENV",
   "research": {
+    "infinity_v6": {
+      "depends_on_tradingview": false,
+      "headline": "V6 Autónoma · apenas pesquisa",
+      "mode": "research_only",
+      "model": {
+        "calibration_until": "2026-08-31",
+        "holdout_147": {
+          "entries_closed": 45,
+          "max_closed_trade_drawdown_pct": 5.293,
+          "monthly_net_usdt": {
+            "2026-09": -4.3945,
+            "2026-10": -3.2816
+          },
+          "net_usdt": -7.6762,
+          "profit_factor": 0.503,
+          "rejections": {
+            "busy": 1
+          },
+          "return_pct": -5.222,
+          "win_rate_pct": 31.11
+        },
+        "holdout_2000": {
+          "entries_closed": 45,
+          "max_closed_trade_drawdown_pct": 9.955,
+          "monthly_net_usdt": {
+            "2026-09": -115.6622,
+            "2026-10": -80.7646
+          },
+          "net_usdt": -196.4267,
+          "profit_factor": 0.457,
+          "rejections": {
+            "busy": 1
+          },
+          "return_pct": -9.821,
+          "win_rate_pct": 31.11
+        },
+        "holdout_match": {
+          "matched_direction_within_15m": 7,
+          "precision_pct": 15.22,
+          "predicted_signals": 46,
+          "recall_pct": 14.29,
+          "reference_signals": 49
+        },
+        "training_until": "2026-06-30",
+        "validated_for_trading": false,
+        "validation_period": "2026-09-01 a 2026-10-20"
+      },
+      "not_original_private_strategy": true,
+      "orders_enabled": false,
+      "original_csv": {
+        "completed_trades": 308,
+        "historical_only": true,
+        "months": [
+          {
+            "month": "2026-01",
+            "net_usdt": 23.9,
+            "trades": 28,
+            "win_rate_pct": 85.71,
+            "wins": 24
+          },
+          {
+            "month": "2026-02",
+            "net_usdt": 38.46,
+            "trades": 22,
+            "win_rate_pct": 86.36,
+            "wins": 19
+          },
+          {
+            "month": "2026-03",
+            "net_usdt": 76.2,
+            "trades": 39,
+            "win_rate_pct": 89.74,
+            "wins": 35
+          },
+          {
+            "month": "2026-04",
+            "net_usdt": 55.89,
+            "trades": 32,
+            "win_rate_pct": 87.5,
+            "wins": 28
+          },
+          {
+            "month": "2026-05",
+            "net_usdt": 31.67,
+            "trades": 37,
+            "win_rate_pct": 91.89,
+            "wins": 34
+          },
+          {
+            "month": "2026-06",
+            "net_usdt": 48.69,
+            "trades": 33,
+            "win_rate_pct": 90.91,
+            "wins": 30
+          },
+          {
+            "month": "2026-07",
+            "net_usdt": 55.98,
+            "trades": 37,
+            "win_rate_pct": 94.59,
+            "wins": 35
+          },
+          {
+            "month": "2026-08",
+            "net_usdt": 26.08,
+            "trades": 32,
+            "win_rate_pct": 87.5,
+            "wins": 28
+          },
+          {
+            "month": "2026-09",
+            "net_usdt": 31.968,
+            "trades": 30,
+            "win_rate_pct": 80.0,
+            "wins": 24
+          },
+          {
+            "month": "2026-10",
+            "net_usdt": 25.58,
+            "trades": 18,
+            "win_rate_pct": 94.44,
+            "wins": 17
+          }
+        ],
+        "proprietary_code_not_available": true
+      },
+      "scanner": {
+        "blocked_earlier_daily_candidate": "2026-10-20T02:00:00Z",
+        "candidate_passed": false,
+        "candidate_score": 0.0049,
+        "candidate_side": null,
+        "depends_on_tradingview": false,
+        "hypothetical_next_open_utc": "2026-10-20T23:30:00Z",
+        "last_complete_15m_open_utc": "2026-10-20T23:15:00Z",
+        "mode": "research_only",
+        "orders_enabled": false,
+        "public_ohlc_new_rows": 3,
+        "source": "own_model_only",
+        "source_pages": 1,
+        "strategy": "OVH_V6_INSPIRED_AUTONOMOUS",
+        "symbol": "BTCUSDT",
+        "threshold": 0.4,
+        "trained_model": "BTC CSV 309 original entries",
+        "updated_utc": "2026-10-20T23:44:12.320520+00:00",
+        "validated": false
+      },
+      "status": "ok",
+      "strategy": "OVH_V6_INSPIRED_AUTONOMOUS",
+      "symbol": "BTCUSDT",
+      "training_source": "user_owned_historical_csv",
+      "warnings": [
+        "Historico TradingView não é resultado realizado na Bybit.",
+        "Modelo próprio não reproduziu fielmente sinais V6 na validação.",
+        "Scanner não envia ordens, LIVE e DEMO inalterados."
+      ]
+    },
     "lbr310": {
       "close": 83066.2,
       "closed_bar_only": true,
@@ -409,7 +565,7 @@
     "groups": {
       "demo": {
         "futures": {
-          "active_strategies": 5,
+          "active_strategies": 6,
           "gross_loss_usdt": 0.0,
           "gross_profit_usdt": 0.0,
           "healthy_strategies": 5,
@@ -469,9 +625,9 @@
           "MODELO PRÓPRIO",
           "SEM ORDENS"
         ],
-        "cron_enabled": false,
+        "cron_enabled": true,
         "execution": "monitor",
-        "health": "disabled",
+        "health": "stale",
         "id": "OVH_V6_INSPIRED_AUTONOMOUS",
         "label": "V6 Autónoma (CSV)",
         "last_event": "RUNNER_None",
@@ -566,7 +722,7 @@
         "id": "BNF_MULTI_ASSET_DEMO",
         "label": "BNF Multi-Asset",
         "last_event": "BNF_ACCOUNT_CYCLE",
-        "last_update": "2026-10-20T23:45:06.076Z",
+        "last_update": "2026-10-20T23:46:06.165Z",
         "market": "futures",
         "market_label": "FUTURES",
         "mode": "demo",
@@ -595,7 +751,7 @@
         "id": "XTRADERS_PC2M_DEMO",
         "label": "XTRADERS",
         "last_event": "RUNNER_OK",
-        "last_update": "2026-10-20T23:45:16Z",
+        "last_update": "2026-10-20T23:46:16Z",
         "market": "futures",
         "market_label": "FUTURES",
         "mode": "demo",
@@ -622,7 +778,7 @@
               "live_orders_enabled": false,
               "mode": "DEMO",
               "status": "OK",
-              "ts": "2026-10-20T23:45:13Z"
+              "ts": "2026-10-20T23:46:13Z"
             },
             "last_error": null,
             "last_error_ts": null,
@@ -732,7 +888,7 @@
               "live_orders_enabled": false,
               "mode": "DEMO",
               "status": "OK",
-              "ts": "2026-10-20T23:45:14Z"
+              "ts": "2026-10-20T23:46:14Z"
             },
             "last_error": null,
             "last_error_ts": null,
@@ -794,7 +950,7 @@
         "id": "JJUNIORB3_VIDEO_M2_DEMO",
         "label": "JJUNIORB3",
         "last_event": "WAITING_SIGNAL",
-        "last_update": "2026-10-20T23:46:02.580Z",
+        "last_update": "2026-10-20T23:47:02.138Z",
         "market": "futures",
         "market_label": "FUTURES",
         "mode": "demo",
@@ -821,7 +977,7 @@
       }
     ],
     "summary_today": {
-      "active_strategies": 5,
+      "active_strategies": 6,
       "gross_loss_usdt": 0.0,
       "gross_profit_usdt": 0.0,
       "healthy_strategies": 5,
@@ -834,5 +990,5 @@
     },
     "trades_today": []
   },
-  "updated_at": "2026-10-20T23:46:05.523000Z"
+  "updated_at": "2026-10-20T23:47:04.977000Z"
 }
