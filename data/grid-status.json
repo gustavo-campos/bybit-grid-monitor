@@ -18,14 +18,14 @@
       "wallet_usdt": 137.34408006
     },
     "live": {
-      "available_usdt": 137.36433649,
-      "equity_usdt": 154.53227492,
+      "available_usdt": 153.98968243,
+      "equity_usdt": 154.52623628,
       "gross_loss_today_usdt": 0.0,
       "gross_profit_today_usdt": 0.0,
-      "margin_balance_usdt": 154.53227492,
+      "margin_balance_usdt": 154.52623628,
       "pnl_today_usdt": 0.0,
       "unrealized_pnl_usdt": 0.0,
-      "wallet_usdt": -4.88087697
+      "wallet_usdt": -5.37149551
     }
   },
   "day": "2026-10-20",
@@ -44,7 +44,7 @@
     "mode": "DEMO",
     "orders_enabled": true,
     "strategy": "JJUNIORB3_VIDEO_M2_SPY_SHORT",
-    "updated_at": "2026-10-20T21:18:02.326Z",
+    "updated_at": "2026-10-20T21:19:02.185Z",
     "version": "JJUNIORB3_VIDEO_M2_SPY_SHORT_DEMO_V1"
   },
   "jjunior_video_m2": {
@@ -61,7 +61,7 @@
     "mode": "DEMO",
     "orders_enabled": true,
     "strategy": "JJUNIORB3_VIDEO_M2_SPY_SHORT",
-    "updated_at": "2026-10-20T21:18:02.326Z",
+    "updated_at": "2026-10-20T21:19:02.185Z",
     "version": "JJUNIORB3_VIDEO_M2_SPY_SHORT_DEMO_V1"
   },
   "mode": "MULTI_ENV",
@@ -207,10 +207,10 @@
     "groups": {
       "demo": {
         "futures": {
-          "active_strategies": 4,
+          "active_strategies": 5,
           "gross_loss_usdt": 0.0,
           "gross_profit_usdt": 0.0,
-          "healthy_strategies": 4,
+          "healthy_strategies": 5,
           "losses_today": 0,
           "net_pnl_usdt": 0.0,
           "open_positions": 0,
@@ -267,13 +267,13 @@
           "1H",
           "SMA 3/10/16"
         ],
-        "cron_enabled": false,
+        "cron_enabled": true,
         "execution": "venue",
-        "health": "disabled",
+        "health": "healthy",
         "id": "V44_LBR310_FIRST_CROSS_DEMO",
         "label": "LBR 3/10 First Cross",
-        "last_event": "RUNNER_WAITING_NEW_BAR",
-        "last_update": "2026-10-20T21:18:04.663195Z",
+        "last_event": "RUNNER_WAITING_SIGNAL",
+        "last_update": "2026-10-20T21:18:40.975383Z",
         "market": "futures",
         "market_label": "FUTURES",
         "mode": "demo",
@@ -334,7 +334,7 @@
         "id": "BNF_MULTI_ASSET_DEMO",
         "label": "BNF Multi-Asset",
         "last_event": "BNF_ACCOUNT_CYCLE",
-        "last_update": "2026-10-20T21:17:05.626Z",
+        "last_update": "2026-10-20T21:19:05.740Z",
         "market": "futures",
         "market_label": "FUTURES",
         "mode": "demo",
@@ -363,7 +363,7 @@
         "id": "XTRADERS_PC2M_DEMO",
         "label": "XTRADERS",
         "last_event": "RUNNER_OK",
-        "last_update": "2026-10-20T21:17:16Z",
+        "last_update": "2026-10-20T21:18:16Z",
         "market": "futures",
         "market_label": "FUTURES",
         "mode": "demo",
@@ -390,7 +390,7 @@
               "live_orders_enabled": false,
               "mode": "DEMO",
               "status": "OK",
-              "ts": "2026-10-20T21:17:14Z"
+              "ts": "2026-10-20T21:18:14Z"
             },
             "last_error": null,
             "last_error_ts": null,
@@ -500,7 +500,7 @@
               "live_orders_enabled": false,
               "mode": "DEMO",
               "status": "OK",
-              "ts": "2026-10-20T21:17:14Z"
+              "ts": "2026-10-20T21:18:14Z"
             },
             "last_error": null,
             "last_error_ts": null,
@@ -562,7 +562,7 @@
         "id": "JJUNIORB3_VIDEO_M2_DEMO",
         "label": "JJUNIORB3",
         "last_event": "WAITING_SIGNAL",
-        "last_update": "2026-10-20T21:18:02.326Z",
+        "last_update": "2026-10-20T21:19:02.185Z",
         "market": "futures",
         "market_label": "FUTURES",
         "mode": "demo",
@@ -589,10 +589,10 @@
       }
     ],
     "summary_today": {
-      "active_strategies": 4,
+      "active_strategies": 5,
       "gross_loss_usdt": 0.0,
       "gross_profit_usdt": 0.0,
-      "healthy_strategies": 4,
+      "healthy_strategies": 5,
       "losses_today": 0,
       "net_pnl_usdt": 0.0,
       "open_positions": 0,
@@ -602,5 +602,5 @@
     },
     "trades_today": []
   },
-  "updated_at": "2026-10-20T21:18:05.409000Z"
+  "updated_at": "2026-10-20T21:19:06.099000Z"
 }
