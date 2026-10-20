@@ -18,11 +18,11 @@
       "wallet_usdt": 137.34408006
     },
     "live": {
-      "available_usdt": 137.51865488,
-      "equity_usdt": 154.64940442,
+      "available_usdt": 137.49284569,
+      "equity_usdt": 154.62990621,
       "gross_loss_today_usdt": 0.0,
       "gross_profit_today_usdt": 0.0,
-      "margin_balance_usdt": 154.64940442,
+      "margin_balance_usdt": 154.62990621,
       "pnl_today_usdt": 0.0,
       "unrealized_pnl_usdt": 0.0,
       "wallet_usdt": -4.88087697
@@ -63,6 +63,135 @@
     "version": "JJUNIORB3_VIDEO_M2_SPY_SHORT_DEMO_V1"
   },
   "mode": "MULTI_ENV",
+  "research": {
+    "lbr310": {
+      "close": 82811.8,
+      "closed_bar_only": true,
+      "events": [
+        {
+          "confirmed": true,
+          "direction": "short",
+          "note": "Oscilador recua da banda superior",
+          "price": 82496.4,
+          "time": "2026-10-20T19:00:00Z",
+          "type": "exhaustion"
+        },
+        {
+          "confirmed": true,
+          "direction": "short",
+          "note": "Oscilador recua da banda superior",
+          "price": 82784.5,
+          "time": "2026-10-20T18:00:00Z",
+          "type": "exhaustion"
+        },
+        {
+          "confirmed": true,
+          "direction": "long",
+          "note": "Slow Line acima de zero",
+          "price": 82745.4,
+          "time": "2026-10-20T17:00:00Z",
+          "type": "trend_change"
+        },
+        {
+          "confirmed": true,
+          "direction": "long",
+          "note": "Divergência altista confirmada com 5 candles de atraso",
+          "price": 83232.0,
+          "time": "2026-10-20T15:00:00Z",
+          "type": "divergence"
+        },
+        {
+          "confirmed": true,
+          "direction": "long",
+          "note": "Oscilador recua da banda inferior",
+          "price": 81573.9,
+          "time": "2026-10-20T13:00:00Z",
+          "type": "exhaustion"
+        },
+        {
+          "confirmed": true,
+          "direction": "long",
+          "note": "Oscilador recua da banda inferior",
+          "price": 81461.4,
+          "time": "2026-10-20T12:00:00Z",
+          "type": "exhaustion"
+        },
+        {
+          "confirmed": true,
+          "direction": "long",
+          "note": "Oscilador recua da banda inferior",
+          "price": 81521.7,
+          "time": "2026-10-20T11:00:00Z",
+          "type": "exhaustion"
+        },
+        {
+          "confirmed": true,
+          "direction": "long",
+          "note": "Fast Line recupera após correção",
+          "price": 81521.7,
+          "time": "2026-10-20T11:00:00Z",
+          "type": "anti"
+        },
+        {
+          "confirmed": true,
+          "direction": "short",
+          "note": "Primeiro cruzamento rápido/lento na tendência negativa",
+          "price": 81513.3,
+          "time": "2026-10-20T08:00:00Z",
+          "type": "first_cross"
+        },
+        {
+          "confirmed": true,
+          "direction": "long",
+          "note": "Fast Line recupera após correção",
+          "price": 82099.4,
+          "time": "2026-10-20T04:00:00Z",
+          "type": "anti"
+        },
+        {
+          "confirmed": true,
+          "direction": "short",
+          "note": "Fast Line vira para baixo após correção",
+          "price": 81900.8,
+          "time": "2026-10-20T00:00:00Z",
+          "type": "anti"
+        },
+        {
+          "confirmed": true,
+          "direction": "short",
+          "note": "Slow Line abaixo de zero",
+          "price": 81842.1,
+          "time": "2026-10-19T20:00:00Z",
+          "type": "trend_change"
+        }
+      ],
+      "fast_line": 190.036667,
+      "histogram": 23.052292,
+      "last_closed_at": "2026-10-20T21:00:00Z",
+      "last_signal": {
+        "confirmed": true,
+        "direction": "short",
+        "note": "Primeiro cruzamento rápido/lento na tendência negativa",
+        "price": 81513.3,
+        "time": "2026-10-20T08:00:00Z",
+        "type": "first_cross"
+      },
+      "method": "SIBA LBR310 public indicator signal interpretation; not an executable strategy",
+      "mode": "monitor_only",
+      "parameters": {
+        "fast": 3,
+        "signal": 16,
+        "slow": 10
+      },
+      "slow_line": 166.984375,
+      "source": "bybit_v5_linear_public_klines",
+      "status": "ok",
+      "symbol": "BTCUSDT",
+      "timeframe": "1h",
+      "trend": "bull",
+      "venue": "Bybit linear"
+    }
+  },
   "schema_version": 2,
   "system": {
     "charts": {
@@ -202,7 +331,7 @@
         "id": "XTRADERS_PC2M_DEMO",
         "label": "XTRADERS",
         "last_event": "RUNNER_OK",
-        "last_update": "2026-10-20T21:06:16Z",
+        "last_update": "2026-10-20T21:07:16Z",
         "market": "futures",
         "market_label": "FUTURES",
         "mode": "demo",
@@ -229,7 +358,7 @@
               "live_orders_enabled": false,
               "mode": "DEMO",
               "status": "OK",
-              "ts": "2026-10-20T21:06:14Z"
+              "ts": "2026-10-20T21:07:14Z"
             },
             "last_error": null,
             "last_error_ts": null,
@@ -339,7 +468,7 @@
               "live_orders_enabled": false,
               "mode": "DEMO",
               "status": "OK",
-              "ts": "2026-10-20T21:06:14Z"
+              "ts": "2026-10-20T21:07:14Z"
             },
             "last_error": null,
             "last_error_ts": null,
@@ -441,5 +570,5 @@
     },
     "trades_today": []
   },
-  "updated_at": "2026-10-20T21:07:05.855000Z"
+  "updated_at": "2026-10-20T21:07:52.069000Z"
 }
