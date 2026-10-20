@@ -10,7 +10,7 @@
     const d = new Date(value || '');
     return Number.isFinite(d.getTime()) ? d.toLocaleString('pt-PT',{day:'2-digit',month:'2-digit',hour:'2-digit',minute:'2-digit',timeZone:'Europe/Lisbon'}) : '—';
   };
-  const typeName = {first_cross:'First Cross',anti:'Anti Setup',divergence:'Divergência',exhaustion:'Exaustão',trend_change:'Mudança de tendência'};
+  const typeName = {first_cross_v2:'First Cross V2 · estrutura confirmada'};
   function render(x) {
     const error = get('lbrError');
     if (!x || x.status !== 'ok' || !x.closed_bar_only) {
@@ -29,7 +29,7 @@
       return;
     }
     error.hidden = true;
-    get('lbrStatus').textContent = 'MONITORIZAÇÃO · ' + esc(x.timeframe || '1h');
+    get('lbrStatus').textContent = 'PESQUISA V2 · ENTRADAS PAUSADAS';
     const bull = x.trend === 'bull', bear = x.trend === 'bear';
     const trend = get('lbrTrend');
     trend.textContent = bull ? 'ALTA' : bear ? 'BAIXA' : 'NEUTRA';
@@ -39,16 +39,16 @@
     get('lbrHist').textContent = fmt(x.histogram);
     get('lbrPrice').textContent = fmt(x.close);
     get('lbrClosed').textContent = dt(x.last_closed_at);
-    const sig = x.last_signal;
-    get('lbrLast').textContent = sig ? (sig.direction === 'long' ? 'LONG' : 'SHORT') + ' · ' + dt(sig.time) : 'Nenhum First Cross nas últimas 30h';
-    const events = Array.isArray(x.events) ? x.events.slice(0, 12) : [];
+    const sig = x.v2?.last_signal;
+    get('lbrLast').textContent = sig ? (sig.direction === 'long' ? 'LONG' : 'SHORT') + ' · ' + dt(sig.time) : 'Nenhum First Cross V2 confirmado';
+    const events = Array.isArray(x.v2?.recent_events) ? x.v2.recent_events.slice(0, 12) : [];
     get('lbrHistory').innerHTML = events.length ? events.map(ev => {
       const direction = ev.direction === 'long' ? 'long' : 'short';
       return '<tr><td>' + esc(dt(ev.time)) + '</td><td>' +
         esc(typeName[ev.type] || ev.type) + '</td><td><span class="lbr-tag ' + direction + '">' +
         (direction === 'long' ? 'LONG' : 'SHORT') + '</span></td><td>' + esc(fmt(ev.price)) +
         '</td></tr>';
-    }).join('') : '<tr><td colspan="4">Sem eventos nos últimos 30 candles de 1h.</td></tr>';
+    }).join('') : '<tr><td colspan="4">Ainda sem eventos First Cross V2 na janela carregada.</td></tr>';
   }
   async function refresh() {
     try {
