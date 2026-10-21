@@ -21,6 +21,8 @@
   const p=x.source_parameters||{},levels=p.profit_lock_levels||[];
   const paired=levels.map(z=>dec(z.profit_trigger_percent)+'%→'+dec(z.lock_in_percent)+'%').join(' · ');
   byId('v6SourceParams').textContent='Capital base '+dec(p.initial_capital_usdt_reference,0)+' USDT · Stop '+dec(p.atr_stop_loss_multiplier)+'× ATR · Take profit '+dec(p.atr_take_profit_multiplier)+'× ATR · HTF '+(p.higher_timeframe||'—')+' · Trailing '+(p.trailing_sl_start_timeframe||'—')+' · Lock-In '+(p.lock_in_profit_start_timeframe||'—')+' · Trailing '+dec(p.lock_in_trailing_percent)+'% · Níveis '+paired+' · Filtro Momentum '+(p.use_momentum_filter?'ativo':'desativado');
+  const broker=x.broker_properties||{};
+  byId('v6BrokerProperties').textContent='Gráfico '+(broker.chart_timeframe||'—')+' · Execução '+(broker.script_execution||'—')+' · '+(broker.bar_magnifier||'—')+' · Comissão '+dec(broker.commission_percent_per_order,3)+'% por lado · LONG/SHORT '+dec(broker.leverage_long,0)+'×/'+dec(broker.leverage_short,0)+'× · Slippage '+dec(broker.slippage_ticks,0)+' ticks · Pyramiding '+dec(broker.pyramiding,0)+' · Limite '+(broker.limit_order_execution||'—')+' · Atraso '+(broker.order_execution_delay||'—');
   const exit=x.exit_reconstruction?.elapsed_since_entry||{};
   byId('v6ExitMatch').textContent=exit.compared?dec(exit.exit_in_same_30min,0)+' de '+dec(exit.compared,0)+' saídas próximas até 30 min ('+dec(exit.same_30min_match_pct)+'%)':'A aguardar relatório de correspondência';
   const updated=new Date(s.updated_utc||'');
