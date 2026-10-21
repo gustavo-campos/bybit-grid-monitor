@@ -18,11 +18,11 @@
       "wallet_usdt": 135.78323704
     },
     "live": {
-      "available_usdt": 135.06574092,
-      "equity_usdt": 152.60361969,
+      "available_usdt": 135.147084,
+      "equity_usdt": 152.66756506,
       "gross_loss_today_usdt": 0.0,
       "gross_profit_today_usdt": 0.0,
-      "margin_balance_usdt": 152.60361969,
+      "margin_balance_usdt": 152.66756506,
       "pnl_today_usdt": 0.0,
       "unrealized_pnl_usdt": 0.0,
       "wallet_usdt": -6.17824666
@@ -34,7 +34,7 @@
     "assets": [
       {
         "blocked": "NO_PATHFINDER_RETEST",
-        "last_closed_candle": "2026-10-21 13:56:00+00:00",
+        "last_closed_candle": "2026-10-21 13:58:00+00:00",
         "status": "WAITING_SIGNAL",
         "symbol": "SPYUSDT"
       }
@@ -43,14 +43,14 @@
     "mode": "DEMO",
     "orders_enabled": true,
     "strategy": "JJUNIORB3_VIDEO_M2_SPY_SHORT",
-    "updated_at": "2026-10-21T13:59:02.252Z",
+    "updated_at": "2026-10-21T14:00:03.531Z",
     "version": "JJUNIORB3_VIDEO_M2_SPY_SHORT_DEMO_V1"
   },
   "jjunior_video_m2": {
     "assets": [
       {
         "blocked": "NO_PATHFINDER_RETEST",
-        "last_closed_candle": "2026-10-21 13:56:00+00:00",
+        "last_closed_candle": "2026-10-21 13:58:00+00:00",
         "status": "WAITING_SIGNAL",
         "symbol": "SPYUSDT"
       }
@@ -59,7 +59,7 @@
     "mode": "DEMO",
     "orders_enabled": true,
     "strategy": "JJUNIORB3_VIDEO_M2_SPY_SHORT",
-    "updated_at": "2026-10-21T13:59:02.252Z",
+    "updated_at": "2026-10-21T14:00:03.531Z",
     "version": "JJUNIORB3_VIDEO_M2_SPY_SHORT_DEMO_V1"
   },
   "mode": "MULTI_ENV",
@@ -386,16 +386,16 @@
           "api_pages": 1,
           "candidate_passed": false,
           "candidate_side": null,
-          "current_decision_hour": "2026-10-21T13:00:00Z",
+          "current_decision_hour": "2026-10-21T14:00:00Z",
           "decision_slots_observed": 1,
           "depends_on_tradingview": false,
-          "direction_confidence": 0.99781,
-          "gate_probability": 0.33902,
+          "direction_confidence": 0.96169,
+          "gate_probability": 0.20018,
           "independently_validated_for_trading": false,
           "orders_enabled": false,
           "previous_daily_candidate": null,
           "proposed_signals_observed": 0,
-          "public_rows_added_in_memory": 4,
+          "public_rows_added_in_memory": 5,
           "recent_decisions": [
             {
               "candidate_passed": false,
@@ -414,12 +414,12 @@
               "strategy": "OVH_V6_V5_TWO_STAGE_RESEARCH"
             }
           ],
-          "scanner_last_complete_1h": "2026-10-21T12:00:00Z",
+          "scanner_last_complete_1h": "2026-10-21T13:00:00Z",
           "source_family_guess_diagnostic_only": "Short RSI 🔴",
           "status": "RESEARCH_ONLY",
           "strategy": "OVH_V6_V5_TWO_STAGE_RESEARCH",
           "threshold": 0.5,
-          "updated_utc": "2026-10-21T13:55:09.105177+00:00",
+          "updated_utc": "2026-10-21T14:00:09.841932+00:00",
           "version": "V5_TWO_STAGE_4H_VOLUME"
         },
         "source": "OWN_V5_TWO_STAGE_4H_VOLUME",
@@ -434,7 +434,7 @@
       ]
     },
     "lbr310": {
-      "close": 83469.8,
+      "close": 83791.7,
       "closed_bar_only": true,
       "events": [
         {
@@ -534,9 +534,9 @@
           "type": "first_cross"
         }
       ],
-      "fast_line": 342.473333,
-      "histogram": 211.98125,
-      "last_closed_at": "2026-10-21T13:00:00Z",
+      "fast_line": 374.626667,
+      "histogram": 232.548542,
+      "last_closed_at": "2026-10-21T14:00:00Z",
       "last_signal": {
         "confirmed": true,
         "direction": "long",
@@ -552,7 +552,7 @@
         "signal": 16,
         "slow": 10
       },
-      "slow_line": 130.492083,
+      "slow_line": 142.078125,
       "source": "bybit_v5_linear_public_klines",
       "status": "ok",
       "symbol": "BTCUSDT",
@@ -919,7 +919,7 @@
         "id": "V44_LBR310_FIRST_CROSS_DEMO",
         "label": "Linda Bradford Raschke",
         "last_event": "RUNNER_WAITING_SIGNAL",
-        "last_update": "2026-10-21T13:58:03.481428Z",
+        "last_update": "2026-10-21T14:00:03.786639Z",
         "market": "futures",
         "market_label": "FUTURES",
         "mode": "demo",
@@ -980,7 +980,7 @@
         "id": "BNF_MULTI_ASSET_DEMO",
         "label": "BNF Multi-Asset",
         "last_event": "BNF_ACCOUNT_CYCLE",
-        "last_update": "2026-10-21T13:59:05.633Z",
+        "last_update": "2026-10-21T14:00:07.761Z",
         "market": "futures",
         "market_label": "FUTURES",
         "mode": "demo",
@@ -1009,7 +1009,7 @@
         "id": "XTRADERS_PC2M_DEMO",
         "label": "XTRADERS",
         "last_event": "RUNNER_OK",
-        "last_update": "2026-10-21T13:58:16Z",
+        "last_update": "2026-10-21T13:59:16Z",
         "market": "futures",
         "market_label": "FUTURES",
         "mode": "demo",
@@ -1036,7 +1036,7 @@
               "live_orders_enabled": false,
               "mode": "DEMO",
               "status": "OK",
-              "ts": "2026-10-21T13:58:14Z"
+              "ts": "2026-10-21T13:59:14Z"
             },
             "last_error": null,
             "last_error_ts": null,
@@ -1146,7 +1146,7 @@
               "live_orders_enabled": false,
               "mode": "DEMO",
               "status": "OK",
-              "ts": "2026-10-21T13:58:14Z"
+              "ts": "2026-10-21T13:59:14Z"
             },
             "last_error": null,
             "last_error_ts": null,
@@ -1208,7 +1208,7 @@
         "id": "JJUNIORB3_VIDEO_M2_DEMO",
         "label": "JJUNIORB3",
         "last_event": "WAITING_SIGNAL",
-        "last_update": "2026-10-21T13:59:02.252Z",
+        "last_update": "2026-10-21T14:00:03.531Z",
         "market": "futures",
         "market_label": "FUTURES",
         "mode": "demo",
@@ -1228,7 +1228,7 @@
         "telemetry": {
           "blocked": "NO_PATHFINDER_RETEST",
           "candidate_side": null,
-          "last_closed_candle": "2026-10-21 13:56:00+00:00",
+          "last_closed_candle": "2026-10-21 13:58:00+00:00",
           "orders_enabled": true,
           "version": "JJUNIORB3_VIDEO_M2_SPY_SHORT_DEMO_V1"
         }
@@ -1285,5 +1285,5 @@
       }
     ]
   },
-  "updated_at": "2026-10-21T13:59:05.666000Z"
+  "updated_at": "2026-10-21T14:00:08.532000Z"
 }
