@@ -1,28 +1,28 @@
 {
   "account": {
-    "available_usdt": 125.55396463,
-    "equity_usdt": 134.06903442,
+    "available_usdt": 125.54810136,
+    "equity_usdt": 134.0625096,
     "gross_loss_today_usdt": 3.14835463,
     "gross_profit_today_usdt": 0.0,
     "pnl_today_usdt": -3.14835463,
-    "unrealized_pnl_usdt": 0.01825
+    "unrealized_pnl_usdt": 0.01146
   },
   "accounts": {
     "demo": {
-      "available_usdt": 125.55396463,
-      "equity_usdt": 134.06903442,
+      "available_usdt": 125.54810136,
+      "equity_usdt": 134.0625096,
       "gross_loss_today_usdt": 3.14835463,
       "gross_profit_today_usdt": 0.0,
       "pnl_today_usdt": -3.14835463,
-      "unrealized_pnl_usdt": 0.01825,
+      "unrealized_pnl_usdt": 0.01146,
       "wallet_usdt": 134.14909516
     },
     "live": {
-      "available_usdt": 151.05119669,
-      "equity_usdt": 151.85988473,
+      "available_usdt": 151.05049914,
+      "equity_usdt": 151.85918313,
       "gross_loss_today_usdt": 0.0,
       "gross_profit_today_usdt": 0.0,
-      "margin_balance_usdt": 151.85988473,
+      "margin_balance_usdt": 151.85918313,
       "pnl_today_usdt": 0.0,
       "unrealized_pnl_usdt": 0.0,
       "wallet_usdt": -8.09371954
@@ -34,7 +34,7 @@
     "assets": [
       {
         "blocked": "NO_PATHFINDER_RETEST",
-        "last_closed_candle": "2026-10-21 21:50:00+00:00",
+        "last_closed_candle": "2026-10-21 21:52:00+00:00",
         "status": "WAITING_SIGNAL",
         "symbol": "SPYUSDT"
       }
@@ -43,14 +43,14 @@
     "mode": "DEMO",
     "orders_enabled": true,
     "strategy": "JJUNIORB3_VIDEO_M2_SPY_SHORT",
-    "updated_at": "2026-10-21T21:53:02.160Z",
+    "updated_at": "2026-10-21T21:54:02.429Z",
     "version": "JJUNIORB3_VIDEO_M2_SPY_SHORT_DEMO_V1"
   },
   "jjunior_video_m2": {
     "assets": [
       {
         "blocked": "NO_PATHFINDER_RETEST",
-        "last_closed_candle": "2026-10-21 21:50:00+00:00",
+        "last_closed_candle": "2026-10-21 21:52:00+00:00",
         "status": "WAITING_SIGNAL",
         "symbol": "SPYUSDT"
       }
@@ -59,7 +59,7 @@
     "mode": "DEMO",
     "orders_enabled": true,
     "strategy": "JJUNIORB3_VIDEO_M2_SPY_SHORT",
-    "updated_at": "2026-10-21T21:53:02.160Z",
+    "updated_at": "2026-10-21T21:54:02.429Z",
     "version": "JJUNIORB3_VIDEO_M2_SPY_SHORT_DEMO_V1"
   },
   "mode": "MULTI_ENV",
@@ -875,12 +875,12 @@
           "active_strategies": 6,
           "gross_loss_usdt": 3.14835463,
           "gross_profit_usdt": 0.0,
-          "healthy_strategies": 6,
+          "healthy_strategies": 5,
           "losses_today": 10,
           "net_pnl_usdt": -3.14835463,
           "open_positions": 1,
           "operations_today": 10,
-          "unrealized_pnl_usdt": 0.01825,
+          "unrealized_pnl_usdt": 0.01146,
           "wins_today": 0
         },
         "spot": {
@@ -928,7 +928,7 @@
       {
         "attribution_source": "exclusive_symbol_owner",
         "entry": 84782.3,
-        "mark": 84800.55,
+        "mark": 84793.76,
         "market": "futures",
         "mode": "demo",
         "opened_at": "2026-10-21T21:48:03.603000Z",
@@ -937,7 +937,7 @@
         "strategy": "XTRADERS_PC2M_DEMO",
         "symbol": "BTCUSDT",
         "target": null,
-        "unrealized_pnl_usdt": 0.01825
+        "unrealized_pnl_usdt": 0.01146
       }
     ],
     "strategies": [
@@ -949,7 +949,7 @@
         ],
         "cron_enabled": true,
         "execution": "monitor",
-        "health": "healthy",
+        "health": "delayed",
         "id": "OVH_V6_INSPIRED_AUTONOMOUS",
         "label": "V6 Autónoma (CSV)",
         "last_event": "RUNNER_RESEARCH_ONLY",
@@ -983,7 +983,7 @@
         "id": "V44_LBR310_FIRST_CROSS_DEMO",
         "label": "Linda Bradford Raschke",
         "last_event": "RUNNER_WAITING_SIGNAL",
-        "last_update": "2026-10-21T21:52:03.096782Z",
+        "last_update": "2026-10-21T21:54:03.147468Z",
         "market": "futures",
         "market_label": "FUTURES",
         "mode": "demo",
@@ -1044,7 +1044,7 @@
         "id": "BNF_MULTI_ASSET_DEMO",
         "label": "BNF Multi-Asset",
         "last_event": "BNF_ACCOUNT_CYCLE",
-        "last_update": "2026-10-21T21:52:05.732Z",
+        "last_update": "2026-10-21T21:54:05.737Z",
         "market": "futures",
         "market_label": "FUTURES",
         "mode": "demo",
@@ -1073,7 +1073,7 @@
         "id": "XTRADERS_PC2M_DEMO",
         "label": "XTRADERS",
         "last_event": "RUNNER_OK",
-        "last_update": "2026-10-21T21:52:16Z",
+        "last_update": "2026-10-21T21:53:15Z",
         "market": "futures",
         "market_label": "FUTURES",
         "mode": "demo",
@@ -1084,7 +1084,7 @@
           "net_pnl_usdt": -3.1464232,
           "open_positions": 1,
           "operations_today": 9,
-          "unrealized_pnl_usdt": 0.01825,
+          "unrealized_pnl_usdt": 0.01146,
           "wins_today": 0
         },
         "symbols": [
@@ -1100,7 +1100,7 @@
               "live_orders_enabled": false,
               "mode": "DEMO",
               "status": "OK",
-              "ts": "2026-10-21T21:52:13Z"
+              "ts": "2026-10-21T21:53:13Z"
             },
             "last_error": null,
             "last_error_ts": null,
@@ -1210,7 +1210,7 @@
               "live_orders_enabled": false,
               "mode": "DEMO",
               "status": "OK",
-              "ts": "2026-10-21T21:52:13Z"
+              "ts": "2026-10-21T21:53:13Z"
             },
             "last_error": null,
             "last_error_ts": null,
@@ -1272,7 +1272,7 @@
         "id": "JJUNIORB3_VIDEO_M2_DEMO",
         "label": "JJUNIORB3",
         "last_event": "WAITING_SIGNAL",
-        "last_update": "2026-10-21T21:53:02.160Z",
+        "last_update": "2026-10-21T21:54:02.429Z",
         "market": "futures",
         "market_label": "FUTURES",
         "mode": "demo",
@@ -1292,7 +1292,7 @@
         "telemetry": {
           "blocked": "NO_PATHFINDER_RETEST",
           "candidate_side": null,
-          "last_closed_candle": "2026-10-21 21:50:00+00:00",
+          "last_closed_candle": "2026-10-21 21:52:00+00:00",
           "orders_enabled": true,
           "version": "JJUNIORB3_VIDEO_M2_SPY_SHORT_DEMO_V1"
         }
@@ -1302,12 +1302,12 @@
       "active_strategies": 6,
       "gross_loss_usdt": 3.14835463,
       "gross_profit_usdt": 0.0,
-      "healthy_strategies": 6,
+      "healthy_strategies": 5,
       "losses_today": 10,
       "net_pnl_usdt": -3.14835463,
       "open_positions": 1,
       "operations_today": 10,
-      "unrealized_pnl_usdt": 0.01825,
+      "unrealized_pnl_usdt": 0.01146,
       "wins_today": 0
     },
     "trades_today": [
@@ -1433,5 +1433,5 @@
       }
     ]
   },
-  "updated_at": "2026-10-21T21:53:05.211000Z"
+  "updated_at": "2026-10-21T21:54:05.840000Z"
 }
