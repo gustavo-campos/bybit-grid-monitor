@@ -18,6 +18,11 @@
   byId('v6HoldoutMatch').textContent=dec(held.precision_pct)+'%';
   byId('v6IndependentPF').textContent=dec(simulation.profit_factor,3);
   byId('v6IndependentPnL').textContent=money(simulation.net_usdt);
+  const p=x.source_parameters||{},levels=p.profit_lock_levels||[];
+  const paired=levels.map(z=>dec(z.profit_trigger_percent)+'%→'+dec(z.lock_in_percent)+'%').join(' · ');
+  byId('v6SourceParams').textContent='Capital base '+dec(p.initial_capital_usdt_reference,0)+' USDT · Stop '+dec(p.atr_stop_loss_multiplier)+'× ATR · Take profit '+dec(p.atr_take_profit_multiplier)+'× ATR · HTF '+(p.higher_timeframe||'—')+' · Trailing '+(p.trailing_sl_start_timeframe||'—')+' · Lock-In '+(p.lock_in_profit_start_timeframe||'—')+' · Trailing '+dec(p.lock_in_trailing_percent)+'% · Níveis '+paired+' · Filtro Momentum '+(p.use_momentum_filter?'ativo':'desativado');
+  const exit=x.exit_reconstruction?.elapsed_since_entry||{};
+  byId('v6ExitMatch').textContent=exit.compared?dec(exit.exit_in_same_30min,0)+' de '+dec(exit.compared,0)+' saídas próximas até 30 min ('+dec(exit.same_30min_match_pct)+'%)':'A aguardar relatório de correspondência';
   const updated=new Date(s.updated_utc||'');
   const valid=!Number.isNaN(updated.valueOf())&&Date.now()-updated.getTime()<40*60*1000;
   byId('v6LiveSignal').textContent=!valid?'Dados do scanner desatualizados':s.candidate_passed?'HIPÓTESE '+(s.candidate_side||'')+' · NÃO OPERAR':'Sem hipótese válida no último candle';
