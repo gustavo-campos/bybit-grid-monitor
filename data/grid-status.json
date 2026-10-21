@@ -18,11 +18,11 @@
       "wallet_usdt": 137.10694316
     },
     "live": {
-      "available_usdt": 119.78165925,
-      "equity_usdt": 153.716644,
+      "available_usdt": 119.83366853,
+      "equity_usdt": 153.75548286,
       "gross_loss_today_usdt": 0.0,
       "gross_profit_today_usdt": 0.0,
-      "margin_balance_usdt": 153.716644,
+      "margin_balance_usdt": 153.75548286,
       "pnl_today_usdt": 0.0,
       "unrealized_pnl_usdt": 0.0,
       "wallet_usdt": -5.44657782
@@ -43,7 +43,7 @@
     "mode": "DEMO",
     "orders_enabled": true,
     "strategy": "JJUNIORB3_VIDEO_M2_SPY_SHORT",
-    "updated_at": "2026-10-21T08:34:02.580Z",
+    "updated_at": "2026-10-21T08:35:02.654Z",
     "version": "JJUNIORB3_VIDEO_M2_SPY_SHORT_DEMO_V1"
   },
   "jjunior_video_m2": {
@@ -59,51 +59,71 @@
     "mode": "DEMO",
     "orders_enabled": true,
     "strategy": "JJUNIORB3_VIDEO_M2_SPY_SHORT",
-    "updated_at": "2026-10-21T08:34:02.580Z",
+    "updated_at": "2026-10-21T08:35:02.654Z",
     "version": "JJUNIORB3_VIDEO_M2_SPY_SHORT_DEMO_V1"
   },
   "mode": "MULTI_ENV",
   "research": {
     "infinity_v6": {
+      "activation_gate": {
+        "blockers": [
+          "O código original da V6 não está disponível: equivalência exata de sinais/saídas não demonstrável.",
+          "Entradas divergentes do CSV no período de validação.",
+          "Saídas V6 originais não reconstruídas ou validadas.",
+          "Profit Factor líquido fora da amostra não ultrapassa 1,25.",
+          "Pelo menos um mês de validação apresenta resultado líquido não positivo.",
+          "BTCUSDT DEMO pertence ao XTRADERS; requer isolamento de propriedade de símbolo."
+        ],
+        "gate": "original_fidelity_and_net_validation",
+        "live_enabled": false,
+        "observed": {
+          "heldout_signals_clone": 49,
+          "heldout_signals_original": 49,
+          "matched": 7,
+          "precision_pct": 14.29,
+          "profit_factor": 0.728,
+          "return_pct": -2.762,
+          "win_rate_pct": 40.82
+        },
+        "orders_enabled": false,
+        "status": "BLOCKED",
+        "strategy": "OVH_V6_INSPIRED_AUTONOMOUS"
+      },
       "depends_on_tradingview": false,
       "headline": "V6 Autónoma · apenas pesquisa",
       "mode": "research_only",
       "model": {
         "calibration_until": "2026-08-31",
         "holdout_147": {
-          "entries_closed": 45,
-          "max_closed_trade_drawdown_pct": 5.293,
+          "entries_closed": 49,
+          "max_closed_trade_drawdown_pct": 3.574,
           "monthly_net_usdt": {
-            "2026-09": -4.3945,
-            "2026-10": -3.2816
+            "2026-09": -0.1642,
+            "2026-10": -3.8964
           },
-          "net_usdt": -7.6762,
-          "profit_factor": 0.503,
-          "rejections": {
-            "busy": 1
-          },
-          "return_pct": -5.222,
-          "win_rate_pct": 31.11
+          "net_usdt": -4.0608,
+          "profit_factor": 0.728,
+          "rejections": {},
+          "return_pct": -2.762,
+          "win_rate_pct": 40.82
         },
         "holdout_2000": {
-          "entries_closed": 45,
-          "max_closed_trade_drawdown_pct": 9.955,
+          "entries_closed": 49,
+          "max_closed_trade_drawdown_pct": 5.959,
           "monthly_net_usdt": {
-            "2026-09": -115.6622,
-            "2026-10": -80.7646
+            "2026-09": -3.7389,
+            "2026-10": -92.7434
           },
-          "net_usdt": -196.4267,
-          "profit_factor": 0.457,
-          "rejections": {
-            "busy": 1
-          },
-          "return_pct": -9.821,
-          "win_rate_pct": 31.11
+          "net_usdt": -96.4822,
+          "profit_factor": 0.711,
+          "rejections": {},
+          "return_pct": -4.824,
+          "win_rate_pct": 40.82
         },
         "holdout_match": {
           "matched_direction_within_15m": 7,
-          "precision_pct": 15.22,
-          "predicted_signals": 46,
+          "precision_pct": 14.29,
+          "predicted_signals": 49,
           "recall_pct": 14.29,
           "reference_signals": 49
         },
@@ -209,8 +229,8 @@
         "symbol": "BTCUSDT",
         "threshold": 0.2,
         "trained_model": "BTC CSV 309 original entries",
-        "ts": "2026-10-21T08:33:57.115825+00:00",
-        "updated_utc": "2026-10-21T08:33:57.115858+00:00",
+        "ts": "2026-10-21T08:35:08.102963+00:00",
+        "updated_utc": "2026-10-21T08:35:08.103001+00:00",
         "valid_decision_slot": false,
         "validated": false
       },
@@ -733,7 +753,7 @@
         "id": "BNF_MULTI_ASSET_DEMO",
         "label": "BNF Multi-Asset",
         "last_event": "BNF_ACCOUNT_CYCLE",
-        "last_update": "2026-10-21T08:33:05.061Z",
+        "last_update": "2026-10-21T08:35:06.678Z",
         "market": "futures",
         "market_label": "FUTURES",
         "mode": "demo",
@@ -762,7 +782,7 @@
         "id": "XTRADERS_PC2M_DEMO",
         "label": "XTRADERS",
         "last_event": "RUNNER_OK",
-        "last_update": "2026-10-21T08:33:16Z",
+        "last_update": "2026-10-21T08:34:17Z",
         "market": "futures",
         "market_label": "FUTURES",
         "mode": "demo",
@@ -789,7 +809,7 @@
               "live_orders_enabled": false,
               "mode": "DEMO",
               "status": "OK",
-              "ts": "2026-10-21T08:33:14Z"
+              "ts": "2026-10-21T08:34:14Z"
             },
             "last_error": null,
             "last_error_ts": null,
@@ -899,7 +919,7 @@
               "live_orders_enabled": false,
               "mode": "DEMO",
               "status": "OK",
-              "ts": "2026-10-21T08:33:14Z"
+              "ts": "2026-10-21T08:34:14Z"
             },
             "last_error": null,
             "last_error_ts": null,
@@ -961,7 +981,7 @@
         "id": "JJUNIORB3_VIDEO_M2_DEMO",
         "label": "JJUNIORB3",
         "last_event": "WAITING_SIGNAL",
-        "last_update": "2026-10-21T08:34:02.580Z",
+        "last_update": "2026-10-21T08:35:02.654Z",
         "market": "futures",
         "market_label": "FUTURES",
         "mode": "demo",
@@ -1026,5 +1046,5 @@
       }
     ]
   },
-  "updated_at": "2026-10-21T08:34:05.477000Z"
+  "updated_at": "2026-10-21T08:35:06.871000Z"
 }
