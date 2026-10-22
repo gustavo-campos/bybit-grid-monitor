@@ -18,14 +18,14 @@
       "wallet_usdt": 132.37333474
     },
     "live": {
-      "available_usdt": 136.00358572,
-      "equity_usdt": 153.04917922,
+      "available_usdt": 135.98336539,
+      "equity_usdt": 153.03472157,
       "gross_loss_today_usdt": 0.0,
       "gross_profit_today_usdt": 0.0,
-      "margin_balance_usdt": 153.04917922,
+      "margin_balance_usdt": 153.03472157,
       "pnl_today_usdt": 0.0,
       "unrealized_pnl_usdt": 0.0,
-      "wallet_usdt": -8.13458862
+      "wallet_usdt": -8.1346195
     }
   },
   "day": "2026-10-22",
@@ -43,7 +43,7 @@
     "mode": "DEMO",
     "orders_enabled": true,
     "strategy": "JJUNIORB3_VIDEO_M2_SPY_SHORT",
-    "updated_at": "2026-10-22T16:04:02.763Z",
+    "updated_at": "2026-10-22T16:05:03.671Z",
     "version": "JJUNIORB3_VIDEO_M2_SPY_SHORT_DEMO_V1"
   },
   "jjunior_video_m2": {
@@ -59,7 +59,7 @@
     "mode": "DEMO",
     "orders_enabled": true,
     "strategy": "JJUNIORB3_VIDEO_M2_SPY_SHORT",
-    "updated_at": "2026-10-22T16:04:02.763Z",
+    "updated_at": "2026-10-22T16:05:03.671Z",
     "version": "JJUNIORB3_VIDEO_M2_SPY_SHORT_DEMO_V1"
   },
   "mode": "MULTI_ENV",
@@ -275,18 +275,18 @@
       "scanner": {
         "blocked_earlier_daily_candidate": "2026-10-22T01:00:00Z",
         "candidate_passed": false,
-        "candidate_score": 0.2355,
+        "candidate_score": 0.0336,
         "candidate_side": null,
         "chart_timeframe": "1h",
         "depends_on_tradingview": false,
         "higher_timeframe": "4h",
-        "hypothetical_next_open_utc": "2026-10-22T15:00:00Z",
-        "last_complete_15m_open_utc": "2026-10-22T15:30:00Z",
-        "last_complete_1h_open_utc": "2026-10-22T14:00:00Z",
+        "hypothetical_next_open_utc": "2026-10-22T16:00:00Z",
+        "last_complete_15m_open_utc": "2026-10-22T15:45:00Z",
+        "last_complete_1h_open_utc": "2026-10-22T15:00:00Z",
         "mode": "research_only",
         "model_version": "v4_one_hour_chart_research",
         "orders_enabled": false,
-        "public_ohlc_new_rows": 164,
+        "public_ohlc_new_rows": 165,
         "source": "own_model_only",
         "source_execution": "TradingView 1h on-bar-close, one-tick delay, 8 ticks slippage; research scanner never places orders",
         "source_pages": 1,
@@ -295,8 +295,8 @@
         "symbol": "BTCUSDT",
         "threshold": 0.2,
         "trained_model": "BTC CSV 309 original entries",
-        "ts": "2026-10-22T15:55:07.920149+00:00",
-        "updated_utc": "2026-10-22T15:55:07.920191+00:00",
+        "ts": "2026-10-22T16:05:08.586314+00:00",
+        "updated_utc": "2026-10-22T16:05:08.586356+00:00",
         "valid_decision_slot": false,
         "validated": false
       },
@@ -1069,7 +1069,7 @@
         "id": "BNF_MULTI_ASSET_DEMO",
         "label": "BNF Multi-Asset",
         "last_event": "BNF_ACCOUNT_CYCLE",
-        "last_update": "2026-10-22T16:03:05.480Z",
+        "last_update": "2026-10-22T16:04:05.967Z",
         "market": "futures",
         "market_label": "FUTURES",
         "mode": "demo",
@@ -1098,7 +1098,7 @@
         "id": "XTRADERS_PC2M_DEMO",
         "label": "XTRADERS",
         "last_event": "RUNNER_OK",
-        "last_update": "2026-10-22T16:03:16Z",
+        "last_update": "2026-10-22T16:04:16Z",
         "market": "futures",
         "market_label": "FUTURES",
         "mode": "demo",
@@ -1125,7 +1125,7 @@
               "live_orders_enabled": false,
               "mode": "DEMO",
               "status": "OK",
-              "ts": "2026-10-22T16:03:14Z"
+              "ts": "2026-10-22T16:04:13Z"
             },
             "last_error": null,
             "last_error_ts": null,
@@ -1235,7 +1235,7 @@
               "live_orders_enabled": false,
               "mode": "DEMO",
               "status": "OK",
-              "ts": "2026-10-22T16:03:14Z"
+              "ts": "2026-10-22T16:04:14Z"
             },
             "last_error": null,
             "last_error_ts": null,
@@ -1297,7 +1297,7 @@
         "id": "JJUNIORB3_VIDEO_M2_DEMO",
         "label": "JJUNIORB3",
         "last_event": "WAITING_SIGNAL",
-        "last_update": "2026-10-22T16:04:02.763Z",
+        "last_update": "2026-10-22T16:05:03.671Z",
         "market": "futures",
         "market_label": "FUTURES",
         "mode": "demo",
@@ -1422,5 +1422,5 @@
       }
     ]
   },
-  "updated_at": "2026-10-22T16:04:05.495000Z"
+  "updated_at": "2026-10-22T16:05:07.679000Z"
 }
