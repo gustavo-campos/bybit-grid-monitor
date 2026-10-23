@@ -39,7 +39,7 @@
     "mode": "DEMO",
     "orders_enabled": true,
     "strategy": "JJUNIORB3_VIDEO_M2_SPY_SHORT",
-    "updated_at": "2026-10-23T12:44:02.539Z",
+    "updated_at": "2026-10-23T12:45:03.215Z",
     "version": "JJUNIORB3_VIDEO_M2_SPY_SHORT_DEMO_V1"
   },
   "jjunior_video_m2": {
@@ -55,7 +55,7 @@
     "mode": "DEMO",
     "orders_enabled": true,
     "strategy": "JJUNIORB3_VIDEO_M2_SPY_SHORT",
-    "updated_at": "2026-10-23T12:44:02.539Z",
+    "updated_at": "2026-10-23T12:45:03.215Z",
     "version": "JJUNIORB3_VIDEO_M2_SPY_SHORT_DEMO_V1"
   },
   "mode": "MULTI_ENV",
@@ -277,12 +277,12 @@
         "depends_on_tradingview": false,
         "higher_timeframe": "4h",
         "hypothetical_next_open_utc": "2026-10-23T12:00:00Z",
-        "last_complete_15m_open_utc": "2026-10-23T12:15:00Z",
+        "last_complete_15m_open_utc": "2026-10-23T12:30:00Z",
         "last_complete_1h_open_utc": "2026-10-23T11:00:00Z",
         "mode": "research_only",
         "model_version": "v4_one_hour_chart_research",
         "orders_enabled": false,
-        "public_ohlc_new_rows": 247,
+        "public_ohlc_new_rows": 248,
         "source": "own_model_only",
         "source_execution": "TradingView 1h on-bar-close, one-tick delay, 8 ticks slippage; research scanner never places orders",
         "source_pages": 1,
@@ -291,8 +291,8 @@
         "symbol": "BTCUSDT",
         "threshold": 0.2,
         "trained_model": "BTC CSV 309 original entries",
-        "ts": "2026-10-23T12:40:08.170182+00:00",
-        "updated_utc": "2026-10-23T12:40:08.170242+00:00",
+        "ts": "2026-10-23T12:45:07.846058+00:00",
+        "updated_utc": "2026-10-23T12:45:07.846091+00:00",
         "valid_decision_slot": false,
         "validated": false
       },
@@ -527,7 +527,7 @@
           "status": "RESEARCH_ONLY",
           "strategy": "OVH_V6_V5_TWO_STAGE_RESEARCH",
           "threshold": 0.5,
-          "updated_utc": "2026-10-23T12:40:08.598433+00:00",
+          "updated_utc": "2026-10-23T12:45:08.161879+00:00",
           "version": "V5_TWO_STAGE_4H_VOLUME"
         },
         "source": "OWN_V5_TWO_STAGE_4H_VOLUME",
@@ -1026,7 +1026,7 @@
         "id": "V44_WUNDER_MEAN_REVERSION",
         "label": "Wunder Mean Reversion",
         "last_event": "SIGNAL_SCAN",
-        "last_update": "2026-10-23T12:30:00.682Z",
+        "last_update": "2026-10-23T12:45:00.939Z",
         "market": "futures",
         "market_label": "FUTURES",
         "mode": "demo",
@@ -1057,7 +1057,7 @@
         "id": "BNF_MULTI_ASSET_DEMO",
         "label": "BNF Multi-Asset",
         "last_event": "BNF_ACCOUNT_CYCLE",
-        "last_update": "2026-10-23T12:43:08.396Z",
+        "last_update": "2026-10-23T12:44:08.766Z",
         "market": "futures",
         "market_label": "FUTURES",
         "mode": "demo",
@@ -1086,7 +1086,7 @@
         "id": "XTRADERS_PC2M_DEMO",
         "label": "XTRADERS",
         "last_event": "RUNNER_OK",
-        "last_update": "2026-10-23T12:43:15Z",
+        "last_update": "2026-10-23T12:44:15Z",
         "market": "futures",
         "market_label": "FUTURES",
         "mode": "demo",
@@ -1113,7 +1113,7 @@
               "live_orders_enabled": false,
               "mode": "DEMO",
               "status": "OK",
-              "ts": "2026-10-23T12:43:13Z"
+              "ts": "2026-10-23T12:44:13Z"
             },
             "last_error": null,
             "last_error_ts": null,
@@ -1223,7 +1223,7 @@
               "live_orders_enabled": false,
               "mode": "DEMO",
               "status": "OK",
-              "ts": "2026-10-23T12:43:13Z"
+              "ts": "2026-10-23T12:44:13Z"
             },
             "last_error": null,
             "last_error_ts": null,
@@ -1285,7 +1285,7 @@
         "id": "JJUNIORB3_VIDEO_M2_DEMO",
         "label": "JJUNIORB3",
         "last_event": "WAITING_SIGNAL",
-        "last_update": "2026-10-23T12:44:02.539Z",
+        "last_update": "2026-10-23T12:45:03.215Z",
         "market": "futures",
         "market_label": "FUTURES",
         "mode": "demo",
@@ -1386,5 +1386,5 @@
       }
     ]
   },
-  "updated_at": "2026-10-23T12:44:04.698000Z"
+  "updated_at": "2026-10-23T12:45:05.631000Z"
 }
