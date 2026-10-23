@@ -39,7 +39,7 @@
     "mode": "DEMO",
     "orders_enabled": true,
     "strategy": "JJUNIORB3_VIDEO_M2_SPY_SHORT",
-    "updated_at": "2026-10-23T07:30:04.037Z",
+    "updated_at": "2026-10-23T07:31:02.632Z",
     "version": "JJUNIORB3_VIDEO_M2_SPY_SHORT_DEMO_V1"
   },
   "jjunior_video_m2": {
@@ -55,7 +55,7 @@
     "mode": "DEMO",
     "orders_enabled": true,
     "strategy": "JJUNIORB3_VIDEO_M2_SPY_SHORT",
-    "updated_at": "2026-10-23T07:30:04.037Z",
+    "updated_at": "2026-10-23T07:31:02.632Z",
     "version": "JJUNIORB3_VIDEO_M2_SPY_SHORT_DEMO_V1"
   },
   "mode": "MULTI_ENV",
@@ -527,7 +527,7 @@
           "status": "RESEARCH_ONLY",
           "strategy": "OVH_V6_V5_TWO_STAGE_RESEARCH",
           "threshold": 0.5,
-          "updated_utc": "2026-10-23T07:25:09.582295+00:00",
+          "updated_utc": "2026-10-23T07:30:10.162595+00:00",
           "version": "V5_TWO_STAGE_4H_VOLUME"
         },
         "source": "OWN_V5_TWO_STAGE_4H_VOLUME",
@@ -871,7 +871,7 @@
           "active_strategies": 6,
           "gross_loss_usdt": 0.1331998,
           "gross_profit_usdt": 0.0,
-          "healthy_strategies": 5,
+          "healthy_strategies": 6,
           "losses_today": 3,
           "net_pnl_usdt": -0.1331998,
           "open_positions": 0,
@@ -930,11 +930,11 @@
         ],
         "cron_enabled": true,
         "execution": "monitor",
-        "health": "delayed",
+        "health": "healthy",
         "id": "OVH_V6_INSPIRED_AUTONOMOUS",
         "label": "V6 Autónoma (CSV)",
         "last_event": "RUNNER_RESEARCH_ONLY",
-        "last_update": "2026-10-23T07:25:08.470987+00:00",
+        "last_update": "2026-10-23T07:30:08.981400+00:00",
         "market": "futures",
         "market_label": "FUTURES",
         "mode": "demo",
@@ -994,7 +994,7 @@
         "id": "V44_WUNDER_MEAN_REVERSION",
         "label": "Wunder Mean Reversion",
         "last_event": "SIGNAL_SCAN",
-        "last_update": "2026-10-23T07:15:11.602Z",
+        "last_update": "2026-10-23T07:30:11.505Z",
         "market": "futures",
         "market_label": "FUTURES",
         "mode": "demo",
@@ -1025,7 +1025,7 @@
         "id": "BNF_MULTI_ASSET_DEMO",
         "label": "BNF Multi-Asset",
         "last_event": "BNF_ACCOUNT_CYCLE",
-        "last_update": "2026-10-23T07:29:08.345Z",
+        "last_update": "2026-10-23T07:30:11.462Z",
         "market": "futures",
         "market_label": "FUTURES",
         "mode": "demo",
@@ -1054,7 +1054,7 @@
         "id": "XTRADERS_PC2M_DEMO",
         "label": "XTRADERS",
         "last_event": "RUNNER_OK",
-        "last_update": "2026-10-23T07:29:16Z",
+        "last_update": "2026-10-23T07:30:17Z",
         "market": "futures",
         "market_label": "FUTURES",
         "mode": "demo",
@@ -1081,7 +1081,7 @@
               "live_orders_enabled": false,
               "mode": "DEMO",
               "status": "OK",
-              "ts": "2026-10-23T07:29:13Z"
+              "ts": "2026-10-23T07:30:14Z"
             },
             "last_error": null,
             "last_error_ts": null,
@@ -1191,7 +1191,7 @@
               "live_orders_enabled": false,
               "mode": "DEMO",
               "status": "OK",
-              "ts": "2026-10-23T07:29:14Z"
+              "ts": "2026-10-23T07:30:14Z"
             },
             "last_error": null,
             "last_error_ts": null,
@@ -1253,7 +1253,7 @@
         "id": "JJUNIORB3_VIDEO_M2_DEMO",
         "label": "JJUNIORB3",
         "last_event": "WAITING_SIGNAL",
-        "last_update": "2026-10-23T07:30:04.037Z",
+        "last_update": "2026-10-23T07:31:02.632Z",
         "market": "futures",
         "market_label": "FUTURES",
         "mode": "demo",
@@ -1283,7 +1283,7 @@
       "active_strategies": 6,
       "gross_loss_usdt": 0.1331998,
       "gross_profit_usdt": 0.0,
-      "healthy_strategies": 5,
+      "healthy_strategies": 6,
       "losses_today": 3,
       "net_pnl_usdt": -0.1331998,
       "open_positions": 0,
@@ -1330,5 +1330,5 @@
       }
     ]
   },
-  "updated_at": "2026-10-23T07:30:06.246000Z"
+  "updated_at": "2026-10-23T07:31:04.334000Z"
 }
