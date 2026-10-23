@@ -27,35 +27,23 @@
   "day": "2026-10-23",
   "grids": {},
   "jjunior_m5": {
-    "assets": [
-      {
-        "blocked": "NO_PATHFINDER_RETEST",
-        "last_closed_candle": "2026-10-23 09:56:00+00:00",
-        "status": "WAITING_SIGNAL",
-        "symbol": "SPYUSDT"
-      }
-    ],
+    "assets": [],
+    "error": "Bybit 10006 Too many visits. Exceeded the API Rate Limit.",
     "events": [],
     "mode": "DEMO",
-    "orders_enabled": true,
+    "orders_enabled": false,
     "strategy": "JJUNIORB3_VIDEO_M2_SPY_SHORT",
-    "updated_at": "2026-10-23T09:59:02.501Z",
+    "updated_at": "2026-10-23T10:00:05.777Z",
     "version": "JJUNIORB3_VIDEO_M2_SPY_SHORT_DEMO_V1"
   },
   "jjunior_video_m2": {
-    "assets": [
-      {
-        "blocked": "NO_PATHFINDER_RETEST",
-        "last_closed_candle": "2026-10-23 09:56:00+00:00",
-        "status": "WAITING_SIGNAL",
-        "symbol": "SPYUSDT"
-      }
-    ],
+    "assets": [],
+    "error": "Bybit 10006 Too many visits. Exceeded the API Rate Limit.",
     "events": [],
     "mode": "DEMO",
-    "orders_enabled": true,
+    "orders_enabled": false,
     "strategy": "JJUNIORB3_VIDEO_M2_SPY_SHORT",
-    "updated_at": "2026-10-23T09:59:02.501Z",
+    "updated_at": "2026-10-23T10:00:05.777Z",
     "version": "JJUNIORB3_VIDEO_M2_SPY_SHORT_DEMO_V1"
   },
   "mode": "MULTI_ENV",
@@ -269,20 +257,20 @@
         "proprietary_code_not_available": true
       },
       "scanner": {
-        "blocked_earlier_daily_candidate": null,
-        "candidate_passed": true,
-        "candidate_score": 0.3635,
-        "candidate_side": "LONG",
+        "blocked_earlier_daily_candidate": "2026-10-23T09:00:00Z",
+        "candidate_passed": false,
+        "candidate_score": 0.1575,
+        "candidate_side": null,
         "chart_timeframe": "1h",
         "depends_on_tradingview": false,
         "higher_timeframe": "4h",
-        "hypothetical_next_open_utc": "2026-10-23T09:00:00Z",
-        "last_complete_15m_open_utc": "2026-10-23T09:30:00Z",
-        "last_complete_1h_open_utc": "2026-10-23T08:00:00Z",
+        "hypothetical_next_open_utc": "2026-10-23T10:00:00Z",
+        "last_complete_15m_open_utc": "2026-10-23T09:45:00Z",
+        "last_complete_1h_open_utc": "2026-10-23T09:00:00Z",
         "mode": "research_only",
         "model_version": "v4_one_hour_chart_research",
         "orders_enabled": false,
-        "public_ohlc_new_rows": 236,
+        "public_ohlc_new_rows": 237,
         "source": "own_model_only",
         "source_execution": "TradingView 1h on-bar-close, one-tick delay, 8 ticks slippage; research scanner never places orders",
         "source_pages": 1,
@@ -291,9 +279,9 @@
         "symbol": "BTCUSDT",
         "threshold": 0.2,
         "trained_model": "BTC CSV 309 original entries",
-        "ts": "2026-10-23T09:55:08.454832+00:00",
-        "updated_utc": "2026-10-23T09:55:08.454880+00:00",
-        "valid_decision_slot": true,
+        "ts": "2026-10-23T10:00:12.566475+00:00",
+        "updated_utc": "2026-10-23T10:00:12.566512+00:00",
+        "valid_decision_slot": false,
         "validated": false
       },
       "source_parameters": {
@@ -542,9 +530,17 @@
       ]
     },
     "lbr310": {
-      "close": 81720.0,
+      "close": 81631.9,
       "closed_bar_only": true,
       "events": [
+        {
+          "confirmed": true,
+          "direction": "long",
+          "note": "Slow Line acima de zero",
+          "price": 81631.9,
+          "time": "2026-10-23T10:00:00Z",
+          "type": "trend_change"
+        },
         {
           "confirmed": true,
           "direction": "long",
@@ -586,9 +582,9 @@
           "type": "exhaustion"
         }
       ],
-      "fast_line": 65.09,
-      "histogram": 66.720625,
-      "last_closed_at": "2026-10-23T09:00:00Z",
+      "fast_line": -32.66,
+      "histogram": -48.587292,
+      "last_closed_at": "2026-10-23T10:00:00Z",
       "last_signal": null,
       "method": "SIBA LBR310 public indicator signal interpretation; not an executable strategy",
       "mode": "monitor_only",
@@ -597,12 +593,12 @@
         "signal": 16,
         "slow": 10
       },
-      "slow_line": -1.630625,
+      "slow_line": 15.927292,
       "source": "bybit_v5_linear_public_klines",
       "status": "ok",
       "symbol": "BTCUSDT",
       "timeframe": "1h",
-      "trend": "bear",
+      "trend": "bull",
       "v2": {
         "execution_enabled": false,
         "last_signal": {
@@ -876,10 +872,10 @@
     "groups": {
       "demo": {
         "futures": {
-          "active_strategies": 6,
+          "active_strategies": 5,
           "gross_loss_usdt": 0.1331998,
           "gross_profit_usdt": 0.0,
-          "healthy_strategies": 5,
+          "healthy_strategies": 4,
           "losses_today": 3,
           "net_pnl_usdt": -0.1331998,
           "open_positions": 0,
@@ -972,7 +968,7 @@
         "id": "V44_LBR310_FIRST_CROSS_DEMO",
         "label": "Linda Bradford Raschke",
         "last_event": "RUNNER_WAITING_SIGNAL",
-        "last_update": "2026-10-23T09:58:03.403384Z",
+        "last_update": "2026-10-23T10:00:05.145393Z",
         "market": "futures",
         "market_label": "FUTURES",
         "mode": "demo",
@@ -1033,7 +1029,7 @@
         "id": "BNF_MULTI_ASSET_DEMO",
         "label": "BNF Multi-Asset",
         "last_event": "BNF_ACCOUNT_CYCLE",
-        "last_update": "2026-10-23T09:58:09.074Z",
+        "last_update": "2026-10-23T09:59:08.686Z",
         "market": "futures",
         "market_label": "FUTURES",
         "mode": "demo",
@@ -1061,8 +1057,8 @@
         "health": "healthy",
         "id": "XTRADERS_PC2M_DEMO",
         "label": "XTRADERS",
-        "last_event": "RUNNER_OK",
-        "last_update": "2026-10-23T09:58:16Z",
+        "last_event": "RUNNER_RUNNING",
+        "last_update": "2026-10-23T10:00:10Z",
         "market": "futures",
         "market_label": "FUTURES",
         "mode": "demo",
@@ -1089,7 +1085,7 @@
               "live_orders_enabled": false,
               "mode": "DEMO",
               "status": "OK",
-              "ts": "2026-10-23T09:58:14Z"
+              "ts": "2026-10-23T09:59:14Z"
             },
             "last_error": null,
             "last_error_ts": null,
@@ -1199,7 +1195,7 @@
               "live_orders_enabled": false,
               "mode": "DEMO",
               "status": "OK",
-              "ts": "2026-10-23T09:58:14Z"
+              "ts": "2026-10-23T09:59:13Z"
             },
             "last_error": null,
             "last_error_ts": null,
@@ -1255,13 +1251,13 @@
           "PATHFINDER",
           "WAE"
         ],
-        "cron_enabled": true,
+        "cron_enabled": false,
         "execution": "venue",
-        "health": "healthy",
+        "health": "disabled",
         "id": "JJUNIORB3_VIDEO_M2_DEMO",
         "label": "JJUNIORB3",
-        "last_event": "WAITING_SIGNAL",
-        "last_update": "2026-10-23T09:59:02.501Z",
+        "last_event": "RUNNER_DISABLED",
+        "last_update": "2026-10-23T10:00:05.777Z",
         "market": "futures",
         "market_label": "FUTURES",
         "mode": "demo",
@@ -1279,19 +1275,19 @@
           "SPYUSDT"
         ],
         "telemetry": {
-          "blocked": "NO_PATHFINDER_RETEST",
+          "blocked": null,
           "candidate_side": null,
-          "last_closed_candle": "2026-10-23 09:56:00+00:00",
-          "orders_enabled": true,
+          "last_closed_candle": null,
+          "orders_enabled": false,
           "version": "JJUNIORB3_VIDEO_M2_SPY_SHORT_DEMO_V1"
         }
       }
     ],
     "summary_today": {
-      "active_strategies": 6,
+      "active_strategies": 5,
       "gross_loss_usdt": 0.1331998,
       "gross_profit_usdt": 0.0,
-      "healthy_strategies": 5,
+      "healthy_strategies": 4,
       "losses_today": 3,
       "net_pnl_usdt": -0.1331998,
       "open_positions": 0,
@@ -1338,5 +1334,5 @@
       }
     ]
   },
-  "updated_at": "2026-10-23T09:59:04.073000Z"
+  "updated_at": "2026-10-23T10:00:10Z"
 }
