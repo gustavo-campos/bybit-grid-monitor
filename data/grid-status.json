@@ -39,7 +39,7 @@
     "mode": "DEMO",
     "orders_enabled": true,
     "strategy": "JJUNIORB3_VIDEO_M2_SPY_SHORT",
-    "updated_at": "2026-10-25T09:04:03.065Z",
+    "updated_at": "2026-10-25T09:05:03.321Z",
     "version": "JJUNIORB3_VIDEO_M2_SPY_SHORT_DEMO_V1"
   },
   "jjunior_video_m2": {
@@ -55,7 +55,7 @@
     "mode": "DEMO",
     "orders_enabled": true,
     "strategy": "JJUNIORB3_VIDEO_M2_SPY_SHORT",
-    "updated_at": "2026-10-25T09:04:03.065Z",
+    "updated_at": "2026-10-25T09:05:03.321Z",
     "version": "JJUNIORB3_VIDEO_M2_SPY_SHORT_DEMO_V1"
   },
   "mode": "MULTI_ENV",
@@ -271,18 +271,18 @@
       "scanner": {
         "blocked_earlier_daily_candidate": null,
         "candidate_passed": false,
-        "candidate_score": 0.136,
+        "candidate_score": 0.0824,
         "candidate_side": null,
         "chart_timeframe": "1h",
         "depends_on_tradingview": false,
         "higher_timeframe": "4h",
-        "hypothetical_next_open_utc": "2026-10-25T08:00:00Z",
-        "last_complete_15m_open_utc": "2026-10-25T08:30:00Z",
-        "last_complete_1h_open_utc": "2026-10-25T07:00:00Z",
+        "hypothetical_next_open_utc": "2026-10-25T09:00:00Z",
+        "last_complete_15m_open_utc": "2026-10-25T08:45:00Z",
+        "last_complete_1h_open_utc": "2026-10-25T08:00:00Z",
         "mode": "research_only",
         "model_version": "v4_one_hour_chart_research",
         "orders_enabled": false,
-        "public_ohlc_new_rows": 424,
+        "public_ohlc_new_rows": 425,
         "source": "own_model_only",
         "source_execution": "TradingView 1h on-bar-close, one-tick delay, 8 ticks slippage; research scanner never places orders",
         "source_pages": 1,
@@ -291,9 +291,9 @@
         "symbol": "BTCUSDT",
         "threshold": 0.2,
         "trained_model": "BTC CSV 309 original entries",
-        "ts": "2026-10-25T08:55:08.734382+00:00",
-        "updated_utc": "2026-10-25T08:55:08.734440+00:00",
-        "valid_decision_slot": false,
+        "ts": "2026-10-25T09:05:08.679776+00:00",
+        "updated_utc": "2026-10-25T09:05:08.679834+00:00",
+        "valid_decision_slot": true,
         "validated": false
       },
       "source_parameters": {
@@ -1061,7 +1061,7 @@
         "id": "BNF_MULTI_ASSET_DEMO",
         "label": "BNF Multi-Asset",
         "last_event": "BNF_ACCOUNT_CYCLE",
-        "last_update": "2026-10-25T09:03:05.923Z",
+        "last_update": "2026-10-25T09:04:06.425Z",
         "market": "futures",
         "market_label": "FUTURES",
         "mode": "demo",
@@ -1090,7 +1090,7 @@
         "id": "XTRADERS_PC2M_DEMO",
         "label": "XTRADERS",
         "last_event": "RUNNER_OK",
-        "last_update": "2026-10-25T09:03:16Z",
+        "last_update": "2026-10-25T09:04:16Z",
         "market": "futures",
         "market_label": "FUTURES",
         "mode": "demo",
@@ -1117,7 +1117,7 @@
               "live_orders_enabled": false,
               "mode": "DEMO",
               "status": "OK",
-              "ts": "2026-10-25T09:03:13Z"
+              "ts": "2026-10-25T09:04:14Z"
             },
             "last_error": null,
             "last_error_ts": null,
@@ -1227,7 +1227,7 @@
               "live_orders_enabled": false,
               "mode": "DEMO",
               "status": "OK",
-              "ts": "2026-10-25T09:03:14Z"
+              "ts": "2026-10-25T09:04:14Z"
             },
             "last_error": null,
             "last_error_ts": null,
@@ -1289,7 +1289,7 @@
         "id": "JJUNIORB3_VIDEO_M2_DEMO",
         "label": "JJUNIORB3",
         "last_event": "WAITING_SIGNAL",
-        "last_update": "2026-10-25T09:04:03.065Z",
+        "last_update": "2026-10-25T09:05:03.321Z",
         "market": "futures",
         "market_label": "FUTURES",
         "mode": "demo",
@@ -1329,5 +1329,5 @@
     },
     "trades_today": []
   },
-  "updated_at": "2026-10-25T09:04:04.690000Z"
+  "updated_at": "2026-10-25T09:05:05.623000Z"
 }
