@@ -39,7 +39,7 @@
     "mode": "DEMO",
     "orders_enabled": true,
     "strategy": "JJUNIORB3_VIDEO_M2_SPY_SHORT",
-    "updated_at": "2026-10-26T16:34:03.052Z",
+    "updated_at": "2026-10-26T16:35:03.355Z",
     "version": "JJUNIORB3_VIDEO_M2_SPY_SHORT_DEMO_V1"
   },
   "jjunior_video_m2": {
@@ -55,7 +55,7 @@
     "mode": "DEMO",
     "orders_enabled": true,
     "strategy": "JJUNIORB3_VIDEO_M2_SPY_SHORT",
-    "updated_at": "2026-10-26T16:34:03.052Z",
+    "updated_at": "2026-10-26T16:35:03.355Z",
     "version": "JJUNIORB3_VIDEO_M2_SPY_SHORT_DEMO_V1"
   },
   "mode": "MULTI_ENV",
@@ -277,12 +277,12 @@
         "depends_on_tradingview": false,
         "higher_timeframe": "4h",
         "hypothetical_next_open_utc": "2026-10-26T16:00:00Z",
-        "last_complete_15m_open_utc": "2026-10-26T16:00:00Z",
+        "last_complete_15m_open_utc": "2026-10-26T16:15:00Z",
         "last_complete_1h_open_utc": "2026-10-26T15:00:00Z",
         "mode": "research_only",
         "model_version": "v4_one_hour_chart_research",
         "orders_enabled": false,
-        "public_ohlc_new_rows": 550,
+        "public_ohlc_new_rows": 551,
         "source": "own_model_only",
         "source_execution": "TradingView 1h on-bar-close, one-tick delay, 8 ticks slippage; research scanner never places orders",
         "source_pages": 1,
@@ -291,8 +291,8 @@
         "symbol": "BTCUSDT",
         "threshold": 0.2,
         "trained_model": "BTC CSV 309 original entries",
-        "ts": "2026-10-26T16:25:09.350942+00:00",
-        "updated_utc": "2026-10-26T16:25:09.350989+00:00",
+        "ts": "2026-10-26T16:35:09.766702+00:00",
+        "updated_utc": "2026-10-26T16:35:09.766743+00:00",
         "valid_decision_slot": false,
         "validated": false
       },
@@ -527,7 +527,7 @@
           "status": "RESEARCH_ONLY",
           "strategy": "OVH_V6_V5_TWO_STAGE_RESEARCH",
           "threshold": 0.5,
-          "updated_utc": "2026-10-26T16:30:10.711870+00:00",
+          "updated_utc": "2026-10-26T16:35:10.564475+00:00",
           "version": "V5_TWO_STAGE_4H_VOLUME"
         },
         "source": "OWN_V5_TWO_STAGE_4H_VOLUME",
@@ -1045,7 +1045,7 @@
         "id": "BNF_MULTI_ASSET_DEMO",
         "label": "BNF Multi-Asset",
         "last_event": "BNF_ACCOUNT_CYCLE",
-        "last_update": "2026-10-26T16:33:05.893Z",
+        "last_update": "2026-10-26T16:34:08.707Z",
         "market": "futures",
         "market_label": "FUTURES",
         "mode": "demo",
@@ -1074,7 +1074,7 @@
         "id": "XTRADERS_PC2M_DEMO",
         "label": "XTRADERS",
         "last_event": "RUNNER_OK",
-        "last_update": "2026-10-26T16:33:19Z",
+        "last_update": "2026-10-26T16:34:16Z",
         "market": "futures",
         "market_label": "FUTURES",
         "mode": "demo",
@@ -1101,7 +1101,7 @@
               "live_orders_enabled": false,
               "mode": "DEMO",
               "status": "OK",
-              "ts": "2026-10-26T16:33:15Z"
+              "ts": "2026-10-26T16:34:13Z"
             },
             "last_error": null,
             "last_error_ts": null,
@@ -1211,7 +1211,7 @@
               "live_orders_enabled": false,
               "mode": "DEMO",
               "status": "OK",
-              "ts": "2026-10-26T16:33:16Z"
+              "ts": "2026-10-26T16:34:14Z"
             },
             "last_error": null,
             "last_error_ts": null,
@@ -1273,7 +1273,7 @@
         "id": "JJUNIORB3_VIDEO_M2_DEMO",
         "label": "JJUNIORB3",
         "last_event": "WAITING_SIGNAL",
-        "last_update": "2026-10-26T16:33:02.830Z",
+        "last_update": "2026-10-26T16:35:03.355Z",
         "market": "futures",
         "market_label": "FUTURES",
         "mode": "demo",
@@ -1293,7 +1293,7 @@
         "telemetry": {
           "blocked": "NO_PATHFINDER_RETEST",
           "candidate_side": null,
-          "last_closed_candle": "2026-10-26 16:30:00+00:00",
+          "last_closed_candle": "2026-10-26 16:32:00+00:00",
           "orders_enabled": true,
           "version": "JJUNIORB3_VIDEO_M2_SPY_SHORT_DEMO_V1"
         }
@@ -1313,5 +1313,5 @@
     },
     "trades_today": []
   },
-  "updated_at": "2026-10-26T16:34:04.615000Z"
+  "updated_at": "2026-10-26T16:35:05.882000Z"
 }
