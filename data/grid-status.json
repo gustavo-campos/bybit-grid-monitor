@@ -39,7 +39,7 @@
     "mode": "DEMO",
     "orders_enabled": true,
     "strategy": "JJUNIORB3_VIDEO_M2_SPY_SHORT",
-    "updated_at": "2026-10-26T14:04:03.126Z",
+    "updated_at": "2026-10-26T14:05:04.091Z",
     "version": "JJUNIORB3_VIDEO_M2_SPY_SHORT_DEMO_V1"
   },
   "jjunior_video_m2": {
@@ -55,7 +55,7 @@
     "mode": "DEMO",
     "orders_enabled": true,
     "strategy": "JJUNIORB3_VIDEO_M2_SPY_SHORT",
-    "updated_at": "2026-10-26T14:04:03.126Z",
+    "updated_at": "2026-10-26T14:05:04.091Z",
     "version": "JJUNIORB3_VIDEO_M2_SPY_SHORT_DEMO_V1"
   },
   "mode": "MULTI_ENV",
@@ -291,8 +291,8 @@
         "symbol": "BTCUSDT",
         "threshold": 0.2,
         "trained_model": "BTC CSV 309 original entries",
-        "ts": "2026-10-26T14:00:09.474493+00:00",
-        "updated_utc": "2026-10-26T14:00:09.476638+00:00",
+        "ts": "2026-10-26T14:05:09.536549+00:00",
+        "updated_utc": "2026-10-26T14:05:09.536595+00:00",
         "valid_decision_slot": false,
         "validated": false
       },
@@ -382,16 +382,16 @@
           "api_pages": 1,
           "candidate_passed": false,
           "candidate_side": null,
-          "current_decision_hour": "2026-10-26T13:00:00Z",
+          "current_decision_hour": "2026-10-26T14:00:00Z",
           "decision_slots_observed": 31,
           "depends_on_tradingview": false,
-          "direction_confidence": 0.65642,
-          "gate_probability": 0.51479,
+          "direction_confidence": 0.5506,
+          "gate_probability": 0.35108,
           "independently_validated_for_trading": false,
           "orders_enabled": false,
           "previous_daily_candidate": "2026-10-26T05:00:00Z",
           "proposed_signals_observed": 2,
-          "public_rows_added_in_memory": 124,
+          "public_rows_added_in_memory": 125,
           "recent_decisions": [
             {
               "candidate_passed": false,
@@ -522,12 +522,12 @@
               "strategy": "OVH_V6_V5_TWO_STAGE_RESEARCH"
             }
           ],
-          "scanner_last_complete_1h": "2026-10-26T12:00:00Z",
+          "scanner_last_complete_1h": "2026-10-26T13:00:00Z",
           "source_family_guess_diagnostic_only": "Short Trend 🔴",
           "status": "RESEARCH_ONLY",
           "strategy": "OVH_V6_V5_TWO_STAGE_RESEARCH",
           "threshold": 0.5,
-          "updated_utc": "2026-10-26T13:55:10.380189+00:00",
+          "updated_utc": "2026-10-26T14:05:10.087879+00:00",
           "version": "V5_TWO_STAGE_4H_VOLUME"
         },
         "source": "OWN_V5_TWO_STAGE_4H_VOLUME",
@@ -1037,7 +1037,7 @@
         "id": "BNF_MULTI_ASSET_DEMO",
         "label": "BNF Multi-Asset",
         "last_event": "BNF_ACCOUNT_CYCLE",
-        "last_update": "2026-10-26T14:03:06.416Z",
+        "last_update": "2026-10-26T14:04:06.759Z",
         "market": "futures",
         "market_label": "FUTURES",
         "mode": "demo",
@@ -1066,7 +1066,7 @@
         "id": "XTRADERS_PC2M_DEMO",
         "label": "XTRADERS",
         "last_event": "RUNNER_OK",
-        "last_update": "2026-10-26T14:03:16Z",
+        "last_update": "2026-10-26T14:04:17Z",
         "market": "futures",
         "market_label": "FUTURES",
         "mode": "demo",
@@ -1093,7 +1093,7 @@
               "live_orders_enabled": false,
               "mode": "DEMO",
               "status": "OK",
-              "ts": "2026-10-26T14:03:14Z"
+              "ts": "2026-10-26T14:04:14Z"
             },
             "last_error": null,
             "last_error_ts": null,
@@ -1203,7 +1203,7 @@
               "live_orders_enabled": false,
               "mode": "DEMO",
               "status": "OK",
-              "ts": "2026-10-26T14:03:14Z"
+              "ts": "2026-10-26T14:04:14Z"
             },
             "last_error": null,
             "last_error_ts": null,
@@ -1265,7 +1265,7 @@
         "id": "JJUNIORB3_VIDEO_M2_DEMO",
         "label": "JJUNIORB3",
         "last_event": "WAITING_SIGNAL",
-        "last_update": "2026-10-26T14:04:03.126Z",
+        "last_update": "2026-10-26T14:05:04.091Z",
         "market": "futures",
         "market_label": "FUTURES",
         "mode": "demo",
@@ -1305,5 +1305,5 @@
     },
     "trades_today": []
   },
-  "updated_at": "2026-10-26T14:04:04.772000Z"
+  "updated_at": "2026-10-26T14:05:05.981000Z"
 }
