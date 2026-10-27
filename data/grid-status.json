@@ -1,21 +1,21 @@
 {
   "account": {
-    "available_usdt": 123.70800253,
-    "equity_usdt": 131.75400858,
+    "available_usdt": 123.70659875,
+    "equity_usdt": 131.75331563,
     "gross_loss_today_usdt": 0.0,
     "gross_profit_today_usdt": 0.0,
     "pnl_today_usdt": 0.0,
-    "unrealized_pnl_usdt": -0.18666
+    "unrealized_pnl_usdt": -0.1937
   },
   "accounts": {
     "demo": {
-      "available_usdt": 123.70800253,
-      "equity_usdt": 131.75400858,
+      "available_usdt": 123.70659875,
+      "equity_usdt": 131.75331563,
       "gross_loss_today_usdt": 0.0,
       "gross_profit_today_usdt": 0.0,
       "pnl_today_usdt": 0.0,
-      "unrealized_pnl_usdt": -0.18666,
-      "wallet_usdt": 132.14552904
+      "unrealized_pnl_usdt": -0.1937,
+      "wallet_usdt": 132.15174515
     },
     "live": {
       "gross_loss_today_usdt": 0.0,
@@ -24,13 +24,13 @@
       "unrealized_pnl_usdt": 0.0
     }
   },
-  "day": "2026-10-26",
+  "day": "2026-10-27",
   "grids": {},
   "jjunior_m5": {
     "assets": [
       {
         "blocked": "NO_PATHFINDER_RETEST",
-        "last_closed_candle": "2026-10-26 23:56:00+00:00",
+        "last_closed_candle": "2026-10-26 23:58:00+00:00",
         "status": "WAITING_SIGNAL",
         "symbol": "SPYUSDT"
       }
@@ -39,14 +39,14 @@
     "mode": "DEMO",
     "orders_enabled": true,
     "strategy": "JJUNIORB3_VIDEO_M2_SPY_SHORT",
-    "updated_at": "2026-10-26T23:59:03.174Z",
+    "updated_at": "2026-10-27T00:00:04.882Z",
     "version": "JJUNIORB3_VIDEO_M2_SPY_SHORT_DEMO_V1"
   },
   "jjunior_video_m2": {
     "assets": [
       {
         "blocked": "NO_PATHFINDER_RETEST",
-        "last_closed_candle": "2026-10-26 23:56:00+00:00",
+        "last_closed_candle": "2026-10-26 23:58:00+00:00",
         "status": "WAITING_SIGNAL",
         "symbol": "SPYUSDT"
       }
@@ -55,7 +55,7 @@
     "mode": "DEMO",
     "orders_enabled": true,
     "strategy": "JJUNIORB3_VIDEO_M2_SPY_SHORT",
-    "updated_at": "2026-10-26T23:59:03.174Z",
+    "updated_at": "2026-10-27T00:00:04.882Z",
     "version": "JJUNIORB3_VIDEO_M2_SPY_SHORT_DEMO_V1"
   },
   "mode": "MULTI_ENV",
@@ -269,20 +269,20 @@
         "proprietary_code_not_available": true
       },
       "scanner": {
-        "blocked_earlier_daily_candidate": "2026-10-26T05:00:00Z",
+        "blocked_earlier_daily_candidate": null,
         "candidate_passed": false,
-        "candidate_score": 0.3318,
+        "candidate_score": 0.4062,
         "candidate_side": null,
         "chart_timeframe": "1h",
         "depends_on_tradingview": false,
         "higher_timeframe": "4h",
-        "hypothetical_next_open_utc": "2026-10-26T23:00:00Z",
-        "last_complete_15m_open_utc": "2026-10-26T23:30:00Z",
-        "last_complete_1h_open_utc": "2026-10-26T22:00:00Z",
+        "hypothetical_next_open_utc": "2026-10-27T00:00:00Z",
+        "last_complete_15m_open_utc": "2026-10-26T23:45:00Z",
+        "last_complete_1h_open_utc": "2026-10-26T23:00:00Z",
         "mode": "research_only",
         "model_version": "v4_one_hour_chart_research",
         "orders_enabled": false,
-        "public_ohlc_new_rows": 580,
+        "public_ohlc_new_rows": 581,
         "source": "own_model_only",
         "source_execution": "TradingView 1h on-bar-close, one-tick delay, 8 ticks slippage; research scanner never places orders",
         "source_pages": 1,
@@ -291,8 +291,8 @@
         "symbol": "BTCUSDT",
         "threshold": 0.2,
         "trained_model": "BTC CSV 309 original entries",
-        "ts": "2026-10-26T23:55:09.622405+00:00",
-        "updated_utc": "2026-10-26T23:55:09.622443+00:00",
+        "ts": "2026-10-27T00:00:11.511200+00:00",
+        "updated_utc": "2026-10-27T00:00:11.511288+00:00",
         "valid_decision_slot": false,
         "validated": false
       },
@@ -542,311 +542,12 @@
       ]
     },
     "lbr310": {
-      "close": 79972.0,
-      "closed_bar_only": true,
-      "events": [
-        {
-          "confirmed": true,
-          "direction": "long",
-          "note": "Slow Line acima de zero",
-          "price": 79955.0,
-          "time": "2026-10-26T19:00:00Z",
-          "type": "trend_change"
-        },
-        {
-          "confirmed": true,
-          "direction": "long",
-          "note": "Fast Line recupera após correção",
-          "price": 80400.0,
-          "time": "2026-10-26T16:00:00Z",
-          "type": "anti"
-        },
-        {
-          "confirmed": true,
-          "direction": "long",
-          "note": "Oscilador recua da banda inferior",
-          "price": 80231.4,
-          "time": "2026-10-26T06:00:00Z",
-          "type": "exhaustion"
-        },
-        {
-          "confirmed": true,
-          "direction": "long",
-          "note": "Oscilador recua da banda inferior",
-          "price": 80100.0,
-          "time": "2026-10-26T05:00:00Z",
-          "type": "exhaustion"
-        },
-        {
-          "confirmed": true,
-          "direction": "long",
-          "note": "Oscilador recua da banda inferior",
-          "price": 80137.8,
-          "time": "2026-10-26T01:00:00Z",
-          "type": "exhaustion"
-        },
-        {
-          "confirmed": true,
-          "direction": "short",
-          "note": "Divergência baixista confirmada com 5 candles de atraso",
-          "price": 80434.7,
-          "time": "2026-10-25T23:00:00Z",
-          "type": "divergence"
-        },
-        {
-          "confirmed": true,
-          "direction": "short",
-          "note": "Primeiro cruzamento rápido/lento na tendência negativa",
-          "price": 80230.1,
-          "time": "2026-10-25T22:00:00Z",
-          "type": "first_cross"
-        },
-        {
-          "confirmed": true,
-          "direction": "short",
-          "note": "Fast Line vira para baixo após correção",
-          "price": 80629.7,
-          "time": "2026-10-25T19:00:00Z",
-          "type": "anti"
-        }
-      ],
-      "fast_line": -121.726667,
-      "histogram": -151.077917,
-      "last_closed_at": "2026-10-26T23:00:00Z",
-      "last_signal": {
-        "confirmed": true,
-        "direction": "short",
-        "note": "Primeiro cruzamento rápido/lento na tendência negativa",
-        "price": 80230.1,
-        "time": "2026-10-25T22:00:00Z",
-        "type": "first_cross"
-      },
-      "method": "SIBA LBR310 public indicator signal interpretation; not an executable strategy",
+      "error": "ValueError",
+      "events": [],
       "mode": "monitor_only",
-      "parameters": {
-        "fast": 3,
-        "signal": 16,
-        "slow": 10
-      },
-      "slow_line": 29.35125,
-      "source": "bybit_v5_linear_public_klines",
-      "status": "ok",
+      "status": "unavailable",
       "symbol": "BTCUSDT",
-      "timeframe": "1h",
-      "trend": "bull",
-      "v2": {
-        "execution_enabled": false,
-        "last_signal": {
-          "confirmed": true,
-          "direction": "short",
-          "note": "Price confirmed lower high",
-          "price": 79662.5,
-          "time": "2026-10-26T14:00:00Z",
-          "type": "first_cross_v2"
-        },
-        "mode": "research_only",
-        "recent_events": [
-          {
-            "confirmed": true,
-            "direction": "short",
-            "note": "Price confirmed lower high",
-            "price": 79662.5,
-            "time": "2026-10-26T14:00:00Z",
-            "type": "first_cross_v2"
-          },
-          {
-            "confirmed": true,
-            "direction": "long",
-            "note": "Price confirmed higher low",
-            "price": 80541.3,
-            "time": "2026-10-25T12:00:00Z",
-            "type": "first_cross_v2"
-          },
-          {
-            "confirmed": true,
-            "direction": "short",
-            "note": "Price confirmed lower high",
-            "price": 80381.8,
-            "time": "2026-10-24T22:00:00Z",
-            "type": "first_cross_v2"
-          },
-          {
-            "confirmed": true,
-            "direction": "short",
-            "note": "Price confirmed lower high",
-            "price": 81534.5,
-            "time": "2026-10-23T08:00:00Z",
-            "type": "first_cross_v2"
-          },
-          {
-            "confirmed": true,
-            "direction": "long",
-            "note": "Price confirmed higher low",
-            "price": 83130.5,
-            "time": "2026-10-21T08:00:00Z",
-            "type": "first_cross_v2"
-          },
-          {
-            "confirmed": true,
-            "direction": "short",
-            "note": "Price confirmed lower high",
-            "price": 81900.8,
-            "time": "2026-10-20T00:00:00Z",
-            "type": "first_cross_v2"
-          },
-          {
-            "confirmed": true,
-            "direction": "short",
-            "note": "Price confirmed lower high",
-            "price": 81101.2,
-            "time": "2026-10-17T22:00:00Z",
-            "type": "first_cross_v2"
-          },
-          {
-            "confirmed": true,
-            "direction": "short",
-            "note": "Price confirmed lower high",
-            "price": 81437.0,
-            "time": "2026-10-17T03:00:00Z",
-            "type": "first_cross_v2"
-          },
-          {
-            "confirmed": true,
-            "direction": "long",
-            "note": "Price confirmed higher low",
-            "price": 82132.1,
-            "time": "2026-10-16T06:00:00Z",
-            "type": "first_cross_v2"
-          },
-          {
-            "confirmed": true,
-            "direction": "short",
-            "note": "Price confirmed lower high",
-            "price": 80997.7,
-            "time": "2026-10-15T11:00:00Z",
-            "type": "first_cross_v2"
-          },
-          {
-            "confirmed": true,
-            "direction": "long",
-            "note": "Price confirmed higher low",
-            "price": 83369.6,
-            "time": "2026-10-13T21:00:00Z",
-            "type": "first_cross_v2"
-          },
-          {
-            "confirmed": true,
-            "direction": "short",
-            "note": "Price confirmed lower high",
-            "price": 82114.2,
-            "time": "2026-10-12T23:00:00Z",
-            "type": "first_cross_v2"
-          }
-        ],
-        "signal_method": "raschke_first_cross_v2"
-      },
-      "v3": {
-        "execution_enabled": false,
-        "hypotheses": [
-          "pivot_2x2",
-          "price_break_prior_2_bars",
-          "ema20_regime",
-          "atr14_vs_atr50_regime"
-        ],
-        "last_signal": {
-          "confirmed": true,
-          "direction": "short",
-          "note": "Confirmado por pivô, correção e preço; EMA20/ATR",
-          "price": 79662.5,
-          "time": "2026-10-26T14:00:00Z",
-          "type": "first_cross_v3"
-        },
-        "mode": "research_only",
-        "recent_events": [
-          {
-            "confirmed": true,
-            "direction": "short",
-            "note": "Confirmado por pivô, correção e preço; EMA20/ATR",
-            "price": 79662.5,
-            "time": "2026-10-26T14:00:00Z",
-            "type": "first_cross_v3"
-          },
-          {
-            "confirmed": true,
-            "direction": "short",
-            "note": "Confirmado por pivô, correção e preço; EMA20/ATR",
-            "price": 80381.8,
-            "time": "2026-10-24T22:00:00Z",
-            "type": "first_cross_v3"
-          },
-          {
-            "confirmed": true,
-            "direction": "short",
-            "note": "Confirmado por pivô, correção e preço; EMA20/ATR",
-            "price": 81534.5,
-            "time": "2026-10-23T08:00:00Z",
-            "type": "first_cross_v3"
-          },
-          {
-            "confirmed": true,
-            "direction": "long",
-            "note": "Confirmado por pivô, correção e preço; EMA20/ATR",
-            "price": 83130.5,
-            "time": "2026-10-21T08:00:00Z",
-            "type": "first_cross_v3"
-          },
-          {
-            "confirmed": true,
-            "direction": "short",
-            "note": "Confirmado por pivô, correção e preço; EMA20/ATR",
-            "price": 81900.8,
-            "time": "2026-10-20T00:00:00Z",
-            "type": "first_cross_v3"
-          },
-          {
-            "confirmed": true,
-            "direction": "short",
-            "note": "Confirmado por pivô, correção e preço; EMA20/ATR",
-            "price": 81437.0,
-            "time": "2026-10-17T03:00:00Z",
-            "type": "first_cross_v3"
-          },
-          {
-            "confirmed": true,
-            "direction": "short",
-            "note": "Confirmado por pivô, correção e preço; EMA20/ATR",
-            "price": 80997.7,
-            "time": "2026-10-15T11:00:00Z",
-            "type": "first_cross_v3"
-          },
-          {
-            "confirmed": true,
-            "direction": "long",
-            "note": "Confirmado por pivô, correção e preço; EMA20/ATR",
-            "price": 83369.6,
-            "time": "2026-10-13T21:00:00Z",
-            "type": "first_cross_v3"
-          },
-          {
-            "confirmed": true,
-            "direction": "short",
-            "note": "Confirmado por pivô, correção e preço; EMA20/ATR",
-            "price": 82114.2,
-            "time": "2026-10-12T23:00:00Z",
-            "type": "first_cross_v3"
-          },
-          {
-            "confirmed": true,
-            "direction": "long",
-            "note": "Confirmado por pivô, correção e preço; EMA20/ATR",
-            "price": 82588.8,
-            "time": "2026-10-09T23:00:00Z",
-            "type": "first_cross_v3"
-          }
-        ],
-        "signal_method": "raschke_first_cross_v3"
-      },
-      "venue": "Bybit linear"
+      "timeframe": "1h"
     },
     "three_ten": {
       "adx14": 30.8836,
@@ -896,7 +597,7 @@
           "net_pnl_usdt": 0.0,
           "open_positions": 1,
           "operations_today": 0,
-          "unrealized_pnl_usdt": -0.18666,
+          "unrealized_pnl_usdt": -0.1937,
           "wins_today": 0
         },
         "spot": {
@@ -944,7 +645,7 @@
       {
         "attribution_source": "exclusive_symbol_owner",
         "entry": 79921.2,
-        "mark": 80107.86,
+        "mark": 80114.9,
         "market": "futures",
         "mode": "demo",
         "opened_at": "2026-10-26T19:30:20.425000Z",
@@ -953,7 +654,7 @@
         "strategy": "XTRADERS_PC2M_DEMO",
         "symbol": "BTCUSDT",
         "target": null,
-        "unrealized_pnl_usdt": -0.18666
+        "unrealized_pnl_usdt": -0.1937
       }
     ],
     "strategies": [
@@ -999,7 +700,7 @@
         "id": "V44_LBR310_FIRST_CROSS_DEMO",
         "label": "Linda Bradford Raschke",
         "last_event": "RUNNER_WAITING_SIGNAL",
-        "last_update": "2026-10-26T23:58:03.636505Z",
+        "last_update": "2026-10-27T00:00:05.575262Z",
         "market": "futures",
         "market_label": "FUTURES",
         "mode": "demo",
@@ -1029,7 +730,7 @@
         "id": "V44_WUNDER_MEAN_REVERSION",
         "label": "Wunder Mean Reversion",
         "last_event": "SIGNAL_SCAN",
-        "last_update": "2026-10-26T23:45:06.994Z",
+        "last_update": "2026-10-27T00:00:07.516Z",
         "market": "futures",
         "market_label": "FUTURES",
         "mode": "demo",
@@ -1060,7 +761,7 @@
         "id": "BNF_MULTI_ASSET_DEMO",
         "label": "BNF Multi-Asset",
         "last_event": "BNF_ACCOUNT_CYCLE",
-        "last_update": "2026-10-26T23:58:06.852Z",
+        "last_update": "2026-10-26T23:59:06.541Z",
         "market": "futures",
         "market_label": "FUTURES",
         "mode": "demo",
@@ -1089,7 +790,7 @@
         "id": "XTRADERS_PC2M_DEMO",
         "label": "XTRADERS",
         "last_event": "RUNNER_OK",
-        "last_update": "2026-10-26T23:58:17Z",
+        "last_update": "2026-10-26T23:59:17Z",
         "market": "futures",
         "market_label": "FUTURES",
         "mode": "demo",
@@ -1100,7 +801,7 @@
           "net_pnl_usdt": 0.0,
           "open_positions": 1,
           "operations_today": 0,
-          "unrealized_pnl_usdt": -0.18666,
+          "unrealized_pnl_usdt": -0.1937,
           "wins_today": 0
         },
         "symbols": [
@@ -1116,7 +817,7 @@
               "live_orders_enabled": false,
               "mode": "DEMO",
               "status": "OK",
-              "ts": "2026-10-26T23:58:14Z"
+              "ts": "2026-10-26T23:59:14Z"
             },
             "last_error": null,
             "last_error_ts": null,
@@ -1226,7 +927,7 @@
               "live_orders_enabled": false,
               "mode": "DEMO",
               "status": "OK",
-              "ts": "2026-10-26T23:58:14Z"
+              "ts": "2026-10-26T23:59:14Z"
             },
             "last_error": null,
             "last_error_ts": null,
@@ -1288,7 +989,7 @@
         "id": "JJUNIORB3_VIDEO_M2_DEMO",
         "label": "JJUNIORB3",
         "last_event": "WAITING_SIGNAL",
-        "last_update": "2026-10-26T23:59:03.174Z",
+        "last_update": "2026-10-27T00:00:04.882Z",
         "market": "futures",
         "market_label": "FUTURES",
         "mode": "demo",
@@ -1308,7 +1009,7 @@
         "telemetry": {
           "blocked": "NO_PATHFINDER_RETEST",
           "candidate_side": null,
-          "last_closed_candle": "2026-10-26 23:56:00+00:00",
+          "last_closed_candle": "2026-10-26 23:58:00+00:00",
           "orders_enabled": true,
           "version": "JJUNIORB3_VIDEO_M2_SPY_SHORT_DEMO_V1"
         }
@@ -1323,10 +1024,10 @@
       "net_pnl_usdt": 0.0,
       "open_positions": 1,
       "operations_today": 0,
-      "unrealized_pnl_usdt": -0.18666,
+      "unrealized_pnl_usdt": -0.1937,
       "wins_today": 0
     },
     "trades_today": []
   },
-  "updated_at": "2026-10-26T23:59:04.447000Z"
+  "updated_at": "2026-10-27T00:00:07.516000Z"
 }
