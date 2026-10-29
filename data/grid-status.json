@@ -1,20 +1,20 @@
 {
   "account": {
-    "available_usdt": 117.83923462,
-    "equity_usdt": 127.45708103,
+    "available_usdt": 117.79795948,
+    "equity_usdt": 127.41120312,
     "gross_loss_today_usdt": 0.0,
     "gross_profit_today_usdt": 0.0,
     "pnl_today_usdt": 0.0,
-    "unrealized_pnl_usdt": 0.21806
+    "unrealized_pnl_usdt": 0.1715
   },
   "accounts": {
     "demo": {
-      "available_usdt": 117.83923462,
-      "equity_usdt": 127.45708103,
+      "available_usdt": 117.79795948,
+      "equity_usdt": 127.41120312,
       "gross_loss_today_usdt": 0.0,
       "gross_profit_today_usdt": 0.0,
       "pnl_today_usdt": 0.0,
-      "unrealized_pnl_usdt": 0.21806,
+      "unrealized_pnl_usdt": 0.1715,
       "wallet_usdt": 127.3684953
     },
     "live": {
@@ -39,7 +39,7 @@
     "mode": "DEMO",
     "orders_enabled": true,
     "strategy": "JJUNIORB3_VIDEO_M2_SPY_SHORT",
-    "updated_at": "2026-10-29T00:40:03.965Z",
+    "updated_at": "2026-10-29T00:41:03.054Z",
     "version": "JJUNIORB3_VIDEO_M2_SPY_SHORT_DEMO_V1"
   },
   "jjunior_video_m2": {
@@ -55,7 +55,7 @@
     "mode": "DEMO",
     "orders_enabled": true,
     "strategy": "JJUNIORB3_VIDEO_M2_SPY_SHORT",
-    "updated_at": "2026-10-29T00:40:03.965Z",
+    "updated_at": "2026-10-29T00:41:03.054Z",
     "version": "JJUNIORB3_VIDEO_M2_SPY_SHORT_DEMO_V1"
   },
   "mode": "MULTI_ENV",
@@ -527,7 +527,7 @@
           "status": "RESEARCH_ONLY",
           "strategy": "OVH_V6_V5_TWO_STAGE_RESEARCH",
           "threshold": 0.5,
-          "updated_utc": "2026-10-29T00:35:09.545984+00:00",
+          "updated_utc": "2026-10-29T00:40:09.464297+00:00",
           "version": "V5_TWO_STAGE_4H_VOLUME"
         },
         "source": "OWN_V5_TWO_STAGE_4H_VOLUME",
@@ -923,12 +923,12 @@
           "active_strategies": 6,
           "gross_loss_usdt": 0.0,
           "gross_profit_usdt": 0.0,
-          "healthy_strategies": 5,
+          "healthy_strategies": 6,
           "losses_today": 0,
           "net_pnl_usdt": 0.0,
           "open_positions": 1,
           "operations_today": 0,
-          "unrealized_pnl_usdt": 0.21806,
+          "unrealized_pnl_usdt": 0.1715,
           "wins_today": 0
         },
         "spot": {
@@ -976,7 +976,7 @@
       {
         "attribution_source": "exclusive_symbol_owner",
         "entry": 80930.3,
-        "mark": 81148.36,
+        "mark": 81101.8,
         "market": "futures",
         "mode": "demo",
         "opened_at": "2026-10-28T18:30:15.310000Z",
@@ -985,7 +985,7 @@
         "strategy": "XTRADERS_PC2M_DEMO",
         "symbol": "BTCUSDT",
         "target": null,
-        "unrealized_pnl_usdt": 0.21806
+        "unrealized_pnl_usdt": 0.1715
       }
     ],
     "strategies": [
@@ -997,11 +997,11 @@
         ],
         "cron_enabled": true,
         "execution": "monitor",
-        "health": "delayed",
+        "health": "healthy",
         "id": "OVH_V6_INSPIRED_AUTONOMOUS",
         "label": "V6 Autónoma (CSV)",
         "last_event": "RUNNER_RESEARCH_ONLY",
-        "last_update": "2026-10-29T00:35:08.745741+00:00",
+        "last_update": "2026-10-29T00:40:08.778489+00:00",
         "market": "futures",
         "market_label": "FUTURES",
         "mode": "demo",
@@ -1092,7 +1092,7 @@
         "id": "BNF_MULTI_ASSET_DEMO",
         "label": "BNF Multi-Asset",
         "last_event": "BNF_ACCOUNT_CYCLE",
-        "last_update": "2026-10-29T00:39:05.722Z",
+        "last_update": "2026-10-29T00:40:08.700Z",
         "market": "futures",
         "market_label": "FUTURES",
         "mode": "demo",
@@ -1121,7 +1121,7 @@
         "id": "XTRADERS_PC2M_DEMO",
         "label": "XTRADERS",
         "last_event": "RUNNER_OK",
-        "last_update": "2026-10-29T00:39:17Z",
+        "last_update": "2026-10-29T00:40:17Z",
         "market": "futures",
         "market_label": "FUTURES",
         "mode": "demo",
@@ -1132,7 +1132,7 @@
           "net_pnl_usdt": 0.0,
           "open_positions": 1,
           "operations_today": 0,
-          "unrealized_pnl_usdt": 0.21806,
+          "unrealized_pnl_usdt": 0.1715,
           "wins_today": 0
         },
         "symbols": [
@@ -1148,7 +1148,7 @@
               "live_orders_enabled": false,
               "mode": "DEMO",
               "status": "OK",
-              "ts": "2026-10-29T00:39:14Z"
+              "ts": "2026-10-29T00:40:14Z"
             },
             "last_error": null,
             "last_error_ts": null,
@@ -1258,7 +1258,7 @@
               "live_orders_enabled": false,
               "mode": "DEMO",
               "status": "OK",
-              "ts": "2026-10-29T00:39:15Z"
+              "ts": "2026-10-29T00:40:15Z"
             },
             "last_error": null,
             "last_error_ts": null,
@@ -1320,7 +1320,7 @@
         "id": "JJUNIORB3_VIDEO_M2_DEMO",
         "label": "JJUNIORB3",
         "last_event": "WAITING_SIGNAL",
-        "last_update": "2026-10-29T00:40:03.965Z",
+        "last_update": "2026-10-29T00:41:03.054Z",
         "market": "futures",
         "market_label": "FUTURES",
         "mode": "demo",
@@ -1350,15 +1350,15 @@
       "active_strategies": 6,
       "gross_loss_usdt": 0.0,
       "gross_profit_usdt": 0.0,
-      "healthy_strategies": 5,
+      "healthy_strategies": 6,
       "losses_today": 0,
       "net_pnl_usdt": 0.0,
       "open_positions": 1,
       "operations_today": 0,
-      "unrealized_pnl_usdt": 0.21806,
+      "unrealized_pnl_usdt": 0.1715,
       "wins_today": 0
     },
     "trades_today": []
   },
-  "updated_at": "2026-10-29T00:40:05.811000Z"
+  "updated_at": "2026-10-29T00:41:05.069000Z"
 }
